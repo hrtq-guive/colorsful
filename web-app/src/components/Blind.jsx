@@ -94,7 +94,7 @@ const Blind = () => {
             flexDirection: 'column',
             justifyContent: 'center',
             alignItems: 'center',
-            fontFamily: '"Helvetica Neue", Helvetica, Arial, sans-serif',
+            fontFamily: "'Inter', sans-serif",
             overflow: 'hidden'
         }}>
             {/* COLORSFUL - Top Left */}
@@ -136,7 +136,7 @@ const Blind = () => {
             {/* Credit Text */}
             <div style={{
                 position: 'fixed',
-                top: '75px',
+                top: '58px',
                 left: '30px',
                 zIndex: 100,
                 opacity: (showCredit && !selectedVideo) ? 1 : 0,
@@ -192,10 +192,10 @@ const Blind = () => {
                     bottom: '30px',
                     left: '30px',
                     color: 'white',
-                    fontSize: '2rem',
-                    fontWeight: '800',
+                    fontSize: '1.2rem',
+                    fontWeight: '600',
                     textTransform: 'uppercase',
-                    letterSpacing: '-1px',
+                    letterSpacing: '0.3rem',
                     zIndex: 100,
                     opacity: selectedVideo ? 0 : 1,
                     transition: 'opacity 0.4s'
@@ -211,10 +211,10 @@ const Blind = () => {
                     bottom: '30px',
                     right: '30px',
                     color: 'white',
-                    fontSize: '2rem',
-                    fontWeight: '800',
+                    fontSize: '1.2rem',
+                    fontWeight: '600',
                     textTransform: 'uppercase',
-                    letterSpacing: '-1px',
+                    letterSpacing: '0.3rem',
                     zIndex: 100,
                     opacity: selectedVideo ? 0 : 1,
                     transition: 'opacity 0.4s'
