@@ -1,16 +1,10 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
-import Palette from './components/Palette';
-import Bloc from './components/Bloc';
-import Blind from './components/Blind';
-import Navigation from './components/Navigation';
-import CustomCursor from './components/CustomCursor';
+import { useState, useEffect } from 'react';
+import MobileOverlay from './components/MobileOverlay';
 
 function AppContent() {
   return (
     <Routes>
       <Route path="/" element={<Blind />} />
-      {/* Keep other routes for internal dev but they won't be linked */}
       <Route path="/bloc" element={<Bloc />} />
       <Route path="/palette" element={<Palette />} />
     </Routes>
@@ -18,8 +12,17 @@ function AppContent() {
 }
 
 function App() {
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth < 768);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   return (
     <Router>
+      {isMobile && <MobileOverlay />}
       <CustomCursor />
       <AppContent />
     </Router>
