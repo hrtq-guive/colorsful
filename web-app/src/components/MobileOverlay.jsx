@@ -19,21 +19,23 @@ const MobileOverlay = () => {
             padding: '20px'
         }}>
             <h1 style={{
-                fontSize: '3rem',
-                fontWeight: '800',
+                fontSize: '1.2rem',
+                fontWeight: '600',
                 textTransform: 'uppercase',
-                letterSpacing: '-2px',
-                marginBottom: '20px',
+                letterSpacing: '0.3rem',
+                marginBottom: '15px',
                 lineHeight: '1'
             }}>
                 COLORSFUL
             </h1>
             <p style={{
-                fontSize: '1.2rem',
-                fontWeight: '500',
-                opacity: 0.8,
+                fontSize: '0.7rem',
+                fontWeight: '400',
+                opacity: 0.6,
                 maxWidth: '280px',
-                lineHeight: '1.4'
+                lineHeight: '1.6',
+                textTransform: 'uppercase',
+                letterSpacing: '0.1rem'
             }}>
                 Colorsful is currently only available on desktop. See you there!
             </p>

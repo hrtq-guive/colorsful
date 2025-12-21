@@ -120,10 +120,10 @@ const Blind = () => {
                     top: '30px',
                     left: '30px',
                     color: isBrandingHovered ? '#fff' : 'rgba(255, 255, 255, 0.4)',
-                    fontSize: '2rem',
-                    fontWeight: '800',
+                    fontSize: '1.2rem',
+                    fontWeight: '600',
                     textTransform: 'uppercase',
-                    letterSpacing: '-1px',
+                    letterSpacing: '0.3rem',
                     zIndex: 100,
                     opacity: selectedVideo ? 0 : 1,
                     transition: 'all 0.3s ease',
@@ -151,11 +151,11 @@ const Blind = () => {
                     style={{
                         color: 'white',
                         textDecoration: 'none',
-                        fontSize: '0.9rem',
-                        fontWeight: '500',
-                        opacity: 0.7,
-                        textTransform: 'none',
-                        letterSpacing: '0'
+                        fontSize: '0.6rem',
+                        fontWeight: '600',
+                        opacity: 0.6,
+                        textTransform: 'uppercase',
+                        letterSpacing: '0.2rem'
                     }}
                     onMouseEnter={(e) => e.target.style.opacity = 1}
                     onMouseLeave={(e) => e.target.style.opacity = 0.7}
