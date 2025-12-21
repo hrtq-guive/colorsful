@@ -17,6 +17,7 @@ const processedVideos = videosData.map((v, i) => {
 
 const Blind = () => {
     const [selectedVideo, setSelectedVideo] = useState(null);
+    const [lastVideo, setLastVideo] = useState(null);
     const [hoveredVideo, setHoveredVideo] = useState(null);
     const [isBrandingHovered, setIsBrandingHovered] = useState(false);
     const [showCredit, setShowCredit] = useState(false);
@@ -169,7 +170,12 @@ const Blind = () => {
                 ref={wheelRef}
                 onMouseMove={handleMouseMove}
                 onMouseLeave={() => setHoveredVideo(null)}
-                onClick={() => hoveredVideo && setSelectedVideo(hoveredVideo)}
+                onClick={() => {
+                    if (hoveredVideo) {
+                        setSelectedVideo(hoveredVideo);
+                        setLastVideo(hoveredVideo);
+                    }
+                }}
                 style={{
                     width: '35vmax',
                     height: '35vmax',
@@ -220,6 +226,30 @@ const Blind = () => {
                     transition: 'opacity 0.4s'
                 }}>
                     {parseVideoTitle(hoveredVideo.title).songTitle}
+                </div>
+            )}
+
+            {/* Replay Last Video - Bottom Right (only if a video was played before) */}
+            {lastVideo && !hoveredVideo && !selectedVideo && (
+                <div
+                    onClick={() => setSelectedVideo(lastVideo)}
+                    style={{
+                        position: 'fixed',
+                        bottom: '30px',
+                        right: '30px',
+                        color: 'rgba(255, 255, 255, 0.4)',
+                        fontSize: '1.2rem',
+                        fontWeight: '600',
+                        textTransform: 'uppercase',
+                        letterSpacing: '0.3rem',
+                        zIndex: 100,
+                        cursor: 'pointer',
+                        transition: 'all 0.3s ease'
+                    }}
+                    onMouseEnter={(e) => e.target.style.color = '#fff'}
+                    onMouseLeave={(e) => e.target.style.color = 'rgba(255, 255, 255, 0.4)'}
+                >
+                    REPLAY LAST VIDEO
                 </div>
             )}
 
