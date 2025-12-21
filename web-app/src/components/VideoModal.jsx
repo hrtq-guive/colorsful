@@ -5,7 +5,10 @@ const VideoModal = ({ video, onClose, backdropColor = 'rgba(0,0,0,0.95)' }) => {
     if (!video) return null;
 
     const [showControls, setShowControls] = useState(false);
+    const [isBrandingHovered, setIsBrandingHovered] = useState(false);
+    const [showCredit, setShowCredit] = useState(false);
     const hideTimeoutRef = useRef(null);
+    const creditTimeoutRef = useRef(null);
     const playerRef = useRef(null);
     const containerRef = useRef(null);
 
@@ -73,6 +76,7 @@ const VideoModal = ({ video, onClose, backdropColor = 'rgba(0,0,0,0.95)' }) => {
 
         return () => {
             if (hideTimeoutRef.current) clearTimeout(hideTimeoutRef.current);
+            if (creditTimeoutRef.current) clearTimeout(creditTimeoutRef.current);
             if (playerRef.current) playerRef.current.destroy();
         };
     }, [videoId, onClose]);
@@ -96,21 +100,72 @@ const VideoModal = ({ video, onClose, backdropColor = 'rgba(0,0,0,0.95)' }) => {
             onMouseLeave={handleMouseLeave}
         >
             {/* COLORSFUL - Top Left */}
+            <div
+                onMouseEnter={() => {
+                    setIsBrandingHovered(true);
+                    setShowCredit(true);
+                    if (creditTimeoutRef.current) clearTimeout(creditTimeoutRef.current);
+                    creditTimeoutRef.current = setTimeout(() => {
+                        setShowCredit(false);
+                    }, 3000);
+                }}
+                onMouseLeave={() => setIsBrandingHovered(false)}
+                onClick={(e) => {
+                    e.stopPropagation(); // Don't close modal
+                    setShowCredit(true);
+                    if (creditTimeoutRef.current) clearTimeout(creditTimeoutRef.current);
+                    creditTimeoutRef.current = setTimeout(() => {
+                        setShowCredit(false);
+                    }, 3000);
+                }}
+                style={{
+                    position: 'fixed',
+                    top: '30px',
+                    left: '30px',
+                    color: isBrandingHovered ? '#fff' : 'rgba(255, 255, 255, 0.4)',
+                    fontSize: '1.2rem',
+                    fontWeight: '600',
+                    textTransform: 'uppercase',
+                    letterSpacing: '0.3rem',
+                    zIndex: 1002,
+                    opacity: showControls ? 1 : 0,
+                    transition: 'all 0.3s ease',
+                    cursor: 'pointer'
+                }}
+            >
+                COLORSFUL
+            </div>
+
+            {/* Credit Text */}
             <div style={{
                 position: 'fixed',
-                top: '30px',
+                top: '58px',
                 left: '30px',
-                color: 'white',
-                fontSize: '1.2rem',
-                fontWeight: '600',
-                textTransform: 'uppercase',
-                letterSpacing: '0.3rem',
-                zIndex: 1001,
-                opacity: showControls ? 1 : 0,
-                transition: 'opacity 0.3s',
-                mixBlendMode: 'overlay'
+                zIndex: 1002,
+                opacity: (showCredit && showControls) ? 1 : 0,
+                pointerEvents: showCredit ? 'auto' : 'none',
+                transition: 'opacity 0.4s ease, transform 0.4s ease',
+                transform: showCredit ? 'translateY(0)' : 'translateY(-10px)'
             }}>
-                COLORSFUL
+                <a
+                    href="https://www.heretique.fr"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={(e) => e.stopPropagation()}
+                    style={{
+                        color: 'white',
+                        textDecoration: 'none',
+                        fontSize: '0.6rem',
+                        fontWeight: '600',
+                        opacity: 0.6,
+                        textTransform: 'uppercase',
+                        letterSpacing: '0.2rem'
+                    }}
+                    onMouseEnter={(e) => e.target.style.opacity = 1}
+                    onMouseLeave={(e) => e.target.style.opacity = 0.6}
+                >
+                    created by hérétique
+                </a>
             </div>
 
             {/* Close Button - Top Right of page */}
