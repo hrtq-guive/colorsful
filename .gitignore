@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+
+# Build
+dist/
+dist-ssr/
+*.local
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Scraper Debugging
+scraper/debug_screenshot.png
+scraper/debug_page_source.html

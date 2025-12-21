@@ -1,0 +1,35 @@
+name: Update COLORSFUL Data
+
+on:
+  schedule:
+    - cron: '0 0 * * 0' # Every Sunday at midnight
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install -r scraper/requirements.txt
+          # The scraper uses Selenium, so we need a browser in the runner
+          # Chrome is already in the GitHub Runner environment
+
+      - name: Run Scraper
+        run: python scraper/scraper.py
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "COLORSFUL Bot"
+          git config --global user.email "bot@colorsful.com"
+          git add web-app/src/data/videos.json scraper/colors_videos.csv
+          git commit -m "chore: automated weekly data update [skip ci]" || echo "No changes to commit"
+          git push
