@@ -4,14 +4,29 @@ import { hexToRgb, rgbToHsl, getWeightedHslDistance } from '../utils/color';
 import { parseVideoTitle } from '../utils/titleParser';
 import VideoModal from './VideoModal';
 
-// Pre-process videos (Same as Palette)
+// Pre-process videos with spatial coordinates
 const processedVideos = videosData.map((v, i) => {
     const rgb = hexToRgb(v.color);
+    const hsl = rgb ? rgbToHsl(rgb.r, rgb.g, rgb.b) : { h: 0, s: 0, l: 0 };
+
+    // Position calculation for the wheel
+    // Angle based on Hue (0-360)
+    const angleRad = (hsl.h - 90) * (Math.PI / 180);
+
+    // Vibrancy mapping: Pure colors on edge, neutrals/dark/light in center
+    // Formula: S * (1 - |L-50|/50)
+    const vibrancy = hsl.s * (1 - Math.abs(hsl.l - 50) / 50);
+
+    const radius = vibrancy; // 0 (center) to 100 (edge)
+
     return {
         ...v,
         id: i,
         rgb,
-        hsl: rgb ? rgbToHsl(rgb.r, rgb.g, rgb.b) : { h: 0, s: 0, l: 0 }
+        hsl,
+        // Relative coordinates in the circle (0-100)
+        wheelX: 50 + (radius / 2) * Math.cos(angleRad),
+        wheelY: 50 + (radius / 2) * Math.sin(angleRad),
     };
 }).filter(v => v.rgb);
 
@@ -41,37 +56,28 @@ const Blind = () => {
         if (requestRef.current) cancelAnimationFrame(requestRef.current);
         requestRef.current = requestAnimationFrame(() => updateVisuals(e, rect));
 
-        // Color matching logic
-        const centerX = rect.width / 2;
-        const centerY = rect.height / 2;
-        const localX = e.clientX - rect.left;
-        const localY = e.clientY - rect.top;
-        const dx = localX - centerX;
-        const dy = localY - centerY;
-        const r = Math.sqrt(dx * dx + dy * dy);
-        const maxR = Math.min(centerX, centerY);
-        if (r > maxR) return;
+        // Spatial matching logic
+        const mouseX = ((e.clientX - rect.left) / rect.width) * 100;
+        const mouseY = ((e.clientY - rect.top) / rect.height) * 100;
 
-        const rNorm = r / maxR;
-        const angle = Math.atan2(dy, dx);
-        // Add 90deg offset because conic-gradient starts at 12 o'clock, atan2 at 3 o'clock
-        const h = ((angle * 180 / Math.PI) + 90 + 360) % 360;
+        // Ensure we are inside the circle
+        const dx = mouseX - 50;
+        const dy = mouseY - 50;
+        const distFromCenter = Math.sqrt(dx * dx + dy * dy);
 
-        // Use radius (rNorm) to explore different "depths" of the color space
-        // Center (0) is more pastel/desaturated
-        // Edge (1) is full vibrant COLORS aesthetic
-        const s = 40 + (60 * rNorm);
-        const l = 40 + (20 * rNorm); // Subtle lightness sweep from 40% to 60%
+        if (distFromCenter > 50) {
+            setHoveredVideo(null);
+            return;
+        }
 
-        const targetHsl = { h, s, l };
         let closest = null;
         let minDist = Infinity;
 
+        // Find the video whose pre-calculated "sweet spot" is closest to mouse
         for (const video of processedVideos) {
-            // Use perception-based HSL distance for high sensitivity
-            const dist = getWeightedHslDistance(targetHsl, video.hsl);
-            if (dist < minDist) {
-                minDist = dist;
+            const d = Math.sqrt(Math.pow(mouseX - video.wheelX, 2) + Math.pow(mouseY - video.wheelY, 2));
+            if (d < minDist) {
+                minDist = d;
                 closest = video;
             }
         }
@@ -182,12 +188,13 @@ const Blind = () => {
                     borderRadius: '50%',
                     background: 'conic-gradient(from 0deg, hsl(0, 100%, 50%), hsl(60, 100%, 50%), hsl(120, 100%, 50%), hsl(180, 100%, 50%), hsl(240, 100%, 50%), hsl(300, 100%, 50%), hsl(360, 100%, 50%))',
                     position: 'relative',
-                    cursor: 'pointer',
+                    cursor: 'none',
                     opacity: selectedVideo ? 0 : 1,
                     transition: 'opacity 0.4s',
                     '--local-x': '50%',
                     '--local-y': '50%'
                 }}
+                data-cursor="small"
             >
             </div>
 

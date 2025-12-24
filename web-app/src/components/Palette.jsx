@@ -191,6 +191,7 @@ const Palette = () => {
                         position: 'relative',
                         cursor: 'none'
                     }}
+                    data-cursor="small"
                 >
                     {/* Base Wheel - Lighter (per request "wheel colors are very dark") */}
                     <div style={{

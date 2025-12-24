@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Logo Boundary Extractor</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background: #000;
+            color: #fff;
+            font-family: monospace;
+        }
+
+        canvas {
+            border: 1px solid #333;
+        }
+
+        #output {
+            margin-top: 20px;
+            white-space: pre;
+            font-size: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Logo Boundary Extractor</h2>
+    <p>This will measure the logo mask at every degree and generate the perfect lookup table.</p>
+    <canvas id="canvas" width="400" height="400"></canvas>
+    <div id="output"></div>
+
+    <script>
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+        const output = document.getElementById('output');
+
+        // Load the logo mask SVG
+        const img = new Image();
+        img.onload = function () {
+            // Draw the logo mask
+            ctx.drawImage(img, 0, 0, 400, 400);
+
+            // Get image data
+            const imageData = ctx.getImageData(0, 0, 400, 400);
+            const data = imageData.data;
+
+            // Center of the logo
+            const centerX = 200;
+            const centerY = 200;
+
+            // Sample at every degree
+            const radiusLookup = [];
+
+            for (let angle = 0; angle < 360; angle++) {
+                const angleRad = (angle - 90) * Math.PI / 180; // -90 to match our coordinate system
+
+                // Binary search for the edge
+                let minR = 0;
+                let maxR = 200;
+                let foundRadius = 0;
+
+                while (maxR - minR > 0.1) {
+                    const testR = (minR + maxR) / 2;
+                    const x = Math.round(centerX + testR * Math.cos(angleRad));
+                    const y = Math.round(centerY + testR * Math.sin(angleRad));
+
+                    if (x < 0 || x >= 400 || y < 0 || y >= 400) {
+                        maxR = testR;
+                        continue;
+                    }
+
+                    const pixelIndex = (y * 400 + x) * 4;
+                    const alpha = data[pixelIndex + 3];
+
+                    if (alpha > 128) { // Inside the logo
+                        minR = testR;
+                        foundRadius = testR;
+                    } else { // Outside the logo
+                        maxR = testR;
+                    }
+                }
+
+                // Convert to percentage (0-100 scale)
+                const radiusPercent = (foundRadius / 400) * 100;
+                radiusLookup.push(radiusPercent.toFixed(1));
+            }
+
+            // Generate the lookup table code
+            let code = "const radiusLookup360 = [\n";
+            for (let i = 0; i < 360; i += 10) {
+                const slice = radiusLookup.slice(i, i + 10);
+                code += `    ${slice.join(', ')},  // ${i}-${i + 9}°\n`;
+            }
+            code += "];\n";
+
+            output.textContent = code;
+            console.log(code);
+        };
+
+        img.src = '/logo-mask.svg';
+    </script>
+</body>
+
+</html>

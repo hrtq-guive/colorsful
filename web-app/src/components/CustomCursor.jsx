@@ -3,6 +3,7 @@ import React, { useState, useEffect, useRef } from 'react';
 const CustomCursor = () => {
     const [position, setPosition] = useState({ x: 0, y: 0 });
     const [isPointer, setIsPointer] = useState(false);
+    const [isSmall, setIsSmall] = useState(false);
     const [isVisible, setIsVisible] = useState(true);
     const hideTimeoutRef = useRef(null);
 
@@ -30,7 +31,10 @@ const CustomCursor = () => {
                 target.onclick ||
                 target.getAttribute('role') === 'button';
 
+            const isDiscovery = target.closest('[data-cursor="small"]');
+
             setIsPointer(!!isClickable);
+            setIsSmall(!!isDiscovery);
         };
 
         const handleMouseLeaveWindow = () => {
@@ -49,6 +53,9 @@ const CustomCursor = () => {
         };
     }, []);
 
+    const size = isSmall ? 8 : (isPointer ? 20 : 32);
+    const offset = size / 2;
+
     return (
         <div
             id="custom-cursor"
@@ -56,29 +63,29 @@ const CustomCursor = () => {
                 position: 'fixed',
                 top: 0,
                 left: 0,
-                width: isPointer ? '30px' : '15px',
-                height: isPointer ? '30px' : '15px',
+                width: `${size}px`,
+                height: `${size}px`,
                 borderRadius: '50%',
-                border: '1.5px solid white', // Explicit white border as requested
+                border: '1px solid white',
                 pointerEvents: 'none',
                 zIndex: 99999,
-                transform: `translate(${position.x - (isPointer ? 15 : 7.5)}px, ${position.y - (isPointer ? 15 : 7.5)}px)`,
-                transition: 'width 0.25s cubic-bezier(0.23, 1, 0.32, 1), height 0.25s cubic-bezier(0.23, 1, 0.32, 1), transform 0.1s ease-out, opacity 0.3s ease',
+                transform: `translate(${position.x - offset}px, ${position.y - offset}px)`,
+                transition: 'width 0.3s cubic-bezier(0.23, 1, 0.32, 1), height 0.3s cubic-bezier(0.23, 1, 0.32, 1), transform 0.08s ease-out, opacity 0.3s ease',
                 display: 'flex',
                 justifyContent: 'center',
                 alignItems: 'center',
                 backgroundColor: isPointer ? 'rgba(255, 255, 255, 0.15)' : 'transparent',
                 opacity: isVisible ? 1 : 0,
-                boxShadow: '0 0 4px rgba(0, 0, 0, 0.3)' // Subtle shadow for white-on-white visibility
+                boxShadow: '0 0 4px rgba(0, 0, 0, 0.3)'
             }}
         >
-            {/* Inner dot */}
+            {/* Inner dot - only visible in discovery mode (small) */}
             <div style={{
-                width: '3px',
-                height: '3px',
+                width: '2px',
+                height: '2px',
                 backgroundColor: 'white',
                 borderRadius: '50%',
-                opacity: (isPointer || !isVisible) ? 0 : 1,
+                opacity: (isSmall && isVisible) ? 1 : 0,
                 transition: 'opacity 0.2s'
             }} />
         </div>
