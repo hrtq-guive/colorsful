@@ -29,3 +29,5 @@ Thumbs.db
 # Scraper Debugging
 scraper/debug_screenshot.png
 scraper/debug_page_source.html
+# Assets
+kev_assets/
