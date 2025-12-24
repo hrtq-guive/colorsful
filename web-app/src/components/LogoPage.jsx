@@ -83,104 +83,142 @@ const processedVideos = videosWithHsl.map((v, i) => {
     };
 });
 
-// 4. GENERATE WATERCOLOR VORONOI
+// 4. GENERATE PERFECTIONIST NEBULA (Standalone True Hybrid)
 const nebulaIslands = (() => {
+    const islands = [];
+    const SCAN_RES = 1.0;
     const ANGLE_STEP = 3;
     const RADIAL_STEP = 5;
     const numSectors = Math.ceil(360 / ANGLE_STEP);
 
-    // Build the Grid
+    // 4.1. Local Grid Base (Identical to LogoPage.jsx)
     const grid = [];
     for (let s = 0; s < numSectors; s++) {
-        const sectorAngle = s * ANGLE_STEP;
-        const maxRadius = getLogoMaxRadiusAtAngle(sectorAngle);
-        const numRings = Math.ceil(maxRadius / RADIAL_STEP);
-        grid[s] = Array(numRings).fill(null);
+        grid[s] = Array(Math.ceil(100 / RADIAL_STEP)).fill(null);
     }
-
-    // Populate Video Colors
     processedVideos.forEach(v => {
         const s = Math.floor(v.angleDeg / ANGLE_STEP) % numSectors;
-        const rIdx = Math.floor(Math.min(v.radius, getLogoMaxRadiusAtAngle(v.angleDeg) - 0.1) / RADIAL_STEP);
-        if (grid[s]?.[rIdx] === null) grid[s][rIdx] = { r: 0, g: 0, b: 0, count: 0 };
-        const cell = grid[s][rIdx];
-        const rgb = hexToRgb(v.color);
-        if (rgb && cell) { cell.r += rgb.r; cell.g += rgb.g; cell.b += rgb.b; cell.count++; }
+        const rIdx = Math.floor(v.radius / RADIAL_STEP);
+        if (grid[s] && rIdx < grid[s].length) {
+            if (grid[s][rIdx] === null) grid[s][rIdx] = { r: 0, g: 0, b: 0, count: 0 };
+            const cell = grid[s][rIdx];
+            const rgb = hexToRgb(v.color);
+            if (rgb && cell) { cell.r += rgb.r; cell.g += rgb.g; cell.b += rgb.b; cell.count++; }
+        }
     });
 
-    // Phase 1: Angular Interpolation (Limited range to respect density)
-    const MAX_INTERPOLATION_OFFSET = Math.ceil(45 / ANGLE_STEP);
+    // Angular Interpolation (Limited range to respect density)
+    const MAX_INTER_OFFSET = Math.ceil(45 / ANGLE_STEP);
     for (let s = 0; s < numSectors; s++) {
         for (let r = 0; r < grid[s].length; r++) {
             if (grid[s][r] && grid[s][r].count > 0) continue;
-
             let leftCell = null, rightCell = null;
-            // Only look within 45 degrees
-            for (let offset = 1; offset <= MAX_INTERPOLATION_OFFSET; offset++) {
-                const ls = (s - offset + numSectors) % numSectors;
+            for (let o = 1; o <= MAX_INTER_OFFSET; o++) {
+                const ls = (s - o + numSectors) % numSectors;
                 if (grid[ls][r] && grid[ls][r].count > 0) { leftCell = grid[ls][r]; break; }
             }
-            for (let offset = 1; offset <= MAX_INTERPOLATION_OFFSET; offset++) {
-                const rs = (s + offset) % numSectors;
+            for (let o = 1; o <= MAX_INTER_OFFSET; o++) {
+                const rs = (s + o) % numSectors;
                 if (grid[rs][r] && grid[rs][r].count > 0) { rightCell = grid[rs][r]; break; }
             }
-
-            if (leftCell || rightCell) {
-                grid[s][r] = { ...(leftCell || rightCell) };
-            }
+            if (leftCell || rightCell) grid[s][r] = { ...(leftCell || rightCell) };
         }
     }
 
-    // Generate Seeds
-    const islands = [];
+    // 4.2. THE HEART (r < 25): Native implementation of Home Page logic
     for (let s = 0; s < numSectors; s++) {
-        for (let r = 0; r < grid[s].length; r++) {
+        for (let r = 0; r < 5; r++) { // 0, 5, 10, 15, 20
             const cell = grid[s][r];
             if (!cell || (cell.count === 0 && !cell.r)) continue;
 
+            const radius = r * RADIAL_STEP;
+            const angle = s * ANGLE_STEP;
+
+            // Density Management (Home Page rule)
+            if (radius === 0) { if (s > 0) continue; }
+            else if (radius < 15) { if (s % 4 !== 0) continue; }
+
+            // SEED-LEVEL HSL TUNING (Secret Sauce from LogoPage)
             let R = cell.r / (cell.count || 1), G = cell.g / (cell.count || 1), B = cell.b / (cell.count || 1);
             const hsl = rgbToHsl(R, G, B);
-            const angle = s * ANGLE_STEP;
-            const radius = r * RADIAL_STEP;
 
-            // 3.5. Center Glow Tuning (Ultra-tight, sharp core)
-            const glowLimit = 5; // Exactly one radial step
+            const glowLimit = 5;
             if (radius < glowLimit) {
-                // High-order falloff (T^10) makes the white part very localized
                 const t = Math.pow(radius / glowLimit, 10);
-                hsl.s *= t;
-                hsl.l = 98 - (98 - hsl.l) * t; // Cap at 98% for better texture
+                hsl.s *= t; hsl.l = 98 - (98 - hsl.l) * t;
             } else {
                 hsl.s = Math.min(hsl.s * 2.5, 100);
                 hsl.l = Math.max(Math.min(hsl.l, 85), 20);
             }
+            const tuned = hslToRgb(hsl.h, hsl.s, hsl.l);
 
-            const boosted = hslToRgb(hsl.h, hsl.s, hsl.l);
-
-            // 3.6. Organic Seed Jitter (Break the grid)
-            const jitterR = (Math.random() - 0.5) * RADIAL_STEP * 0.8;
-            const jitterA = (Math.random() - 0.5) * ANGLE_STEP * 0.8;
-            const finalAngle = angle + jitterA;
-            const finalRadius = radius + jitterR;
-            const angleRad = (finalAngle - 90) * (Math.PI / 180);
-
-            // 3.7. Density Management (Reduce over-stacking at center)
-            if (radius === 0) {
-                if (s > 0) continue; // Only one seed for center
-            } else if (radius < 15) {
-                if (s % 4 !== 0) continue; // Reduce density for small rings
-            }
+            // Jitter (Home Page Jitter = 0.4)
+            const jR = (Math.random() - 0.5) * RADIAL_STEP * 0.4;
+            const jA = (Math.random() - 0.5) * ANGLE_STEP * 0.4;
+            const finalR = radius + jR;
+            const finalA = angle + jA;
+            const aRad = (finalA - 90) * (Math.PI / 180);
 
             islands.push({
-                x: 50 + finalRadius * Math.cos(angleRad),
-                y: 50 + finalRadius * Math.sin(angleRad),
-                color: `rgb(${Math.round(boosted.r)}, ${Math.round(boosted.g)}, ${Math.round(boosted.b)})`,
-                size: RADIAL_STEP * 1.5
+                x: 50 + finalR * Math.cos(aRad),
+                y: 50 + finalR * Math.sin(aRad),
+                r: tuned.r, g: tuned.g, b: tuned.b
             });
         }
     }
 
-    // Phase 2: High-Order IDW (N=20, blurless gradients)
+    // 4.3. THE SHELL (r >= 25): Pure Perfectionist Boundary Logic
+    // Augmented Video Set for Influences (Actual + Virtual Yellow North-East)
+    const augmentedVideos = processedVideos.map(v => ({
+        wheelX: v.wheelX, wheelY: v.wheelY,
+        rgb: hexToRgb(v.color)
+    }));
+    [30, 45, 60].forEach(angle => {
+        const s = Math.floor(angle / ANGLE_STEP) % numSectors;
+        const targetR = 50;
+        const cell = grid[s][10]; // Sampling grid at r=50
+        if (cell && (cell.count > 0 || cell.r)) {
+            const aRad = (angle - 90) * (Math.PI / 180);
+            augmentedVideos.push({
+                wheelX: 50 + targetR * Math.cos(aRad),
+                wheelY: 50 + targetR * Math.sin(aRad),
+                rgb: { r: cell.r / (cell.count || 1), g: cell.g / (cell.count || 1), b: cell.b / (cell.count || 1) }
+            });
+        }
+    });
+
+    for (let x = 0; x <= 100; x += SCAN_RES) {
+        for (let y = 0; y <= 100; y += SCAN_RES) {
+            const dx = x - 50, dy = y - 50;
+            const distCenter = Math.sqrt(dx * dx + dy * dy);
+            const angle = (Math.atan2(dy, dx) * 180 / Math.PI + 90 + 360) % 360;
+            if (distCenter < 25 || distCenter > getLogoMaxRadiusAtAngle(angle)) continue;
+
+            const sorted = augmentedVideos
+                .map(v => ({ v, d2: Math.pow(x - v.wheelX, 2) + Math.pow(y - v.wheelY, 2) }))
+                .sort((a, b) => a.d2 - b.d2);
+
+            if (sorted.length < 2) continue;
+            const first = sorted[0], second = sorted[1];
+            const diff = Math.sqrt(second.d2) - Math.sqrt(first.d2);
+
+            if (diff < 2.5 && Math.random() < 0.25) {
+                // Apply same HSL boost to boundary seeds
+                const hsl = rgbToHsl(first.v.rgb.r, first.v.rgb.g, first.v.rgb.b);
+                hsl.s = Math.min(hsl.s * 2.5, 100);
+                hsl.l = Math.max(Math.min(hsl.l, 85), 20);
+                const tuned = hslToRgb(hsl.h, hsl.s, hsl.l);
+
+                islands.push({
+                    x: x + (Math.random() - 0.5) * 2.5,
+                    y: y + (Math.random() - 0.5) * 2.5,
+                    r: tuned.r, g: tuned.g, b: tuned.b
+                });
+            }
+        }
+    }
+
+    // 4.4. Final Render (N=20 IDW)
     const voronoiCells = [];
     const VORONOI_GRID = 0.5;
     const BLEND_COUNT = 20;
@@ -188,9 +226,9 @@ const nebulaIslands = (() => {
     for (let x = 0; x <= 100; x += VORONOI_GRID) {
         for (let y = 0; y <= 100; y += VORONOI_GRID) {
             const dx = x - 50, dy = y - 50;
-            const radius = Math.sqrt(dx * dx + dy * dy);
+            const distCenter = Math.sqrt(dx * dx + dy * dy);
             const angle = (Math.atan2(dy, dx) * 180 / Math.PI + 90 + 360) % 360;
-            if (radius > getLogoMaxRadiusAtAngle(angle)) continue;
+            if (distCenter > getLogoMaxRadiusAtAngle(angle)) continue;
 
             const neighbors = islands
                 .map(is => ({ is, d2: Math.pow(x - is.x, 2) + Math.pow(y - is.y, 2) }))
@@ -199,16 +237,16 @@ const nebulaIslands = (() => {
 
             let totalW = 0, rB = 0, gB = 0, bB = 0;
             neighbors.forEach(n => {
-                const w = 1 / (n.d2 + 12); // Smoothed kernel
-                const rgb = n.is.color.match(/\d+/g).map(Number);
-                rB += rgb[0] * w; gB += rgb[1] * w; bB += rgb[2] * w; totalW += w;
+                const w = 1 / (n.d2 + 12); // LOGOPAGE SMOOTHING
+                rB += n.is.r * w; gB += n.is.g * w; bB += n.is.b * w; totalW += w;
             });
 
             if (totalW > 0) {
+                let R = rB / totalW, G = gB / totalW, B = bB / totalW;
                 voronoiCells.push({
                     x, y,
-                    color: `rgb(${Math.round(rB / totalW)}, ${Math.round(gB / totalW)}, ${Math.round(bB / totalW)})`,
-                    size: VORONOI_GRID * 3 // Reduced from 10 to 3 to remove big border circles
+                    color: `rgb(${Math.round(R)}, ${Math.round(G)}, ${Math.round(B)})`,
+                    size: VORONOI_GRID * 3
                 });
             }
         }
@@ -227,7 +265,6 @@ const LogoPage = () => {
     const wheelRef = useRef(null);
     const voronoiCanvasRef = useRef(null);
 
-    // High-Performance Watercolor Render
     useEffect(() => {
         const canvas = voronoiCanvasRef.current;
         if (!canvas) return;
@@ -284,7 +321,6 @@ const LogoPage = () => {
             color: 'white', display: 'flex', justifyContent: 'center', alignItems: 'center',
             fontFamily: "'Inter', sans-serif", overflow: 'hidden'
         }}>
-            {/* Branding */}
             <div
                 onMouseEnter={() => { setIsBrandingHovered(true); setShowCredit(true); clearTimeout(creditTimeoutRef.current); creditTimeoutRef.current = setTimeout(() => setShowCredit(false), 3000); }}
                 onMouseLeave={() => setIsBrandingHovered(false)}
@@ -301,7 +337,6 @@ const LogoPage = () => {
                 <a href="https://www.heretique.fr" target="_blank" rel="noopener noreferrer" style={{ color: 'white', textDecoration: 'none', fontSize: '0.6rem', fontWeight: '600', opacity: 0.6, textTransform: 'uppercase', letterSpacing: '0.2rem' }}>created by hérétique</a>
             </div>
 
-            {/* Logo Container */}
             <div
                 ref={wheelRef}
                 onMouseMove={handleMouseMove}
@@ -319,7 +354,6 @@ const LogoPage = () => {
                 <canvas ref={voronoiCanvasRef} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%' }} />
             </div>
 
-            {/* Artist/Track Info */}
             {hoveredVideo && !selectedVideo && (
                 <>
                     <div style={{ position: 'fixed', bottom: '30px', left: '30px', color: 'white', fontSize: '1.2rem', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.3rem', zIndex: 100 }}>

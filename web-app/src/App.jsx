@@ -6,7 +6,6 @@ import Blind from './components/Blind';
 import Point from './components/Point';
 import Gradient from './components/Gradient';
 import LogoPage from './components/LogoPage';
-import PerfectionistPage from './components/PerfectionistPage';
 import SecretPage from './components/SecretPage';
 import CustomCursor from './components/CustomCursor';
 import MobileOverlay from './components/MobileOverlay';
@@ -21,7 +20,6 @@ function AppContent() {
       <Route path="/point" element={<Point />} />
       <Route path="/gradient" element={<Gradient />} />
       <Route path="/secret" element={<SecretPage />} />
-      <Route path="/perfectionist" element={<PerfectionistPage />} />
     </Routes>
   );
 }
