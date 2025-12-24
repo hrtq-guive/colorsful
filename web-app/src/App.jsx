@@ -10,10 +10,13 @@ import SecretPage from './components/SecretPage';
 import CustomCursor from './components/CustomCursor';
 import MobileOverlay from './components/MobileOverlay';
 
+import PreviousHomePage from './components/PreviousHomePage';
+
 function AppContent() {
   return (
     <Routes>
       <Route path="/" element={<LogoPage />} />
+      <Route path="/previoushome" element={<PreviousHomePage />} />
       <Route path="/wheel" element={<Blind />} />
       <Route path="/bloc" element={<Bloc />} />
       <Route path="/palette" element={<Palette />} />
