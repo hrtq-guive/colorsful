@@ -299,64 +299,52 @@ const nebulaIslands = (() => {
         }
     }
 
-    // Pass 2: Edge-only solid border fill (1+ neighbor, outermost rings only)
+    // Pass 2: Minimal radial extension for sharp edges
+    // Extend just 3 rings past the boundary for solid edges without overwhelming colors
     for (let s = 0; s < numSectors; s++) {
         const numRingsForSector = grid[s].length;
 
-        for (let r = 0; r < numRingsForSector; r++) {
-            if (grid[s][r]) continue;
+        // Find the outermost filled ring
+        let lastFilledRing = -1;
+        let lastFilledData = null;
 
-            // Apply to outer rings (70%+) for solid borders
-            const rRatio = r / numRingsForSector;
-            if (rRatio < 0.70) continue;
-
-            const neighbors = [];
-            const neighborOffsets = [
-                [-1, 0], [1, 0], [0, -1], [0, 1],
-                [-1, -1], [-1, 1], [1, -1], [1, 1]
-            ];
-
-            for (const [ds, dr] of neighborOffsets) {
-                const ns = (s + ds + numSectors) % numSectors;
-                const nr = r + dr;
-                const neighborSector = grid[ns];
-                if (neighborSector && nr >= 0 && nr < neighborSector.length && neighborSector[nr]) {
-                    neighbors.push(neighborSector[nr]);
-                }
+        for (let r = numRingsForSector - 1; r >= 0; r--) {
+            if (grid[s][r]) {
+                lastFilledRing = r;
+                lastFilledData = grid[s][r];
+                break;
             }
+        }
 
-            if (neighbors.length >= 1) {
-                let sumR = 0, sumG = 0, sumB = 0, sumX = 0, sumY = 0;
+        // Only extend if we found a filled ring near the edge (80%+)
+        if (lastFilledRing >= 0 && lastFilledData && (lastFilledRing / numRingsForSector) > 0.8) {
+            const baseR = Math.round(lastFilledData.sumR / lastFilledData.count);
+            const baseG = Math.round(lastFilledData.sumG / lastFilledData.count);
+            const baseB = Math.round(lastFilledData.sumB / lastFilledData.count);
 
-                neighbors.forEach(n => {
-                    sumR += n.sumR / n.count;
-                    sumG += n.sumG / n.count;
-                    sumB += n.sumB / n.count;
-                    sumX += n.sumX / n.count;
-                    sumY += n.sumY / n.count;
-                });
+            // Keep color boosting
+            const hsl = rgbToHsl(baseR, baseG, baseB);
+            hsl.s = Math.min(hsl.s * 1.6, 100);
+            hsl.l = Math.max(hsl.l, 15);
+            hsl.l = Math.min(hsl.l, 90);
+            const boosted = hslToRgb(hsl.h, hsl.s, hsl.l);
 
-                const avgR = Math.round(sumR / neighbors.length);
-                const avgG = Math.round(sumG / neighbors.length);
-                const avgB = Math.round(sumB / neighbors.length);
+            // Extend just 3 rings for sharp edge
+            for (let r = lastFilledRing + 1; r < Math.min(lastFilledRing + 4, numRingsForSector + 3); r++) {
+                const sectorAngle = (s / numSectors) * 360;
+                const angleRad = ((sectorAngle - 90) * Math.PI) / 180;
+                const maxRadiusAtAngle = getLogoMaxRadiusAtAngle(sectorAngle);
+                const radiusPercent = (r / numRingsForSector) * maxRadiusAtAngle;
 
-                const hsl = rgbToHsl(avgR, avgG, avgB);
-                hsl.s = Math.min(hsl.s * 1.6, 100);
-                hsl.l = Math.max(hsl.l, 15);
-                hsl.l = Math.min(hsl.l, 90);
+                const x = radiusPercent * Math.cos(angleRad);
+                const y = radiusPercent * Math.sin(angleRad);
 
-                const boosted = hslToRgb(hsl.h, hsl.s, hsl.l);
-
-                const edgeDecay = rRatio < 0.85 ? 1.0 : Math.max(0, 1 - (rRatio - 0.85) / 0.15);
-
-                // Massive size for edge borders
-                let sizeMultiplier = 1.0 + (rRatio - 0.70) * 25; // Even more aggressive
-
-                const size = (12 + neighbors.length * 2.0) * edgeDecay * sizeMultiplier;
+                // Large size for solid coverage
+                const size = 15;
 
                 islands.push({
-                    x: sumX / neighbors.length,
-                    y: sumY / neighbors.length,
+                    x,
+                    y,
                     color: `rgb(${boosted.r}, ${boosted.g}, ${boosted.b})`,
                     size: size
                 });
