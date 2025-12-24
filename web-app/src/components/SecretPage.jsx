@@ -14,7 +14,8 @@ const SecretPage = () => {
     }, []);
 
     const versions = [
-        { path: '/', name: 'Logo (Main)', description: 'Logo nebula with color wheel interaction' },
+        { path: '/', name: 'Logo (Perfectionist)', description: 'Final Hybrid Nebula (Heart + Shell)' },
+        { path: '/previoushome', name: 'Logo (Previous)', description: 'Watercolor Nebula (r < 25 + N=20)' },
         { path: '/wheel', name: 'Wheel', description: 'Original color wheel with dynamic shape' },
         { path: '/gradient', name: 'Gradient', description: 'Organic gradient nebula' },
         { path: '/bloc', name: 'Bloc', description: 'Grid-based color blocks' },

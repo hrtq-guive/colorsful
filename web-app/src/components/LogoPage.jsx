@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { useParams, useNavigate } from 'react-router-dom';
 import videosData from '../data/videos.json';
 import { hexToRgb, rgbToHsl, hslToRgb } from '../utils/color';
 import { parseVideoTitle } from '../utils/titleParser';
@@ -263,7 +264,29 @@ const nebulaIslands = (() => {
 })();
 
 const LogoPage = () => {
+    const { color } = useParams();
+    const navigate = useNavigate();
     const [selectedVideo, setSelectedVideo] = useState(null);
+
+    useEffect(() => {
+        if (color) {
+            const video = processedVideos.find(v => v.color.replace('#', '').toLowerCase() === color.toLowerCase());
+            if (video) setSelectedVideo(video);
+        }
+    }, [color]);
+
+    const handleVideoSelect = (video) => {
+        if (video) {
+            setSelectedVideo(video);
+            navigate(`/${video.color.replace('#', '')}`);
+        }
+    };
+
+    const handleVideoClose = () => {
+        setLastVideo(selectedVideo);
+        setSelectedVideo(null);
+        navigate('/');
+    };
     const [lastVideo, setLastVideo] = useState(null);
     const [hoveredVideo, setHoveredVideo] = useState(null);
     const [isBrandingHovered, setIsBrandingHovered] = useState(false);
@@ -349,7 +372,7 @@ const LogoPage = () => {
                 ref={wheelRef}
                 onMouseMove={handleMouseMove}
                 onMouseLeave={() => setHoveredVideo(null)}
-                onClick={() => hoveredVideo && setSelectedVideo(hoveredVideo)}
+                onClick={() => hoveredVideo && handleVideoSelect(hoveredVideo)}
                 style={{
                     width: '42vmax', height: '42vmax',
                     maskImage: 'url(/logo-mask.svg)', WebkitMaskImage: 'url(/logo-mask.svg)',
@@ -375,7 +398,7 @@ const LogoPage = () => {
 
             {lastVideo && !hoveredVideo && !selectedVideo && (
                 <div
-                    onClick={() => setSelectedVideo(lastVideo)}
+                    onClick={() => handleVideoSelect(lastVideo)}
                     style={{
                         position: 'fixed', bottom: '30px', right: '30px', color: 'rgba(255, 255, 255, 0.4)',
                         fontSize: '1.2rem', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.3rem', zIndex: 100, cursor: 'pointer'
@@ -386,7 +409,7 @@ const LogoPage = () => {
             )}
 
             {selectedVideo && (
-                <VideoModal video={selectedVideo} onClose={() => { setLastVideo(selectedVideo); setSelectedVideo(null); }} backdropColor="transparent" />
+                <VideoModal video={selectedVideo} onClose={handleVideoClose} backdropColor="transparent" />
             )}
         </div>
     );

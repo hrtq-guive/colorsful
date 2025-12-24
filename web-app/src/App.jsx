@@ -23,6 +23,7 @@ function AppContent() {
       <Route path="/point" element={<Point />} />
       <Route path="/gradient" element={<Gradient />} />
       <Route path="/secret" element={<SecretPage />} />
+      <Route path="/:color" element={<LogoPage />} />
     </Routes>
   );
 }

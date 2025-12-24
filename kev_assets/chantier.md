@@ -5,12 +5,14 @@ We have successfully implemented the **"Perfectionist Hybrid"** nebula and promo
 - **Core (r < 25)**: Uses the "Gold Standard" home page logic (grid-based, density managed, seed-level HSL tuning).
 - **Shell (r >= 25)**: Uses the perfectionist boundary detection with augmented videos (virtual yellow zone).
 - **Previous Home**: Restored and accessible at `/previoushome`.
+- **Shareable URLs**: Implemented `/:hexcode` dynamic routing for sharing specific videos.
+- **Autoplay Fix**: Enabled interaction with YouTube player when autoplay fails (removed `pointer-events: none`).
 
 ## The Issue: "Chaton" & White Videos
 The user reported that the "Chaton" video (pure white / very light grey) is accessible but hard to reach instantly / feels hidden.
 - **Initial Diagnosis**: 57+ achromatic videos were clustering at 0 degrees, pushing Chaton to Rank 2 or 3 and burying it.
 - **Attempted Fix**: Implemented a "Golden Angle" distribution for low-saturation videos (S < 5%) to spread them around the circle.
-- **User Feedback**: "No, still not perfect." -> **It seems Chaton is accessible but maybe not "prominent" enough or the distribution feels off.**
+- **Current Status**: Accessible but maybe not "prominent" enough.
 
 ## Next Steps
 1.  **Refine Achromatic Distribution**: instead of just blindly spreading them, we might need a specific "White Zone" that isn't just the dead center, or ensuring high-lightness videos always get priority in the visible layer.

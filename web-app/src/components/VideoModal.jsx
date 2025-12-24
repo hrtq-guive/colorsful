@@ -58,6 +58,9 @@ const VideoModal = ({ video, onClose, backdropColor = 'rgba(0,0,0,0.95)' }) => {
                     disablekb: 1
                 },
                 events: {
+                    onReady: (event) => {
+                        event.target.playVideo();
+                    },
                     onStateChange: (event) => {
                         // YT.PlayerState.ENDED is 0
                         if (event.data === window.YT.PlayerState.ENDED) {
@@ -216,8 +219,7 @@ const VideoModal = ({ video, onClose, backdropColor = 'rgba(0,0,0,0.95)' }) => {
                     style={{
                         width: '100%',
                         height: '100%',
-                        display: 'block',
-                        pointerEvents: 'none'
+                        display: 'block'
                     }}
                 />
             </div>
