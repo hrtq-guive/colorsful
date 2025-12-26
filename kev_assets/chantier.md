@@ -5,14 +5,12 @@ We have successfully implemented the **"Perfectionist Hybrid"** nebula and promo
 - **Core (r < 25)**: Uses the "Gold Standard" home page logic (grid-based, density managed, seed-level HSL tuning).
 - **Shell (r >= 25)**: Uses the perfectionist boundary detection with augmented videos (virtual yellow zone).
 - **Previous Home**: Restored and accessible at `/previoushome`.
-- **Shareable URLs**: Implemented `/:hexcode` dynamic routing for sharing specific videos.
-- **Autoplay Fix**: Enabled interaction with YouTube player when autoplay fails (removed `pointer-events: none`).
 
 ## The Issue: "Chaton" & White Videos
 The user reported that the "Chaton" video (pure white / very light grey) is accessible but hard to reach instantly / feels hidden.
 - **Initial Diagnosis**: 57+ achromatic videos were clustering at 0 degrees, pushing Chaton to Rank 2 or 3 and burying it.
 - **Attempted Fix**: Implemented a "Golden Angle" distribution for low-saturation videos (S < 5%) to spread them around the circle.
-- **Current Status**: Accessible but maybe not "prominent" enough.
+- **User Feedback**: "No, still not perfect." -> **It seems Chaton is accessible but maybe not "prominent" enough or the distribution feels off.**
 
 ## Next Steps
 1.  **Refine Achromatic Distribution**: instead of just blindly spreading them, we might need a specific "White Zone" that isn't just the dead center, or ensuring high-lightness videos always get priority in the visible layer.
@@ -22,3 +20,11 @@ The user reported that the "Chaton" video (pure white / very light grey) is acce
 ## Technical Context
 - **File**: `web-app/src/components/LogoPage.jsx`
 - **Logic**: Look for the `// Distribute achromatic videos (S < 5) across 360 degrees` comment block.
+
+
+
+## KEVIN NOTES AND IDEAS
+
+- Build a color palette like a playlist
+- Eveytime i listen to a video, the color disappears or becomes black in its influence zone (i can reset) to try to explore all the videos 
+- un petit fade quand la video se ferme et on revient au noir (peut-être le curseur qui revient à la place où on l'a laissé là où il y a la video)

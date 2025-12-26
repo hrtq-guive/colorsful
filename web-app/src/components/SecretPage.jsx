@@ -19,7 +19,7 @@ const SecretPage = () => {
         { path: '/wheel', name: 'Wheel', description: 'Original color wheel with dynamic shape' },
         { path: '/gradient', name: 'Gradient', description: 'Organic gradient nebula' },
         { path: '/bloc', name: 'Bloc', description: 'Grid-based color blocks' },
-        { path: '/palette', name: 'Palette', description: 'Horizontal color palette' },
+        { path: '/palette', name: 'Palette', description: 'Your favorited videos' },
         { path: '/point', name: 'Point', description: 'Single point interaction' }
     ];
 

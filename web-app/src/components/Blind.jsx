@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import videosData from '../data/videos.json';
 import { hexToRgb, rgbToHsl, getWeightedHslDistance } from '../utils/color';
 import { parseVideoTitle } from '../utils/titleParser';
-import VideoModal from './VideoModal';
+import { useVideo } from '../contexts/VideoContext';
 
 // Pre-process videos with spatial coordinates
 const processedVideos = videosData.map((v, i) => {
@@ -31,7 +31,7 @@ const processedVideos = videosData.map((v, i) => {
 }).filter(v => v.rgb);
 
 const Blind = () => {
-    const [selectedVideo, setSelectedVideo] = useState(null);
+    const { currentVideo, openVideo } = useVideo();
     const [lastVideo, setLastVideo] = useState(null);
     const [hoveredVideo, setHoveredVideo] = useState(null);
     const [isBrandingHovered, setIsBrandingHovered] = useState(false);
@@ -94,7 +94,7 @@ const Blind = () => {
         <div style={{
             width: '100vw',
             height: '100vh',
-            background: selectedVideo ? selectedVideo.color : (hoveredVideo ? hoveredVideo.color : '#0a0a0a'),
+            background: currentVideo ? currentVideo.color : (hoveredVideo ? hoveredVideo.color : '#0a0a0a'),
             transition: 'background-color 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)',
             color: 'white',
             display: 'flex',
@@ -132,7 +132,7 @@ const Blind = () => {
                     textTransform: 'uppercase',
                     letterSpacing: '0.3rem',
                     zIndex: 100,
-                    opacity: selectedVideo ? 0 : 1,
+                    opacity: currentVideo ? 0 : 1,
                     transition: 'all 0.3s ease',
                     cursor: 'pointer'
                 }}
@@ -146,7 +146,7 @@ const Blind = () => {
                 top: '58px',
                 left: '30px',
                 zIndex: 100,
-                opacity: (showCredit && !selectedVideo) ? 1 : 0,
+                opacity: (showCredit && !currentVideo) ? 1 : 0,
                 pointerEvents: showCredit ? 'auto' : 'none',
                 transition: 'opacity 0.4s ease, transform 0.4s ease',
                 transform: showCredit ? 'translateY(0)' : 'translateY(-10px)'
@@ -178,7 +178,7 @@ const Blind = () => {
                 onMouseLeave={() => setHoveredVideo(null)}
                 onClick={() => {
                     if (hoveredVideo) {
-                        setSelectedVideo(hoveredVideo);
+                        openVideo(hoveredVideo, { backdropColor: 'transparent' });
                         setLastVideo(hoveredVideo);
                     }
                 }}
@@ -189,7 +189,7 @@ const Blind = () => {
                     background: 'conic-gradient(from 0deg, hsl(0, 100%, 50%), hsl(60, 100%, 50%), hsl(120, 100%, 50%), hsl(180, 100%, 50%), hsl(240, 100%, 50%), hsl(300, 100%, 50%), hsl(360, 100%, 50%))',
                     position: 'relative',
                     cursor: 'none',
-                    opacity: selectedVideo ? 0 : 1,
+                    opacity: currentVideo ? 0 : 1,
                     transition: 'opacity 0.4s',
                     '--local-x': '50%',
                     '--local-y': '50%'
@@ -210,7 +210,7 @@ const Blind = () => {
                     textTransform: 'uppercase',
                     letterSpacing: '0.3rem',
                     zIndex: 100,
-                    opacity: selectedVideo ? 0 : 1,
+                    opacity: currentVideo ? 0 : 1,
                     transition: 'opacity 0.4s'
                 }}>
                     {parseVideoTitle(hoveredVideo.title).fullArtist}
@@ -229,7 +229,7 @@ const Blind = () => {
                     textTransform: 'uppercase',
                     letterSpacing: '0.3rem',
                     zIndex: 100,
-                    opacity: selectedVideo ? 0 : 1,
+                    opacity: currentVideo ? 0 : 1,
                     transition: 'opacity 0.4s'
                 }}>
                     {parseVideoTitle(hoveredVideo.title).songTitle}
@@ -237,9 +237,9 @@ const Blind = () => {
             )}
 
             {/* Replay Last Video - Bottom Right (only if a video was played before) */}
-            {lastVideo && !hoveredVideo && !selectedVideo && (
+            {lastVideo && !hoveredVideo && !currentVideo && (
                 <div
-                    onClick={() => setSelectedVideo(lastVideo)}
+                    onClick={() => openVideo(lastVideo, { backdropColor: 'transparent' })}
                     style={{
                         position: 'fixed',
                         bottom: '30px',
@@ -258,14 +258,6 @@ const Blind = () => {
                 >
                     REPLAY LAST VIDEO
                 </div>
-            )}
-
-            {selectedVideo && (
-                <VideoModal
-                    video={selectedVideo}
-                    onClose={() => setSelectedVideo(null)}
-                    backdropColor="transparent"
-                />
             )}
         </div>
     );
