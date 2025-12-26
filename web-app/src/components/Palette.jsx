@@ -28,7 +28,7 @@ const Palette = ({ videos, onClose, setShowPalette, showFullPalette, hoveredVide
             const favs = processedVideos.filter(pv =>
                 favorites.some(fav => fav.url === pv.url)
             );
-            baseVideos = favs.length > 0 ? favs : processedVideos.slice(0, 15);
+            baseVideos = favs;
         }
 
         // Ensure all videos have full layout data and are sorted by vertical position
@@ -136,17 +136,20 @@ const Palette = ({ videos, onClose, setShowPalette, showFullPalette, hoveredVide
             style={{
                 position: 'fixed',
                 inset: 0,
-                zIndex: 1000,
-                backgroundColor: 'black',
-                overflow: 'hidden'
+                zIndex: 1600,
+                backgroundColor: hoveredVideo ? 'transparent' : 'black',
+                overflow: 'hidden',
+                transition: 'background-color 0.4s ease'
             }}
         >
-            {/* Backdrop for fade */}
+            {/* Backdrop for fade - Hide when hovering to show pure color */}
             <div style={{
                 position: 'absolute',
                 inset: 0,
                 backgroundColor: 'rgba(0,0,0,0.85)',
-                zIndex: 1
+                zIndex: 1,
+                opacity: hoveredVideo ? 0 : 1,
+                transition: 'opacity 0.4s ease'
             }} />
 
             {/* Nebula Background */}

@@ -167,7 +167,7 @@ function GlobalLayer() {
           position: 'fixed',
           inset: 0,
           backgroundColor: hoveredVideo.color,
-          opacity: 0.15,
+          opacity: 1,
           transition: 'opacity 0.6s ease, background-color 0.6s ease',
           pointerEvents: 'none',
           zIndex: 1500

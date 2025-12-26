@@ -39,7 +39,7 @@ const Header = ({ isOpen, showMenuItems = true, onToggle, searchTerm, onSearchCh
     // Calculate Palette Videos
     const paletteVideos = useMemo(() => {
         const favs = processedVideos.filter(pv => favorites.some(fav => fav.url === pv.url));
-        const base = favs.length > 0 ? favs : processedVideos.slice(0, 15);
+        const base = favs;
         return base.sort((a, b) => a.wheelY - b.wheelY); // Ascending
     }, [favorites]);
 
@@ -205,6 +205,21 @@ const Header = ({ isOpen, showMenuItems = true, onToggle, searchTerm, onSearchCh
                                     </div>
                                 );
                             })}
+                            {paletteVideos.length === 0 && (
+                                <div style={{
+                                    color: 'rgba(255,255,255,0.4)',
+                                    fontSize: '0.7rem',
+                                    fontWeight: '500',
+                                    textTransform: 'none',
+                                    letterSpacing: '0.1rem',
+                                    fontFamily: "'Inter', sans-serif",
+                                    textAlign: 'right',
+                                    paddingTop: '20px',
+                                    width: '200px'
+                                }}>
+                                    Your palette is empty. Explore our videos and add colors.
+                                </div>
+                            )}
                         </div>
                     )}
                 </div>
