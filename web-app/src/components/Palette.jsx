@@ -139,7 +139,8 @@ const Palette = ({ videos, onClose, setShowPalette, showFullPalette, hoveredVide
                 zIndex: 1600,
                 backgroundColor: hoveredVideo ? 'transparent' : 'black',
                 overflow: 'hidden',
-                transition: 'background-color 0.4s ease'
+                transition: 'background-color 0.4s ease',
+                pointerEvents: 'none' // Allow clicks to pass through to LogoPage
             }}
         >
             {/* Backdrop for fade - Hide when hovering to show pure color */}

@@ -14,30 +14,12 @@ import Menu from './components/Menu';
 import MenuToggle from './components/MenuToggle';
 import VideoModal from './components/VideoModal';
 import { VideoProvider, useVideo } from './contexts/VideoContext';
-
-function AppContent() {
-  return (
-    <Routes>
-      <Route path="/" element={<LogoPage />} />
-      <Route path="/previoushome" element={<PreviousHomePage />} />
-      <Route path="/wheel" element={<Blind />} />
-      <Route path="/bloc" element={<Bloc />} />
-      <Route path="/palette" element={<Palette />} />
-      <Route path="/palette/:color" element={<Palette />} />
-      <Route path="/point" element={<Point />} />
-      <Route path="/gradient" element={<Gradient />} />
-      <Route path="/secret" element={<SecretPage />} />
-      <Route path="/:color" element={<LogoPage />} />
-    </Routes>
-  );
-}
-
 import { parseVideoTitle } from './utils/titleParser';
 import videos from './data/videos.json';
 import { processedVideos } from './utils/nebulaConfig';
 import Header from './components/Header';
 
-function GlobalLayer() {
+const MainLayout = () => {
   const navigate = useNavigate();
   const { currentVideo, openVideo, closeVideo, options } = useVideo();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -45,9 +27,16 @@ function GlobalLayer() {
   const [showPalette, setShowPalette] = useState(false);
   const [searchResults, setSearchResults] = useState([]);
   const [hoveredVideo, setHoveredVideo] = useState(null);
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 
   // Check if there's a video to replay
   const hasReplayVideo = !!sessionStorage.getItem('lastPlayedVideo');
+
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth < 768);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   const handleToggle = () => {
     if (currentVideo) {
@@ -58,7 +47,6 @@ function GlobalLayer() {
     } else {
       // Toggle menu - if closing, also clear active overlays
       if (isMenuOpen) {
-        setShowPalette(false);
         setShowPalette(false);
         setSearchTerm('');
         setHoveredVideo(null);
@@ -135,6 +123,9 @@ function GlobalLayer() {
 
   return (
     <>
+      {isMobile && <MobileOverlay />}
+      <CustomCursor />
+
       <Header
         isOpen={showX}
         showMenuItems={isMenuOpen}
@@ -161,31 +152,9 @@ function GlobalLayer() {
         setHoveredVideo={setHoveredVideo}
       />
 
-      {/* Global Hover Background for Search and Palette */}
-      {hoveredVideo && (
-        <div style={{
-          position: 'fixed',
-          inset: 0,
-          backgroundColor: hoveredVideo.color,
-          opacity: 1,
-          transition: 'opacity 0.6s ease, background-color 0.6s ease',
-          pointerEvents: 'none',
-          zIndex: 1500
-        }} />
-      )}
+      {/* Palette Overlay Removed to unify interaction model */}
+      {/* {showPalette && isMenuOpen && <Palette ... />} */}
 
-      {showPalette && isMenuOpen && <Palette
-        setShowPalette={setShowPalette}
-        showFullPalette={showPalette}
-        hoveredVideo={hoveredVideo}
-        setHoveredVideo={setHoveredVideo}
-        onClose={() => {
-          setShowPalette(false);
-          setSearchTerm('');
-          setHoveredVideo(null);
-          navigate('/');
-        }}
-      />}
       {currentVideo && (
         <VideoModal
           video={currentVideo}
@@ -193,29 +162,32 @@ function GlobalLayer() {
           backdropColor={options.backdropColor || 'rgba(0,0,0,0.95)'}
         />
       )}
+
+      <Routes>
+        <Route path="/" element={<LogoPage hoveredVideo={hoveredVideo} setHoveredVideo={setHoveredVideo} />} />
+        {/* Pass hoveredVideo props to dynamic route as well */}
+        <Route path="/:color" element={<LogoPage hoveredVideo={hoveredVideo} setHoveredVideo={setHoveredVideo} />} />
+        <Route path="/previoushome" element={<PreviousHomePage />} />
+        <Route path="/wheel" element={<Blind />} />
+        <Route path="/bloc" element={<Bloc />} />
+        <Route path="/palette" element={<Palette />} />
+        <Route path="/palette/:color" element={<Palette />} />
+        <Route path="/point" element={<Point />} />
+        <Route path="/gradient" element={<Gradient />} />
+        <Route path="/secret" element={<SecretPage />} />
+      </Routes>
     </>
   );
-}
+};
 
 import { FavoritesProvider } from './contexts/FavoritesContext';
 
 function App() {
-  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
-
-  useEffect(() => {
-    const handleResize = () => setIsMobile(window.innerWidth < 768);
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
-
   return (
     <Router>
       <VideoProvider>
         <FavoritesProvider>
-          {isMobile && <MobileOverlay />}
-          <CustomCursor />
-          <GlobalLayer />
-          <AppContent />
+          <MainLayout />
         </FavoritesProvider>
       </VideoProvider>
     </Router>

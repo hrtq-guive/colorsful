@@ -4,18 +4,21 @@ import { parseVideoTitle } from '../utils/titleParser';
 import { useVideo } from '../contexts/VideoContext';
 import { processedVideos, nebulaIslands, getLogoMaxRadiusAtAngle } from '../utils/nebulaConfig';
 
-const LogoPage = () => {
+const LogoPage = ({ hoveredVideo: globalHoveredVideo, setHoveredVideo: setGlobalHoveredVideo }) => {
     const { color } = useParams();
     const navigate = useNavigate();
-    const { currentVideo, openVideo, closeVideo } = useVideo();
+    const { currentVideo, openVideo } = useVideo();
     const [lastVideo, setLastVideo] = useState(null);
-    const [hoveredVideo, setHoveredVideo] = useState(null);
     const [isBrandingHovered, setIsBrandingHovered] = useState(false);
     const [showCredit, setShowCredit] = useState(false);
     const [isInsideLogo, setIsInsideLogo] = useState(false);
     const creditTimeoutRef = useRef(null);
     const wheelRef = useRef(null);
     const voronoiCanvasRef = useRef(null);
+
+    // Use global state if provided, otherwise fallback (though App should provide it)
+    const hoveredVideo = globalHoveredVideo;
+    const setHoveredVideo = setGlobalHoveredVideo || (() => { });
 
     const handleVideoClose = () => {
         setLastVideo(currentVideo);

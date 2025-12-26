@@ -214,7 +214,7 @@ const Header = ({ isOpen, showMenuItems = true, onToggle, searchTerm, onSearchCh
                                     letterSpacing: '0.1rem',
                                     fontFamily: "'Inter', sans-serif",
                                     textAlign: 'right',
-                                    paddingTop: '20px',
+                                    paddingTop: '5px',
                                     width: '200px'
                                 }}>
                                     Your palette is empty. Explore our videos and add colors.
