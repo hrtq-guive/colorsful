@@ -19,13 +19,13 @@ const VideoCard = ({ video, index }) => {
 
     // Batch GIF preloading - 16 tiles at a time
     useEffect(() => {
-        // Load in batches of 16 tiles
+        // Load in batches of 16 tiles with minimal delay
         // Batch 0 (tiles 0-15): immediate
-        // Batch 1 (tiles 16-31): 500ms delay
-        // Batch 2 (tiles 32-47): 1000ms delay, etc.
+        // Batch 1 (tiles 16-31): 100ms delay
+        // Batch 2 (tiles 32-47): 200ms delay, etc.
         const batchSize = 16;
         const batchIndex = Math.floor(index / batchSize);
-        const preloadDelay = batchIndex * 500; // 500ms between batches
+        const preloadDelay = batchIndex * 100; // 100ms between batches (fast!)
 
         const timer = setTimeout(() => {
             const img = new Image();
