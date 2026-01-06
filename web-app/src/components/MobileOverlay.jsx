@@ -6,8 +6,8 @@ const MobileOverlay = () => {
             position: 'fixed',
             top: 0,
             left: 0,
-            width: '100vw',
-            height: '100vh',
+            width: '100%',
+            height: '100dvh',
             backgroundColor: 'black',
             zIndex: 9999,
             display: 'flex',
@@ -16,7 +16,8 @@ const MobileOverlay = () => {
             alignItems: 'center',
             color: 'white',
             textAlign: 'center',
-            padding: '20px'
+            padding: '20px',
+            boxSizing: 'border-box'
         }}>
             <h1 style={{
                 fontSize: '1.2rem',

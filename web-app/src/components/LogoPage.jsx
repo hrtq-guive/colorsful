@@ -60,6 +60,9 @@ const LogoPage = ({ hoveredVideo: globalHoveredVideo, setHoveredVideo: setGlobal
     };
 
     useEffect(() => {
+        // Skip Nebula rendering on touch devices
+        if ('ontouchstart' in window || navigator.maxTouchPoints > 0) return;
+
         const canvas = voronoiCanvasRef.current;
         if (!canvas) return;
         const ctx = canvas.getContext('2d', { alpha: true });
@@ -120,14 +123,14 @@ const LogoPage = ({ hoveredVideo: globalHoveredVideo, setHoveredVideo: setGlobal
                 onMouseLeave={() => setIsBrandingHovered(false)}
                 onClick={() => { setShowCredit(true); clearTimeout(creditTimeoutRef.current); creditTimeoutRef.current = setTimeout(() => setShowCredit(false), 3000); }}
                 style={{
-                    position: 'fixed', top: '30px', left: '30px',
+                    position: 'fixed', top: '28px', left: '30px',
                     color: isBrandingHovered ? '#fff' : 'rgba(255, 255, 255, 0.4)',
                     fontSize: '1.2rem', fontWeight: '600', textTransform: 'uppercase',
                     letterSpacing: '0.3rem', zIndex: 100, opacity: currentVideo ? 0 : 1, transition: 'all 0.3s ease', cursor: 'pointer'
                 }}
             >COLORSFUL</div>
 
-            <div style={{ position: 'fixed', top: '58px', left: '30px', zIndex: 100, opacity: (showCredit && !currentVideo) ? 1 : 0, pointerEvents: showCredit ? 'auto' : 'none', transition: 'opacity 0.4s ease', transform: showCredit ? 'translateY(0)' : 'translateY(-10px)' }}>
+            <div style={{ position: 'fixed', top: '56px', left: '30px', zIndex: 100, opacity: (showCredit && !currentVideo) ? 1 : 0, pointerEvents: showCredit ? 'auto' : 'none', transition: 'opacity 0.4s ease', transform: showCredit ? 'translateY(0)' : 'translateY(-10px)' }}>
                 <a href="https://www.heretique.fr" target="_blank" rel="noopener noreferrer" style={{ color: 'white', textDecoration: 'none', fontSize: '0.6rem', fontWeight: '600', opacity: 0.6, textTransform: 'uppercase', letterSpacing: '0.2rem', display: 'block' }}>created by hérétique</a>
                 <div style={{ color: 'white', fontSize: '0.6rem', fontWeight: '600', opacity: 0.6, textTransform: 'uppercase', letterSpacing: '0.2rem', marginTop: '4px' }}>on top of COLORSxSTUDIOS' catalog</div>
             </div>

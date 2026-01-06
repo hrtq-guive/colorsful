@@ -11,6 +11,12 @@ const Header = ({ isOpen, showMenuItems = true, onToggle, searchTerm, onSearchCh
     const navigate = useNavigate();
     const { favorites } = useFavorites();
 
+    // Detect touch device
+    const [isTouch, setIsTouch] = useState(false);
+    useEffect(() => {
+        setIsTouch('ontouchstart' in window || navigator.maxTouchPoints > 0);
+    }, []);
+
     const isSomethingActive = isSearchActive || isPaletteActive;
     const isSomethingHovered = hoveredItem !== null;
 
@@ -46,7 +52,7 @@ const Header = ({ isOpen, showMenuItems = true, onToggle, searchTerm, onSearchCh
     return (
         <div style={{
             position: 'fixed',
-            top: '30px',
+            top: '20px',
             right: '30px',
             zIndex: 2000,
             display: 'flex',
@@ -76,50 +82,21 @@ const Header = ({ isOpen, showMenuItems = true, onToggle, searchTerm, onSearchCh
                 transition: 'all 0.5s cubic-bezier(0.16, 1, 0.3, 1)',
                 paddingRight: '10px'
             }}>
-                {/* VIEW SWITCHER - Leftmost */}
-                <div
-                    onMouseEnter={() => setHoveredItem('viewswitcher')}
-                    onMouseLeave={() => setHoveredItem(null)}
-                    onClick={() => {
-                        const currentPath = window.location.pathname;
-                        if (currentPath === '/grid') {
-                            navigate('/');
-                        } else {
-                            navigate('/grid');
-                        }
-                        onToggle(); // Close menu after switching
-                    }}
-                    data-cursor="small"
-                    style={{
-                        cursor: 'pointer',
-                        color: 'white',
-                        fontSize: '1.2rem',
-                        fontWeight: '600',
-                        textTransform: 'uppercase',
-                        letterSpacing: '0.3rem',
-                        fontFamily: "var(--font-primary)",
-                        opacity: getOpacity('viewswitcher', false),
-                        transition: 'opacity 0.3s ease'
-                    }}
-                >
-                    {window.location.pathname === '/grid' ? 'WHEEL VIEW' : 'GRID VIEW'}
-                </div>
 
-                {/* PALETTE - Center */}
-                <div
-                    onMouseEnter={() => setHoveredItem('palette')}
-                    onMouseLeave={() => setHoveredItem(null)}
-                    style={{
-                        position: 'relative',
-                        opacity: getOpacity('palette', isPaletteActive),
-                        transition: 'opacity 0.3s ease',
-                        display: 'flex',
-                        flexDirection: 'column',
-                        alignItems: 'center'
-                    }}
-                >
+                {/* VIEW SWITCHER - Hidden on Touch */}
+                {!isTouch && (
                     <div
-                        onClick={onPaletteToggle}
+                        onMouseEnter={() => setHoveredItem('viewswitcher')}
+                        onMouseLeave={() => setHoveredItem(null)}
+                        onClick={() => {
+                            const currentPath = window.location.pathname;
+                            if (currentPath === '/grid') {
+                                navigate('/');
+                            } else {
+                                navigate('/grid');
+                            }
+                            onToggle(); // Close menu after switching
+                        }}
                         data-cursor="small"
                         style={{
                             cursor: 'pointer',
@@ -128,107 +105,147 @@ const Header = ({ isOpen, showMenuItems = true, onToggle, searchTerm, onSearchCh
                             fontWeight: '600',
                             textTransform: 'uppercase',
                             letterSpacing: '0.3rem',
-                            fontFamily: "var(--font-primary)"
+                            fontFamily: "var(--font-primary)",
+                            opacity: getOpacity('viewswitcher', false),
+                            transition: 'opacity 0.3s ease'
                         }}
                     >
-                        PALETTE
+                        {window.location.pathname === '/grid' ? 'WHEEL VIEW' : 'GRID VIEW'}
                     </div>
+                )}
 
-                    {/* Palette Dropdown List */}
-                    {isPaletteActive && (
-                        <div style={{
-                            position: 'absolute',
-                            top: '50px',
-                            right: 0,
-                            width: '300px',
+                {/* PALETTE - Center - Hidden on Touch */}
+                {!isTouch && (
+                    <div
+                        onMouseEnter={() => setHoveredItem('palette')}
+                        onMouseLeave={() => setHoveredItem(null)}
+                        style={{
+                            position: 'relative',
+                            opacity: getOpacity('palette', isPaletteActive),
+                            transition: 'opacity 0.3s ease',
                             display: 'flex',
                             flexDirection: 'column',
-                            alignItems: 'flex-end', // Align items to the right
-                            gap: '0px', // Removed gap to allow seamless color transition
-                            padding: '10px 0',
-                            zIndex: 3000,
-                            maxHeight: 'calc(100vh - 100px)',
-                            overflowY: 'auto',
-                            scrollbarWidth: 'none',
-                            msOverflowStyle: 'none'
-                        }}>
-                            <style>{`.palette-scroll::-webkit-scrollbar { display: none; }`}</style>
-                            {paletteVideos.map((video, idx) => {
-                                const { fullArtist, songTitle } = parseVideoTitle(video.title);
-                                const isHovered = hoveredVideo && (hoveredVideo.id === video.id || hoveredVideo.url === video.url);
-                                return (
-                                    <div
-                                        key={video.id}
-                                        onMouseEnter={() => setHoveredVideo(video)} // Use prop
-                                        onMouseLeave={() => setHoveredVideo(null)} // Use prop
-                                        onClick={() => handleResultSelect(video)}
-                                        data-cursor="small"
-                                        style={{
-                                            cursor: 'pointer',
-                                            display: 'flex',
-                                            flexDirection: 'row-reverse', // Circle on right
-                                            alignItems: 'center',
-                                            gap: '15px',
-                                            opacity: isHovered || !hoveredVideo ? 1 : 0.4,
-                                            transition: 'all 0.2s ease',
-                                            width: '100%',
-                                            padding: '10px 0'
-                                        }}
-                                    >
-                                        <div
-                                            style={{
-                                                width: '14px',
-                                                height: '14px',
-                                                borderRadius: '50%',
-                                                backgroundColor: video.color,
-                                                flexShrink: 0,
-                                                boxShadow: isHovered ? `0 0 10px ${video.color}` : 'none',
-                                                transition: 'all 0.3s ease'
-                                            }}
-                                        />
-                                        <div style={{ display: 'flex', flexDirection: 'column', textAlign: 'right', pointerEvents: 'none' }}>
-                                            <div style={{
-                                                color: 'white',
-                                                fontSize: '0.8rem',
-                                                fontWeight: '700',
-                                                textTransform: 'uppercase',
-                                                letterSpacing: '0.12rem',
-                                                fontFamily: "var(--font-primary)"
-                                            }}>
-                                                {fullArtist}
-                                            </div>
-                                            <div style={{
-                                                color: 'rgba(255,255,255,0.4)',
-                                                fontSize: '0.7rem',
-                                                fontWeight: '500',
-                                                textTransform: 'uppercase',
-                                                letterSpacing: '0.1rem',
-                                                fontFamily: "var(--font-primary)"
-                                            }}>
-                                                {songTitle}
-                                            </div>
-                                        </div>
-                                    </div>
-                                );
-                            })}
-                            {paletteVideos.length === 0 && (
-                                <div style={{
-                                    color: 'rgba(255,255,255,0.4)',
-                                    fontSize: '0.7rem',
-                                    fontWeight: '500',
-                                    textTransform: 'none',
-                                    letterSpacing: '0.1rem',
-                                    fontFamily: "var(--font-primary)",
-                                    textAlign: 'right',
-                                    paddingTop: '5px',
-                                    width: '200px'
-                                }}>
-                                    Your palette is empty. Explore our videos and add colors.
-                                </div>
-                            )}
+                            alignItems: 'center'
+                        }}
+                    >
+                        <div
+                            onClick={onPaletteToggle}
+                            data-cursor="small"
+                            style={{
+                                cursor: 'pointer',
+                                color: 'white',
+                                fontSize: '1.2rem',
+                                fontWeight: '600',
+                                textTransform: 'uppercase',
+                                letterSpacing: '0.3rem',
+                                fontFamily: "var(--font-primary)"
+                            }}
+                        >
+                            PALETTE
                         </div>
-                    )}
-                </div>
+
+                        {/* Palette Dropdown List */}
+                        {isPaletteActive && (
+                            <div style={{
+                                position: 'absolute',
+                                top: '50px',
+                                right: 0,
+                                width: '300px',
+                                display: 'flex',
+                                flexDirection: 'column',
+                                alignItems: 'flex-end', // Align items to the right
+                                gap: '0px', // Removed gap to allow seamless color transition
+                                padding: '10px 0',
+                                zIndex: 3000,
+                                maxHeight: 'calc(100vh - 100px)',
+                                overflowY: 'auto',
+                                scrollbarWidth: 'none', // Hide scrollbar Firefox
+                                msOverflowStyle: 'none' // Hide scrollbar IE/Edge
+                            }}>
+                                <style>{`.palette-scroll::-webkit-scrollbar { display: none; }`}</style>
+                                {paletteVideos.length === 0 ? (
+                                    <div style={{
+                                        color: 'rgba(255,255,255,0.5)',
+                                        fontSize: '0.8rem',
+                                        padding: '20px',
+                                        textAlign: 'right',
+                                        fontFamily: "var(--font-primary)",
+                                        letterSpacing: '0.1rem'
+                                    }}>
+                                        NO COLORS SAVED
+                                    </div>
+                                ) : (
+                                    paletteVideos.map((video) => (
+                                        <div
+                                            key={video.url}
+                                            onClick={() => {
+                                                const slug = (video.hexpickhome || video.color).replace('#', '');
+                                                navigate(`/${slug}`);
+                                                onPaletteToggle(); // Close palette
+                                                onToggle(); // Close menu
+                                            }}
+                                            style={{
+                                                width: '100%',
+                                                padding: '15px 20px',
+                                                cursor: 'pointer',
+                                                display: 'flex',
+                                                alignItems: 'center',
+                                                justifyContent: 'flex-end', // Align content to right
+                                                gap: '15px',
+                                                transition: 'background 0.2s ease',
+                                            }}
+                                            onMouseEnter={(e) => {
+                                                e.currentTarget.style.background = 'rgba(255,255,255,0.05)';
+                                                setHoveredVideo(video); // Set hovered video context
+                                            }}
+                                            onMouseLeave={(e) => {
+                                                e.currentTarget.style.background = 'transparent';
+                                                setHoveredVideo(null); // Clear hovered video context
+                                            }}
+                                        >
+                                            <div style={{
+                                                display: 'flex',
+                                                flexDirection: 'column',
+                                                alignItems: 'flex-end', // Align text to right
+                                                gap: '4px'
+                                            }}>
+                                                <span style={{
+                                                    color: 'white',
+                                                    fontSize: '0.9rem',
+                                                    fontWeight: '600',
+                                                    textAlign: 'right',
+                                                    fontFamily: "var(--font-primary)",
+                                                    letterSpacing: '0.05rem'
+                                                }}>
+                                                    {parseVideoTitle(video.title).fullArtist}
+                                                </span>
+                                                <span style={{
+                                                    color: 'rgba(255,255,255,0.6)',
+                                                    fontSize: '0.8rem',
+                                                    textAlign: 'right',
+                                                    fontFamily: "var(--font-primary)",
+                                                    letterSpacing: '0.05rem'
+                                                }}>
+                                                    {parseVideoTitle(video.title).songTitle}
+                                                </span>
+                                            </div>
+                                            <div style={{
+                                                width: '30px',
+                                                height: '30px',
+                                                borderRadius: '50%',
+                                                background: video.hexpickhome || video.color, // Use hexpickhome
+                                                border: '1px solid rgba(255,255,255,0.2)',
+                                                flexShrink: 0
+                                            }} />
+                                        </div>
+                                    ))
+                                )}
+                            </div>
+                        )}
+                    </div>
+                )}
+
+
 
                 {/* SEARCH - Rightmost */}
                 <div

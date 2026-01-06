@@ -39,8 +39,36 @@ const VideoCard = ({ video, index, loadedBatches }) => {
         navigate(`/${slug}`);
     };
 
+    // Detect touch device
+    const [isTouch, setIsTouch] = useState(false);
+    const [isVisible, setIsVisible] = useState(false);
+    const cardRef = useRef(null);
+
+    useEffect(() => {
+        setIsTouch('ontouchstart' in window || navigator.maxTouchPoints > 0);
+
+        // Intersection Observer to track visibility
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                setIsVisible(entry.isIntersecting);
+            },
+            { threshold: 0.5 } // Trigger when 50% visible
+        );
+
+        if (cardRef.current) {
+            observer.observe(cardRef.current);
+        }
+
+        return () => {
+            if (cardRef.current) {
+                observer.unobserve(cardRef.current);
+            }
+        };
+    }, []);
+
     return (
         <div
+            ref={cardRef}
             onClick={handleClick}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
@@ -56,7 +84,7 @@ const VideoCard = ({ video, index, loadedBatches }) => {
         >
             {/* Image/GIF Layer */}
             <img
-                src={isHovered ? gifPath : jpgPath}
+                src={(isHovered || (isTouch && isVisible)) ? gifPath : jpgPath}
                 alt={`${fullArtist} - ${songTitle}`}
                 style={{
                     width: '100%',
@@ -91,6 +119,12 @@ const Grid = () => {
     const [isBrandingHovered, setIsBrandingHovered] = useState(false);
     const [showCredit, setShowCredit] = useState(false);
     const creditTimeoutRef = useRef(null);
+
+    // Detect touch device
+    const [isTouch, setIsTouch] = useState(false);
+    useEffect(() => {
+        setIsTouch('ontouchstart' in window || navigator.maxTouchPoints > 0);
+    }, []);
 
 
 
@@ -419,7 +453,7 @@ const Grid = () => {
                 }}
                 style={{
                     position: 'fixed',
-                    top: '36px',
+                    top: '28px', // Aligned with menu
                     left: '30px',
                     color: isBrandingHovered ? '#fff' : 'rgba(255, 255, 255, 0.4)',
                     fontSize: '1.2rem',
@@ -435,7 +469,7 @@ const Grid = () => {
 
             <div style={{
                 position: 'fixed',
-                top: '64px',
+                top: '56px',
                 left: '30px',
                 zIndex: 100,
                 opacity: (showCredit && !currentVideo) ? 1 : 0,
@@ -480,74 +514,76 @@ const Grid = () => {
                 ))}
             </div>
 
-            {/* Controls */}
-            <div style={{
-                position: 'fixed',
-                bottom: '30px',
-                right: '30px',
-                zIndex: 100
-            }}>
+            {/* Controls (Desktop Only) */}
+            {!isTouch && (
                 <div style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    background: 'transparent',
-                    border: '1px solid rgba(255,255,255,0.2)',
-                    borderRadius: '50px',
-                    padding: '0',
-                    backdropFilter: 'blur(10px)',
-                    overflow: 'hidden'
+                    position: 'fixed',
+                    bottom: '30px',
+                    right: '30px',
+                    zIndex: 100
                 }}>
-                    <div
-                        onClick={handleDecreaseTiles}
-                        style={{
-                            padding: '12px 24px',
-                            cursor: 'pointer',
-                            color: 'rgba(255, 255, 255, 0.4)',
-                            fontSize: '0.9rem',
-                            fontWeight: '600',
-                            textTransform: 'uppercase',
-                            letterSpacing: '0.15rem',
-                            fontFamily: 'var(--font-primary)',
-                            transition: 'all 0.2s',
-                            borderRight: '1px solid rgba(255,255,255,0.2)'
-                        }}
-                        onMouseEnter={e => {
-                            e.target.style.background = 'rgba(255,255,255,0.1)';
-                            e.target.style.color = 'rgba(255, 255, 255, 0.8)';
-                        }}
-                        onMouseLeave={e => {
-                            e.target.style.background = 'transparent';
-                            e.target.style.color = 'rgba(255, 255, 255, 0.4)';
-                        }}
-                    >
-                        LESS
-                    </div>
-                    <div
-                        onClick={handleIncreaseTiles}
-                        style={{
-                            padding: '12px 24px',
-                            cursor: 'pointer',
-                            color: 'rgba(255, 255, 255, 0.4)',
-                            fontSize: '0.9rem',
-                            fontWeight: '600',
-                            textTransform: 'uppercase',
-                            letterSpacing: '0.15rem',
-                            fontFamily: 'var(--font-primary)',
-                            transition: 'all 0.2s'
-                        }}
-                        onMouseEnter={e => {
-                            e.target.style.background = 'rgba(255,255,255,0.1)';
-                            e.target.style.color = 'rgba(255, 255, 255, 0.8)';
-                        }}
-                        onMouseLeave={e => {
-                            e.target.style.background = 'transparent';
-                            e.target.style.color = 'rgba(255, 255, 255, 0.4)';
-                        }}
-                    >
-                        MORE
+                    <div style={{
+                        display: 'flex',
+                        alignItems: 'center',
+                        background: 'transparent',
+                        border: '1px solid rgba(255,255,255,0.2)',
+                        borderRadius: '50px',
+                        padding: '0',
+                        backdropFilter: 'blur(10px)',
+                        overflow: 'hidden'
+                    }}>
+                        <div
+                            onClick={handleDecreaseTiles}
+                            style={{
+                                padding: '12px 24px',
+                                cursor: 'pointer',
+                                color: 'rgba(255, 255, 255, 0.4)',
+                                fontSize: '0.9rem',
+                                fontWeight: '600',
+                                textTransform: 'uppercase',
+                                letterSpacing: '0.15rem',
+                                fontFamily: 'var(--font-primary)',
+                                transition: 'all 0.2s',
+                                borderRight: '1px solid rgba(255,255,255,0.2)'
+                            }}
+                            onMouseEnter={e => {
+                                e.target.style.background = 'rgba(255,255,255,0.1)';
+                                e.target.style.color = 'rgba(255, 255, 255, 0.8)';
+                            }}
+                            onMouseLeave={e => {
+                                e.target.style.background = 'transparent';
+                                e.target.style.color = 'rgba(255, 255, 255, 0.4)';
+                            }}
+                        >
+                            LESS
+                        </div>
+                        <div
+                            onClick={handleIncreaseTiles}
+                            style={{
+                                padding: '12px 24px',
+                                cursor: 'pointer',
+                                color: 'rgba(255, 255, 255, 0.4)',
+                                fontSize: '0.9rem',
+                                fontWeight: '600',
+                                textTransform: 'uppercase',
+                                letterSpacing: '0.15rem',
+                                fontFamily: 'var(--font-primary)',
+                                transition: 'all 0.2s'
+                            }}
+                            onMouseEnter={e => {
+                                e.target.style.background = 'rgba(255,255,255,0.1)';
+                                e.target.style.color = 'rgba(255, 255, 255, 0.8)';
+                            }}
+                            onMouseLeave={e => {
+                                e.target.style.background = 'transparent';
+                                e.target.style.color = 'rgba(255, 255, 255, 0.4)';
+                            }}
+                        >
+                            MORE
+                        </div>
                     </div>
                 </div>
-            </div>
+            )}
         </div>
     );
 };

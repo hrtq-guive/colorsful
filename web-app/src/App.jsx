@@ -139,6 +139,7 @@ const MainLayout = () => {
 
   return (
     <>
+      {/* Mobile restriction */}
       {isMobile && <MobileOverlay />}
       <CustomCursor />
 

@@ -6,7 +6,7 @@ const MenuToggle = ({ isOpen, onClick, style }) => {
             onClick={onClick}
             style={{
                 position: 'fixed',
-                top: '30px',
+                top: '20px',
                 right: '30px',
                 zIndex: 2000,
                 background: 'transparent',
