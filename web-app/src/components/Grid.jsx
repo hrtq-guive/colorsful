@@ -9,12 +9,32 @@ const VideoCard = ({ video, index }) => {
     const { openVideo, setOriginRoute } = useVideo();
     const navigate = useNavigate();
     const [isHovered, setIsHovered] = useState(false);
+    const [gifPreloaded, setGifPreloaded] = useState(false);
     const videoId = video.url.split('v=')[1]?.split('&')[0];
     const { fullArtist, songTitle } = parseVideoTitle(video.title);
 
     // Asset paths
     const jpgPath = `${ASSET_BASE_URL}captures/${videoId}_45s.jpg`;
     const gifPath = `${ASSET_BASE_URL}captures/${videoId}_45s.gif`;
+
+    // Batch GIF preloading - 16 tiles at a time
+    useEffect(() => {
+        // Load in batches of 16 tiles
+        // Batch 0 (tiles 0-15): immediate
+        // Batch 1 (tiles 16-31): 500ms delay
+        // Batch 2 (tiles 32-47): 1000ms delay, etc.
+        const batchSize = 16;
+        const batchIndex = Math.floor(index / batchSize);
+        const preloadDelay = batchIndex * 500; // 500ms between batches
+
+        const timer = setTimeout(() => {
+            const img = new Image();
+            img.src = gifPath;
+            img.onload = () => setGifPreloaded(true);
+        }, preloadDelay);
+
+        return () => clearTimeout(timer);
+    }, [gifPath, index]);
 
     const handleClick = () => {
         setOriginRoute('/grid'); // Explicitly set origin before opening
