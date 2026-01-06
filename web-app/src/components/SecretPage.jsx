@@ -14,13 +14,28 @@ const SecretPage = () => {
     }, []);
 
     const versions = [
-        { path: '/', name: 'Logo (Perfectionist)', description: 'Final Hybrid Nebula (Heart + Shell)' },
-        { path: '/previoushome', name: 'Logo (Previous)', description: 'Watercolor Nebula (r < 25 + N=20)' },
+        // Main Pages
+        { path: '/', name: 'Home (Logo Nebula)', description: 'Hybrid Nebula with hexpickhome colors' },
+        { path: '/previoushome', name: 'Previous Home', description: 'Watercolor Nebula (r < 25 + N=20)' },
+
+        // Grid Variations
+        { path: '/grid', name: 'Grid', description: 'Sorted color grid with 45s GIFs' },
+        { path: '/gridhistory', name: 'Grid History', description: 'GIFs sorted by generation time' },
+        { path: '/gridnebula', name: 'Grid Nebula', description: 'Color-affinity Voronoi landscape' },
+        { path: '/logogrid', name: 'Logo Grid', description: 'Zoomable infinite grid' },
+
+        // Legacy Visualizations
         { path: '/wheel', name: 'Wheel', description: 'Original color wheel with dynamic shape' },
         { path: '/gradient', name: 'Gradient', description: 'Organic gradient nebula' },
         { path: '/bloc', name: 'Bloc', description: 'Grid-based color blocks' },
+        { path: '/point', name: 'Point', description: 'Single point interaction' },
+
+        // User Features
         { path: '/palette', name: 'Palette', description: 'Your favorited videos' },
-        { path: '/point', name: 'Point', description: 'Single point interaction' }
+
+        // Setup/Admin Pages
+        { path: '/gridsetup', name: 'Grid Setup', description: 'Color category editor (hex45)' },
+        { path: '/homesetup', name: 'Home Setup', description: 'Color picker for hexpickhome (modal1sec)' }
     ];
 
     return (

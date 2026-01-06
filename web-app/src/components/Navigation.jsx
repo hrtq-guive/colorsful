@@ -13,6 +13,8 @@ const Navigation = () => {
             mixBlendMode: 'difference' // Ensure visibility on light/dark backgrounds
         }}>
             <StyleLink to="/" label="WHEEL" />
+            <StyleLink to="/grid" label="GRID" />
+            <StyleLink to="/logogrid" label="ZOOM" />
             <StyleLink to="/bloc" label="BLOC" />
             <StyleLink to="/blind" label="BLIND" />
         </nav>

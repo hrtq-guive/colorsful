@@ -76,28 +76,34 @@ const Header = ({ isOpen, showMenuItems = true, onToggle, searchTerm, onSearchCh
                 transition: 'all 0.5s cubic-bezier(0.16, 1, 0.3, 1)',
                 paddingRight: '10px'
             }}>
-                {/* REPLAY LAST - Leftmost */}
-                {hasReplayVideo && (
-                    <div
-                        onMouseEnter={() => setHoveredItem('replay')}
-                        onMouseLeave={() => setHoveredItem(null)}
-                        onClick={onReplayLast}
-                        data-cursor="small"
-                        style={{
-                            cursor: 'pointer',
-                            color: 'white',
-                            fontSize: '1.2rem',
-                            fontWeight: '600',
-                            textTransform: 'uppercase',
-                            letterSpacing: '0.3rem',
-                            fontFamily: "'Inter', sans-serif",
-                            opacity: getOpacity('replay', false),
-                            transition: 'opacity 0.3s ease'
-                        }}
-                    >
-                        REPLAY LAST
-                    </div>
-                )}
+                {/* VIEW SWITCHER - Leftmost */}
+                <div
+                    onMouseEnter={() => setHoveredItem('viewswitcher')}
+                    onMouseLeave={() => setHoveredItem(null)}
+                    onClick={() => {
+                        const currentPath = window.location.pathname;
+                        if (currentPath === '/grid') {
+                            navigate('/');
+                        } else {
+                            navigate('/grid');
+                        }
+                        onToggle(); // Close menu after switching
+                    }}
+                    data-cursor="small"
+                    style={{
+                        cursor: 'pointer',
+                        color: 'white',
+                        fontSize: '1.2rem',
+                        fontWeight: '600',
+                        textTransform: 'uppercase',
+                        letterSpacing: '0.3rem',
+                        fontFamily: "var(--font-primary)",
+                        opacity: getOpacity('viewswitcher', false),
+                        transition: 'opacity 0.3s ease'
+                    }}
+                >
+                    {window.location.pathname === '/grid' ? 'WHEEL VIEW' : 'GRID VIEW'}
+                </div>
 
                 {/* PALETTE - Center */}
                 <div
@@ -122,7 +128,7 @@ const Header = ({ isOpen, showMenuItems = true, onToggle, searchTerm, onSearchCh
                             fontWeight: '600',
                             textTransform: 'uppercase',
                             letterSpacing: '0.3rem',
-                            fontFamily: "'Inter', sans-serif"
+                            fontFamily: "var(--font-primary)"
                         }}
                     >
                         PALETTE
@@ -187,7 +193,7 @@ const Header = ({ isOpen, showMenuItems = true, onToggle, searchTerm, onSearchCh
                                                 fontWeight: '700',
                                                 textTransform: 'uppercase',
                                                 letterSpacing: '0.12rem',
-                                                fontFamily: "'Inter', sans-serif"
+                                                fontFamily: "var(--font-primary)"
                                             }}>
                                                 {fullArtist}
                                             </div>
@@ -197,7 +203,7 @@ const Header = ({ isOpen, showMenuItems = true, onToggle, searchTerm, onSearchCh
                                                 fontWeight: '500',
                                                 textTransform: 'uppercase',
                                                 letterSpacing: '0.1rem',
-                                                fontFamily: "'Inter', sans-serif"
+                                                fontFamily: "var(--font-primary)"
                                             }}>
                                                 {songTitle}
                                             </div>
@@ -212,7 +218,7 @@ const Header = ({ isOpen, showMenuItems = true, onToggle, searchTerm, onSearchCh
                                     fontWeight: '500',
                                     textTransform: 'none',
                                     letterSpacing: '0.1rem',
-                                    fontFamily: "'Inter', sans-serif",
+                                    fontFamily: "var(--font-primary)",
                                     textAlign: 'right',
                                     paddingTop: '5px',
                                     width: '200px'
@@ -249,7 +255,7 @@ const Header = ({ isOpen, showMenuItems = true, onToggle, searchTerm, onSearchCh
                                 fontWeight: '600',
                                 textTransform: 'uppercase',
                                 letterSpacing: '0.3rem',
-                                fontFamily: "'Inter', sans-serif"
+                                fontFamily: "var(--font-primary)"
                             }}
                         >
                             SEARCH
@@ -277,7 +283,7 @@ const Header = ({ isOpen, showMenuItems = true, onToggle, searchTerm, onSearchCh
                                     outline: 'none',
                                     textTransform: 'uppercase',
                                     textAlign: 'right', // Align text right
-                                    fontFamily: "'Inter', sans-serif"
+                                    fontFamily: "var(--font-primary)"
                                 }}
                             />
                             {/* Detached Underline */}
@@ -351,7 +357,7 @@ const Header = ({ isOpen, showMenuItems = true, onToggle, searchTerm, onSearchCh
                                                 fontWeight: '700',
                                                 textTransform: 'uppercase',
                                                 letterSpacing: '0.12rem',
-                                                fontFamily: "'Inter', sans-serif"
+                                                fontFamily: "var(--font-primary)"
                                             }}>
                                                 {fullArtist}
                                             </div>
@@ -361,7 +367,7 @@ const Header = ({ isOpen, showMenuItems = true, onToggle, searchTerm, onSearchCh
                                                 fontWeight: '500',
                                                 textTransform: 'uppercase',
                                                 letterSpacing: '0.1rem',
-                                                fontFamily: "'Inter', sans-serif"
+                                                fontFamily: "var(--font-primary)"
                                             }}>
                                                 {songTitle}
                                             </div>

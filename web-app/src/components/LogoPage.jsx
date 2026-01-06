@@ -5,7 +5,7 @@ import { useVideo } from '../contexts/VideoContext';
 import { processedVideos, nebulaIslands, getLogoMaxRadiusAtAngle } from '../utils/nebulaConfig';
 
 const LogoPage = ({ hoveredVideo: globalHoveredVideo, setHoveredVideo: setGlobalHoveredVideo }) => {
-    const { color } = useParams();
+    const { videoId, color } = useParams();
     const navigate = useNavigate();
     const { currentVideo, openVideo } = useVideo();
     const [lastVideo, setLastVideo] = useState(null);
@@ -26,20 +26,36 @@ const LogoPage = ({ hoveredVideo: globalHoveredVideo, setHoveredVideo: setGlobal
     };
 
     useEffect(() => {
-        if (color) {
-            const video = processedVideos.find(v => v.color.replace('#', '').toLowerCase() === color.toLowerCase());
+        if (videoId) {
+            const video = processedVideos.find(v => {
+                const vId = v.url.split('v=')[1]?.split('&')[0];
+                return vId === videoId;
+            });
             if (video) {
                 if (!currentVideo || currentVideo.url !== video.url) {
-                    openVideo(video, { onClose: handleVideoClose, backdropColor: 'transparent' });
+                    openVideo(video, { onClose: handleVideoClose });
+                }
+            }
+        } else if (color) {
+            const targetColor = color.toLowerCase();
+            const video = processedVideos.find(v => {
+                const c1 = (v.hexpickhome || '').toLowerCase().replace('#', '');
+                const c2 = (v.color || '').toLowerCase().replace('#', '');
+                return c1 === targetColor || c2 === targetColor;
+            });
+            if (video) {
+                if (!currentVideo || currentVideo.url !== video.url) {
+                    openVideo(video, { onClose: handleVideoClose });
                 }
             }
         }
-    }, [color]);
+    }, [videoId, color]);
 
     const handleVideoSelect = (video) => {
         if (video) {
+            const vId = video.url.split('v=')[1]?.split('&')[0];
             openVideo(video, { onClose: handleVideoClose, backdropColor: 'transparent' });
-            navigate(`/${video.color.replace('#', '')}`);
+            navigate(`/video/${vId}`);
         }
     };
 
@@ -94,10 +110,10 @@ const LogoPage = ({ hoveredVideo: globalHoveredVideo, setHoveredVideo: setGlobal
     return (
         <div style={{
             width: '100vw', height: '100vh',
-            background: currentVideo ? currentVideo.color : (hoveredVideo ? hoveredVideo.color : '#0a0a0a'),
+            background: currentVideo ? (currentVideo.hexpickhome || currentVideo.color) : (hoveredVideo ? (hoveredVideo.hexpickhome || hoveredVideo.color) : '#0a0a0a'),
             transition: 'background-color 0.4s ease',
             color: 'white', display: 'flex', justifyContent: 'center', alignItems: 'center',
-            fontFamily: "'Inter', sans-serif", overflow: 'hidden'
+            fontFamily: "var(--font-primary)", overflow: 'hidden'
         }}>
             <div
                 onMouseEnter={() => { setIsBrandingHovered(true); setShowCredit(true); clearTimeout(creditTimeoutRef.current); creditTimeoutRef.current = setTimeout(() => setShowCredit(false), 3000); }}
@@ -112,7 +128,8 @@ const LogoPage = ({ hoveredVideo: globalHoveredVideo, setHoveredVideo: setGlobal
             >COLORSFUL</div>
 
             <div style={{ position: 'fixed', top: '58px', left: '30px', zIndex: 100, opacity: (showCredit && !currentVideo) ? 1 : 0, pointerEvents: showCredit ? 'auto' : 'none', transition: 'opacity 0.4s ease', transform: showCredit ? 'translateY(0)' : 'translateY(-10px)' }}>
-                <a href="https://www.heretique.fr" target="_blank" rel="noopener noreferrer" style={{ color: 'white', textDecoration: 'none', fontSize: '0.6rem', fontWeight: '600', opacity: 0.6, textTransform: 'uppercase', letterSpacing: '0.2rem' }}>created by hérétique</a>
+                <a href="https://www.heretique.fr" target="_blank" rel="noopener noreferrer" style={{ color: 'white', textDecoration: 'none', fontSize: '0.6rem', fontWeight: '600', opacity: 0.6, textTransform: 'uppercase', letterSpacing: '0.2rem', display: 'block' }}>created by hérétique</a>
+                <div style={{ color: 'white', fontSize: '0.6rem', fontWeight: '600', opacity: 0.6, textTransform: 'uppercase', letterSpacing: '0.2rem', marginTop: '4px' }}>on top of COLORSxSTUDIOS' catalog</div>
             </div>
 
             <div
@@ -141,18 +158,6 @@ const LogoPage = ({ hoveredVideo: globalHoveredVideo, setHoveredVideo: setGlobal
                         {parseVideoTitle(hoveredVideo.title).songTitle}
                     </div>
                 </>
-            )}
-
-            {lastVideo && !hoveredVideo && !currentVideo && (
-                <div
-                    onClick={() => handleVideoSelect(lastVideo)}
-                    style={{
-                        position: 'fixed', bottom: '30px', right: '30px', color: 'rgba(255, 255, 255, 0.4)',
-                        fontSize: '1.2rem', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.3rem', zIndex: 100, cursor: 'pointer'
-                    }}
-                    onMouseEnter={(e) => e.target.style.color = '#fff'}
-                    onMouseLeave={(e) => e.target.style.color = 'rgba(255, 255, 255, 0.4)'}
-                >REPLAY LAST VIDEO</div>
             )}
         </div>
     );

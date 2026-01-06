@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useNavigate, useLocation } from 'react-router-dom';
 import Palette from './components/Palette';
 import Bloc from './components/Bloc';
 import Blind from './components/Blind';
@@ -17,11 +17,19 @@ import { VideoProvider, useVideo } from './contexts/VideoContext';
 import { parseVideoTitle } from './utils/titleParser';
 import videos from './data/videos.json';
 import { processedVideos } from './utils/nebulaConfig';
+import GridPage from './components/GridPage';
+import GridHistory from './components/GridHistory';
+import GridNebula from './components/GridNebula';
+import GridSetup from './components/GridSetup';
+import HomeSetup from './components/HomeSetup';
+import LogoGrid from './components/LogoGrid';
 import Header from './components/Header';
+import DataPage from './components/DataPage';
 
 const MainLayout = () => {
   const navigate = useNavigate();
-  const { currentVideo, openVideo, closeVideo, options } = useVideo();
+  const location = useLocation();
+  const { currentVideo, openVideo, closeVideo, options, originRoute, setOriginRoute } = useVideo();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
   const [showPalette, setShowPalette] = useState(false);
@@ -43,7 +51,7 @@ const MainLayout = () => {
       // Close video when it's playing
       if (options.onClose) options.onClose();
       closeVideo();
-      navigate('/');
+      navigate(originRoute || '/');
     } else {
       // Toggle menu - if closing, also clear active overlays
       if (isMenuOpen) {
@@ -108,8 +116,15 @@ const MainLayout = () => {
   const handleVideoClose = () => {
     if (options.onClose) options.onClose();
     closeVideo();
-    navigate('/');
+    navigate(originRoute || '/');
   };
+
+  // Track current location as origin when not viewing a video
+  useEffect(() => {
+    if (!currentVideo && location.pathname) {
+      setOriginRoute(location.pathname);
+    }
+  }, [location.pathname, currentVideo, setOriginRoute]);
 
   const handleReplayLast = () => {
     // Get last played video from sessionStorage (session only)
@@ -117,7 +132,8 @@ const MainLayout = () => {
     if (lastVideo) {
       const video = JSON.parse(lastVideo);
       openVideo(video, { backdropColor: 'transparent' });
-      navigate(`/${video.color.replace('#', '')}`);
+      const slug = (video.hexpickhome || video.color).replace('#', '');
+      navigate(`/${slug}`);
     }
   };
 
@@ -165,6 +181,7 @@ const MainLayout = () => {
 
       <Routes>
         <Route path="/" element={<LogoPage hoveredVideo={hoveredVideo} setHoveredVideo={setHoveredVideo} />} />
+        <Route path="/video/:videoId" element={<LogoPage hoveredVideo={hoveredVideo} setHoveredVideo={setHoveredVideo} />} />
         {/* Pass hoveredVideo props to dynamic route as well */}
         <Route path="/:color" element={<LogoPage hoveredVideo={hoveredVideo} setHoveredVideo={setHoveredVideo} />} />
         <Route path="/previoushome" element={<PreviousHomePage />} />
@@ -175,6 +192,13 @@ const MainLayout = () => {
         <Route path="/point" element={<Point />} />
         <Route path="/gradient" element={<Gradient />} />
         <Route path="/secret" element={<SecretPage />} />
+        <Route path="/grid" element={<GridPage />} />
+        <Route path="/gridhistory" element={<GridHistory />} />
+        <Route path="/gridnebula" element={<GridNebula />} />
+        <Route path="/gridsetup" element={<GridSetup />} />
+        <Route path="/homesetup" element={<HomeSetup />} />
+        <Route path="/logogrid" element={<LogoGrid />} />
+        <Route path="/data" element={<DataPage />} />
       </Routes>
     </>
   );

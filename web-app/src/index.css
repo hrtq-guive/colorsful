@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+:root {
+  --font-primary: 'Inter', sans-serif;
+}
+
 * {
   cursor: none !important;
 }
@@ -9,5 +13,20 @@ body {
   padding: 0;
   overflow: hidden;
   background: black;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-primary);
+}
+
+h1,
+h2,
+h3,
+.serif {
+  font-family: var(--font-primary);
+  font-weight: normal;
+}
+
+/* Base style for buttons and inputs to inherit font */
+button,
+input,
+textarea {
+  font-family: inherit;
 }

@@ -4,7 +4,9 @@ import { hexToRgb, rgbToHsl, hslToRgb } from './color';
 // 1. Prepare videos with HSL
 // Distribute achromatic videos (S < 5) across 360 degrees
 const videosWithHsl = videosData.map((v, i) => {
-    const rgb = hexToRgb(v.color);
+    // Use hexpickhome if available, fallback to color
+    const colorToUse = v.hexpickhome || v.color;
+    const rgb = hexToRgb(colorToUse);
     const hsl = rgb ? rgbToHsl(rgb.r, rgb.g, rgb.b) : { h: 0, s: 0, l: 0 };
 
     // De-cluster White/Black/Grey videos from 0 degrees
@@ -14,7 +16,7 @@ const videosWithHsl = videosData.map((v, i) => {
     }
 
     return { ...v, hsl, originalId: i };
-}).filter(v => v.color);
+}).filter(v => v.hexpickhome || v.color);
 
 // 2. LOGO SHAPE DEFINITION
 const radiusLookup360 = [
@@ -103,7 +105,9 @@ export const nebulaIslands = (() => {
         if (grid[s] && rIdx < grid[s].length) {
             if (grid[s][rIdx] === null) grid[s][rIdx] = { r: 0, g: 0, b: 0, count: 0 };
             const cell = grid[s][rIdx];
-            const rgb = hexToRgb(v.color);
+            // Use hexpickhome if available, fallback to color
+            const colorToUse = v.hexpickhome || v.color;
+            const rgb = hexToRgb(colorToUse);
             if (rgb && cell) { cell.r += rgb.r; cell.g += rgb.g; cell.b += rgb.b; cell.count++; }
         }
     });
@@ -172,7 +176,7 @@ export const nebulaIslands = (() => {
     // Augmented Video Set for Influences
     const augmentedVideos = processedVideos.map(v => ({
         wheelX: v.wheelX, wheelY: v.wheelY,
-        rgb: hexToRgb(v.color)
+        rgb: hexToRgb(v.hexpickhome || v.color)
     }));
     [30, 45, 60].forEach(angle => {
         const s = Math.floor(angle / ANGLE_STEP) % numSectors;

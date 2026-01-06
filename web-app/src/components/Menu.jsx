@@ -49,7 +49,7 @@ const Menu = ({ isOpen, onClose, searchTerm, setSearchTerm }) => {
             borderRadius: '8px',
             overflow: 'hidden',
             color: 'white',
-            fontFamily: "'Inter', sans-serif"
+            fontFamily: "var(--font-primary)"
         }}>
             <div style={{
                 overflowY: 'auto',

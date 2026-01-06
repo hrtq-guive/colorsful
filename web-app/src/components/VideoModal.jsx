@@ -13,6 +13,7 @@ const VideoModal = ({ video, onClose, backdropColor = 'rgba(0,0,0,0.95)' }) => {
     const [progress, setProgress] = useState(0);
     const [duration, setDuration] = useState(0);
     const [isPlaying, setIsPlaying] = useState(true);
+    const [playbackReady, setPlaybackReady] = useState(false);
     const hideTimeoutRef = useRef(null);
     const creditTimeoutRef = useRef(null);
     const playerRef = useRef(null);
@@ -30,7 +31,8 @@ const VideoModal = ({ video, onClose, backdropColor = 'rgba(0,0,0,0.95)' }) => {
     const handleVideoClick = (e) => {
         e.stopPropagation();
         // Navigate to video color URL before opening external link
-        navigate(`/${video.color.replace('#', '')}`);
+        const slug = (video.hexpickhome || video.color).replace('#', '');
+        navigate(`/${slug}`);
         window.open(video.url, '_blank');
     };
 
@@ -105,6 +107,11 @@ const VideoModal = ({ video, onClose, backdropColor = 'rgba(0,0,0,0.95)' }) => {
                                 const current = playerRef.current.getCurrentTime();
                                 const total = playerRef.current.getDuration();
                                 setProgress((current / total) * 100);
+
+                                // Confirm playback for capture script
+                                if (current > 1.0) {
+                                    setPlaybackReady(true);
+                                }
                             }
                         }, 100);
                     },
@@ -235,27 +242,19 @@ const VideoModal = ({ video, onClose, backdropColor = 'rgba(0,0,0,0.95)' }) => {
                         maxWidth: '800px',
                         aspectRatio: '16/9',
                         position: 'relative',
-                        background: '#000',
-                        cursor: 'none' // Hide default cursor, wait for iframe to handle it
+                        cursor: 'none'
                     }}
                     onClick={handleVideoClick}
-                    className="video-iframe-wrapper"
+                    className={`video-iframe-wrapper ${playbackReady ? 'playback-ready' : ''}`}
                 >
                     <div
                         ref={containerRef}
                         style={{
                             width: '100%',
                             height: '100%',
-                            display: 'block'
+                            pointerEvents: 'none' // Prevent YouTube hover interactions
                         }}
                     />
-                    {/* Interaction Overlay: Captures mouse to keep custom cursor visible and catches clicks */}
-                    <div style={{
-                        position: 'absolute',
-                        inset: 0,
-                        zIndex: 1,
-                        cursor: 'none'
-                    }} />
                 </div>
 
                 {/* Progress Bar - Outside Video */}

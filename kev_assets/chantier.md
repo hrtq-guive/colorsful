@@ -23,8 +23,3 @@ The user reported that the "Chaton" video (pure white / very light grey) is acce
 
 
 
-## KEVIN NOTES AND IDEAS
-
-- Build a color palette like a playlist
-- Eveytime i listen to a video, the color disappears or becomes black in its influence zone (i can reset) to try to explore all the videos 
-- un petit fade quand la video se ferme et on revient au noir (peut-être le curseur qui revient à la place où on l'a laissé là où il y a la video)

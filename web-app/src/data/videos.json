@@ -8,10 +8,14 @@
       41,
       3,
       14
-    ]
+    ],
+    "hex45": "#400020",
+    "hex1": "#ec127f",
+    "hexpick": "#3b0c21",
+    "hexpickhome": "#38111e"
   },
   {
-    "title": "MARO - oxal\u00e1 | A COLORS ENCORE",
+    "title": "MARO - oxalá | A COLORS ENCORE",
     "url": "https://www.youtube.com/watch?v=rnYedFwfyaQ",
     "thumbnail": "https://i.ytimg.com/vi/rnYedFwfyaQ/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAymhOon8TR2dJ35lxHZUqRAJ3-HA",
     "color": "#290509",
@@ -19,7 +23,11 @@
       41,
       5,
       9
-    ]
+    ],
+    "hex45": "#200000",
+    "hex1": "#e51919",
+    "hexpick": "#2b070a",
+    "hexpickhome": "#240507"
   },
   {
     "title": "Rawayana - Reyimiller | A COLORS SHOW",
@@ -30,7 +38,11 @@
       59,
       13,
       16
-    ]
+    ],
+    "hex45": "#402020",
+    "hex1": "#c53951",
+    "hexpick": "#41151d",
+    "hexpickhome": "#421a1c"
   },
   {
     "title": "Berq x Paula Hartmann - Zahl mir Deinen Schmerz heim | A COLORS ENCORE",
@@ -41,7 +53,11 @@
       44,
       57,
       40
-    ]
+    ],
+    "hex45": "#202020",
+    "hex1": "#758975",
+    "hexpick": "#354331",
+    "hexpickhome": "#3d4b39"
   },
   {
     "title": "Silvana Estrada - Un Rayo De Luz | A COLORS SHOW",
@@ -52,7 +68,11 @@
       145,
       142,
       149
-    ]
+    ],
+    "hex45": "#808080",
+    "hex1": "#887676",
+    "hexpick": "#808080",
+    "hexpickhome": "#cfc6c4"
   },
   {
     "title": "Quadeca - MONDAY | A COLORS SHOW",
@@ -63,7 +83,11 @@
       19,
       98,
       164
-    ]
+    ],
+    "hex45": "#002060",
+    "hex1": "#1c64b4",
+    "hexpick": "#062c5d",
+    "hexpickhome": "#145eb5"
   },
   {
     "title": "WHATMORE - put it on hearts | A COLORS SHOW",
@@ -74,7 +98,11 @@
       166,
       155,
       65
-    ]
+    ],
+    "hex45": "#a0a040",
+    "hex1": "#cccc5b",
+    "hexpick": "#a0a040",
+    "hexpickhome": "#cac359"
   },
   {
     "title": "SSIO - Ich Bin Raus | A COLORS SHOW",
@@ -85,7 +113,11 @@
       133,
       7,
       11
-    ]
+    ],
+    "hex45": "#800020",
+    "hex1": "#9c444c",
+    "hexpick": "#590309",
+    "hexpickhome": "#881917"
   },
   {
     "title": "Ninho - Skywalker Haze | A COLORS SHOW",
@@ -96,7 +128,11 @@
       119,
       128,
       135
-    ]
+    ],
+    "hex45": "#a0a0a0",
+    "hex1": "#758489",
+    "hexpick": "#919ca3",
+    "hexpickhome": "#8f9ba1"
   },
   {
     "title": "Ty Dolla $ign - I WISH | A COLORS SHOW",
@@ -107,7 +143,11 @@
       216,
       218,
       217
-    ]
+    ],
+    "hex45": "#e0e0e0",
+    "hex1": "#7f7f7f",
+    "hexpick": "#e0e0e0",
+    "hexpickhome": "#e0e4e6"
   },
   {
     "title": "Olivia Dean - A Couple Minutes | A COLORS SHOW",
@@ -118,7 +158,11 @@
       185,
       173,
       183
-    ]
+    ],
+    "hex45": "#a0a0a0",
+    "hex1": "#877787",
+    "hexpick": "#a59ba5",
+    "hexpickhome": "#c4b9c7"
   },
   {
     "title": "UMI - 10AM | A COLORS SHOW",
@@ -129,7 +173,11 @@
       14,
       34,
       58
-    ]
+    ],
+    "hex45": "#204060",
+    "hex1": "#4777b7",
+    "hexpick": "#204060",
+    "hexpickhome": "#213d5a"
   },
   {
     "title": "Dear Silas - Still Southern Playalistic | A COLORS SHOW",
@@ -140,7 +188,11 @@
       144,
       90,
       142
-    ]
+    ],
+    "hex45": "#804080",
+    "hex1": "#8d619d",
+    "hexpick": "#804080",
+    "hexpickhome": "#ad80af"
   },
   {
     "title": "Indys Blu - Saddest Song | A COLORS SHOW",
@@ -151,7 +203,11 @@
       121,
       23,
       64
-    ]
+    ],
+    "hex45": "#a02060",
+    "hex1": "#b4547c",
+    "hexpick": "#7d104a",
+    "hexpickhome": "#c05d80"
   },
   {
     "title": "Ray Vaughn - 3PM @ DAIRY | A COLORS SHOW",
@@ -162,7 +218,11 @@
       29,
       48,
       54
-    ]
+    ],
+    "hex45": "#404040",
+    "hex1": "#768688",
+    "hexpick": "#2f3c41",
+    "hexpickhome": "#435056"
   },
   {
     "title": "Nono La Grinta - LOVE YOU | A COLORS SHOW",
@@ -173,7 +233,11 @@
       11,
       5,
       43
-    ]
+    ],
+    "hex45": "#202040",
+    "hex1": "#3922dc",
+    "hexpick": "#141244",
+    "hexpickhome": "#13124c"
   },
   {
     "title": "SABRI - Sold Myself For Love | A COLORS SHOW",
@@ -184,7 +248,11 @@
       123,
       71,
       135
-    ]
+    ],
+    "hex45": "#602060",
+    "hex1": "#5c2c74",
+    "hexpick": "#4c205b",
+    "hexpickhome": "#5c306e"
   },
   {
     "title": "Jon Batiste - LEAN ON MY LOVE | A COLORS SHOW",
@@ -195,10 +263,14 @@
       128,
       41,
       96
-    ]
+    ],
+    "hex45": "#802080",
+    "hex1": "#b4547c",
+    "hexpick": "#6c144f",
+    "hexpickhome": "#b6507f"
   },
   {
-    "title": "La L\u00e1 - Tambi\u00e9n te vi | A COLORS SHOW",
+    "title": "La Lá - También te vi | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=6nF-2zr1muc",
     "thumbnail": "https://i.ytimg.com/vi/6nF-2zr1muc/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLArszHVNiWyH-cnUYRdgAFagselpA",
     "color": "#5f2608",
@@ -206,10 +278,14 @@
       95,
       38,
       8
-    ]
+    ],
+    "hex45": "#604020",
+    "hex1": "#6c4432",
+    "hexpick": "#6b3420",
+    "hexpickhome": "#5e311c"
   },
   {
-    "title": "Penyair - Bamb\u00fa | A COLORS SHOW",
+    "title": "Penyair - Bambú | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=-LtINl7lFss",
     "thumbnail": "https://i.ytimg.com/vi/-LtINl7lFss/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDbaowWQ3tUZFVWqQRk7aBltfXlHw",
     "color": "#3e3468",
@@ -217,7 +293,11 @@
       62,
       52,
       104
-    ]
+    ],
+    "hex45": "#202040",
+    "hex1": "#6e4cb2",
+    "hexpick": "#291d43",
+    "hexpickhome": "#352957"
   },
   {
     "title": "The Favors - Lake George | A COLORS SHOW",
@@ -228,7 +308,11 @@
       95,
       139,
       166
-    ]
+    ],
+    "hex45": "#80a0c0",
+    "hex1": "#8cb4cc",
+    "hexpick": "#91bbcf",
+    "hexpickhome": "#8db3ca"
   },
   {
     "title": "Souly - Motte | A COLORS SHOW",
@@ -239,7 +323,11 @@
       44,
       25,
       11
-    ]
+    ],
+    "hex45": "#402020",
+    "hex1": "#ad7f51",
+    "hexpick": "#352013",
+    "hexpickhome": "#432c1f"
   },
   {
     "title": "Ray Lozano - HiYA | A COLORS SHOW",
@@ -250,7 +338,11 @@
       120,
       15,
       12
-    ]
+    ],
+    "hex45": "#600000",
+    "hex1": "#7e343c",
+    "hexpick": "#720a11",
+    "hexpickhome": "#772019"
   },
   {
     "title": "Bashy - Lost In Dreams | A COLORS ENCORE",
@@ -261,7 +353,11 @@
       0,
       0,
       0
-    ]
+    ],
+    "hex45": "#000020",
+    "hex1": "#941c1c",
+    "hexpick": "#0b0c14",
+    "hexpickhome": "#9d2b16"
   },
   {
     "title": "Gayathri Krishnan - Made It | A COLORS SHOW",
@@ -272,7 +368,11 @@
       146,
       144,
       61
-    ]
+    ],
+    "hex45": "#a0a040",
+    "hex1": "#a4a444",
+    "hexpick": "#a0a040",
+    "hexpickhome": "#a49e40"
   },
   {
     "title": "Chezile - Favor | A COLORS SHOW",
@@ -283,7 +383,11 @@
       13,
       61,
       81
-    ]
+    ],
+    "hex45": "#204040",
+    "hex1": "#3f9abf",
+    "hexpick": "#16343f",
+    "hexpickhome": "#144359"
   },
   {
     "title": "Blondshell - Change | A COLORS SHOW",
@@ -294,10 +398,14 @@
       163,
       165,
       115
-    ]
+    ],
+    "hex45": "#a0a080",
+    "hex1": "#afa74f",
+    "hexpick": "#848653",
+    "hexpickhome": "#a4a371"
   },
   {
-    "title": "GIV\u0112ON - KEEPER | A COLORS SHOW",
+    "title": "GIVĒON - KEEPER | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=5aT5Mh8Muws",
     "thumbnail": "https://i.ytimg.com/vi/5aT5Mh8Muws/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC0Q9f6EWGdGVZN8WYLmPeQzxiFGg",
     "color": "#294514",
@@ -305,7 +413,11 @@
       41,
       69,
       20
-    ]
+    ],
+    "hex45": "#406020",
+    "hex1": "#61ac52",
+    "hexpick": "#3b5c27",
+    "hexpickhome": "#2e5328"
   },
   {
     "title": "chi - Psycho | A COLORS SHOW",
@@ -316,7 +428,11 @@
       108,
       109,
       42
-    ]
+    ],
+    "hex45": "#a0a040",
+    "hex1": "#9ca444",
+    "hexpick": "#a0a040",
+    "hexpickhome": "#a19d42"
   },
   {
     "title": "Rico Nasty - CRASH | A COLORS SHOW",
@@ -327,10 +443,14 @@
       12,
       20,
       56
-    ]
+    ],
+    "hex45": "#002020",
+    "hex1": "#4f6faf",
+    "hexpick": "#141c39",
+    "hexpickhome": "#151830"
   },
   {
-    "title": "Eladio Carri\u00f3n - Cuenta a 10 | A COLORS SHOW",
+    "title": "Eladio Carrión - Cuenta a 10 | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=uMrnmRhRsYM",
     "thumbnail": "https://i.ytimg.com/vi/uMrnmRhRsYM/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC99ns-Uged91HSJLyzRVFC4jcToA",
     "color": "#01394a",
@@ -338,7 +458,11 @@
       1,
       57,
       74
-    ]
+    ],
+    "hex45": "#002020",
+    "hex1": "#357484",
+    "hexpick": "#0c3c43",
+    "hexpickhome": "#00516a"
   },
   {
     "title": "Bashy - Midnight in Balans | A COLORS SHOW",
@@ -349,7 +473,11 @@
       52,
       18,
       8
-    ]
+    ],
+    "hex45": "#402020",
+    "hex1": "#b25d4c",
+    "hexpick": "#402020",
+    "hexpickhome": "#5b2e20"
   },
   {
     "title": "Cash Cobain - Feeeeeeeeel | A COLORS SHOW",
@@ -360,7 +488,11 @@
       87,
       139,
       4
-    ]
+    ],
+    "hex45": "#80a020",
+    "hex1": "#74a424",
+    "hexpick": "#709e27",
+    "hexpickhome": "#70981e"
   },
   {
     "title": "honestav - Conceited | A COLORS SHOW",
@@ -371,7 +503,11 @@
       29,
       61,
       99
-    ]
+    ],
+    "hex45": "#202040",
+    "hex1": "#3c648c",
+    "hexpick": "#1e2d4a",
+    "hexpickhome": "#3b608c"
   },
   {
     "title": "Billianne - Modes I | A COLORS SHOW",
@@ -382,7 +518,11 @@
       7,
       49,
       29
-    ]
+    ],
+    "hex45": "#204020",
+    "hex1": "#649a75",
+    "hexpick": "#1e5734",
+    "hexpickhome": "#40785e"
   },
   {
     "title": "FAVE - Intentions | A COLORS SHOW",
@@ -393,7 +533,11 @@
       9,
       54,
       96
-    ]
+    ],
+    "hex45": "#004060",
+    "hex1": "#244c84",
+    "hexpick": "#093f6c",
+    "hexpickhome": "#224e80"
   },
   {
     "title": "Clipse - Ace Trumpets | A COLORS SHOW",
@@ -404,7 +548,11 @@
       150,
       50,
       76
-    ]
+    ],
+    "hex45": "#a04060",
+    "hex1": "#9c3c64",
+    "hexpick": "#963a5d",
+    "hexpickhome": "#a94b62"
   },
   {
     "title": "DESTIN CONRAD - MAKE IT UP | A COLORS SHOW",
@@ -415,7 +563,11 @@
       84,
       25,
       31
-    ]
+    ],
+    "hex45": "#400020",
+    "hex1": "#d12d51",
+    "hexpick": "#44101b",
+    "hexpickhome": "#621924"
   },
   {
     "title": "Yvnnis - BIG SHOT | A COLORS SHOW",
@@ -426,7 +578,11 @@
       157,
       88,
       33
-    ]
+    ],
+    "hex45": "#804020",
+    "hex1": "#e4b444",
+    "hexpick": "#934f21",
+    "hexpickhome": "#edb13c"
   },
   {
     "title": "Protoje - BIG 45 | A COLORS SHOW",
@@ -437,7 +593,11 @@
       125,
       134,
       89
-    ]
+    ],
+    "hex45": "#608040",
+    "hex1": "#62ac52",
+    "hexpick": "#809257",
+    "hexpickhome": "#7e905d"
   },
   {
     "title": "Planta Industrial - Anormales | A COLORS ENCORE",
@@ -448,7 +608,11 @@
       90,
       6,
       13
-    ]
+    ],
+    "hex45": "#600020",
+    "hex1": "#8c1c24",
+    "hexpick": "#6d0310",
+    "hexpickhome": "#850e10"
   },
   {
     "title": "Durand Bernarr - Completed | A COLORS SHOW",
@@ -459,10 +623,14 @@
       113,
       47,
       48
-    ]
+    ],
+    "hex45": "#804040",
+    "hex1": "#ce3e30",
+    "hexpick": "#792d30",
+    "hexpickhome": "#e8958d"
   },
   {
-    "title": "RaiNao - sofoc\u00f3n | A COLORS SHOW",
+    "title": "RaiNao - sofocón | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=zFYjcWOZXhc",
     "thumbnail": "https://i.ytimg.com/vi/zFYjcWOZXhc/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDjHZvGqNjJwVsyV9iYo95T4lNXbw",
     "color": "#23173b",
@@ -470,7 +638,11 @@
       35,
       23,
       59
-    ]
+    ],
+    "hex45": "#402060",
+    "hex1": "#5c2c74",
+    "hexpick": "#402060",
+    "hexpickhome": "#451b65"
   },
   {
     "title": "Salif Keita -  Aboubakrin | A COLORS SHOW",
@@ -481,7 +653,11 @@
       129,
       122,
       116
-    ]
+    ],
+    "hex45": "#c0c0c0",
+    "hex1": "#dc7f22",
+    "hexpick": "#bdb6b3",
+    "hexpickhome": "#f4ede3"
   },
   {
     "title": "Feid - PIDA LO QUE QUIERA MAMI | A COLORS SHOW",
@@ -492,10 +668,14 @@
       32,
       121,
       41
-    ]
+    ],
+    "hex45": "#40a040",
+    "hex1": "#34cc1b",
+    "hexpick": "#4ba743",
+    "hexpickhome": "#28b416"
   },
   {
-    "title": "Iliona - \u00c7a n'existe pas | A COLORS SHOW",
+    "title": "Iliona - Ça n'existe pas | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=aHBuWIlIzJg",
     "thumbnail": "https://i.ytimg.com/vi/aHBuWIlIzJg/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDBwYeYPgchgOsumHODnIWiHhE8yg",
     "color": "#17232f",
@@ -503,7 +683,11 @@
       23,
       35,
       47
-    ]
+    ],
+    "hex45": "#204040",
+    "hex1": "#445464",
+    "hexpick": "#263947",
+    "hexpickhome": "#405469"
   },
   {
     "title": "Planta Industrial - Oi | A COLORS SHOW",
@@ -514,7 +698,11 @@
       168,
       142,
       48
-    ]
+    ],
+    "hex45": "#a08020",
+    "hex1": "#f4dc4c",
+    "hexpick": "#967e26",
+    "hexpickhome": "#f8d548"
   },
   {
     "title": "Flenn - WB III | A COLORS SHOW",
@@ -525,7 +713,11 @@
       32,
       18,
       43
-    ]
+    ],
+    "hex45": "#202040",
+    "hex1": "#64346d",
+    "hexpick": "#20142d",
+    "hexpickhome": "#5e346b"
   },
   {
     "title": "La Mano 1.9 - FAKE | A COLORS SHOW",
@@ -536,7 +728,11 @@
       190,
       97,
       20
-    ]
+    ],
+    "hex45": "#c08040",
+    "hex1": "#ec943c",
+    "hexpick": "#d37e3f",
+    "hexpickhome": "#f09434"
   },
   {
     "title": "Miso Extra - POP | A COLORS SHOW",
@@ -547,7 +743,11 @@
       114,
       20,
       57
-    ]
+    ],
+    "hex45": "#a04060",
+    "hex1": "#e45ca4",
+    "hexpick": "#9d2c5f",
+    "hexpickhome": "#f56ea8"
   },
   {
     "title": "Jacob Banks - A Tree Never Waters Itself | A COLORS SHOW",
@@ -558,7 +758,11 @@
       48,
       78,
       26
-    ]
+    ],
+    "hex45": "#204020",
+    "hex1": "#8cc42c",
+    "hexpick": "#294817",
+    "hexpickhome": "#8cb825"
   },
   {
     "title": "Disiz - Try Try Try | A COLORS SHOW",
@@ -569,7 +773,11 @@
       57,
       23,
       14
-    ]
+    ],
+    "hex45": "#402020",
+    "hex1": "#b16a4d",
+    "hexpick": "#3a1f18",
+    "hexpickhome": "#663e2f"
   },
   {
     "title": "Maureen - Bend Your Back | A COLORS SHOW",
@@ -580,7 +788,11 @@
       35,
       119,
       104
-    ]
+    ],
+    "hex45": "#60c0a0",
+    "hex1": "#46b877",
+    "hexpick": "#209678",
+    "hexpickhome": "#9ed6b8"
   },
   {
     "title": "Joony - Dopa(MINE) | A COLORS SHOW",
@@ -591,7 +803,10 @@
       157,
       91,
       56
-    ]
+    ],
+    "hex45": "#c08040",
+    "hexpick": "#a76134",
+    "hexpickhome": "#efa977"
   },
   {
     "title": "Ruger - Toro | A COLORS SHOW",
@@ -602,7 +817,11 @@
       136,
       91,
       114
-    ]
+    ],
+    "hex45": "#a080a0",
+    "hex1": "#b836c8",
+    "hexpick": "#6e455f",
+    "hexpickhome": "#dea7e5"
   },
   {
     "title": "Duckwrth - Hurricane J.I.M. | A COLORS SHOW",
@@ -613,10 +832,14 @@
       3,
       29,
       88
-    ]
+    ],
+    "hex45": "#0040a0",
+    "hex1": "#0444b4",
+    "hexpick": "#0040a0",
+    "hexpickhome": "#0151c1"
   },
   {
-    "title": "LATIN MAFIA - Siento que merezco m\u00e1s | A COLORS SHOW",
+    "title": "LATIN MAFIA - Siento que merezco más | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=q89Mdmf4HDU&pp=0gcJCTwKAYcqIYzv",
     "thumbnail": "https://i.ytimg.com/vi/q89Mdmf4HDU/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDWpmm7gSHb_5E-BvdhlNTZPIMKPQ",
     "color": "#95b5b2",
@@ -624,7 +847,10 @@
       149,
       181,
       178
-    ]
+    ],
+    "hex45": "#80a0a0",
+    "hexpick": "#8ea8ad",
+    "hexpickhome": "#c6d7d6"
   },
   {
     "title": "Qing Madi - Favorite Psycho | A COLORS SHOW",
@@ -635,10 +861,14 @@
       53,
       67,
       41
-    ]
+    ],
+    "hex45": "#608060",
+    "hex1": "#76916d",
+    "hexpick": "#4b5b3a",
+    "hexpickhome": "#5a7451"
   },
   {
-    "title": "Sid Sriram - Shivanar (\u0b9a\u0bbf\u0bb5\u0ba9\u0bbe\u0bb0\u0bcd \u0bae\u0ba9\u0b99\u0bcd\u0b95\u0bc1\u0bb3\u0bbf\u0bb0) | A COLORS ENCORE",
+    "title": "Sid Sriram - Shivanar (சிவனார் மனங்குளிர) | A COLORS ENCORE",
     "url": "https://www.youtube.com/watch?v=sNCYSKD_IaA",
     "thumbnail": "https://i.ytimg.com/vi/sNCYSKD_IaA/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBafqPoEKWem5yToRORqI8TC13jXQ",
     "color": "#072527",
@@ -646,7 +876,11 @@
       7,
       37,
       39
-    ]
+    ],
+    "hex45": "#002020",
+    "hex1": "#699586",
+    "hexpick": "#0d1b1b",
+    "hexpickhome": "#5d858a"
   },
   {
     "title": "Blanco - Sombrero / This System | A COLORS SHOW",
@@ -657,7 +891,11 @@
       207,
       230,
       234
-    ]
+    ],
+    "hex45": "#80c0c0",
+    "hex1": "#46b897",
+    "hexpick": "#92c7da",
+    "hexpickhome": "#a3d4ce"
   },
   {
     "title": "Rejjie Snow | A COLORS CLOSE-UP",
@@ -668,7 +906,10 @@
       217,
       222,
       215
-    ]
+    ],
+    "hex45": "#e0e0e0",
+    "hexpick": "#e0e0e0",
+    "hexpickhome": "#d9ded7"
   },
   {
     "title": "Rejjie Snow - Karen | A COLORS SHOW",
@@ -679,7 +920,11 @@
       21,
       69,
       89
-    ]
+    ],
+    "hex45": "#208080",
+    "hex1": "#5796a7",
+    "hexpick": "#205a66",
+    "hexpickhome": "#7caebd"
   },
   {
     "title": "I Am Roze - Dollar | A COLORS SHOW",
@@ -690,7 +935,11 @@
       103,
       69,
       60
-    ]
+    ],
+    "hex45": "#a08060",
+    "hex1": "#a25c5c",
+    "hexpick": "#876a5e",
+    "hexpickhome": "#af8076"
   },
   {
     "title": "Ab-Soul - Squeeze 1St 2| A COLORS SHOW",
@@ -701,7 +950,11 @@
       91,
       60,
       42
-    ]
+    ],
+    "hex45": "#a08060",
+    "hex1": "#745444",
+    "hexpick": "#987b65",
+    "hexpickhome": "#795840"
   },
   {
     "title": "Lismar - No Drama | A COLORS SHOW",
@@ -712,10 +965,14 @@
       129,
       80,
       76
-    ]
+    ],
+    "hex45": "#806060",
+    "hex1": "#8e7470",
+    "hexpick": "#9d6b6e",
+    "hexpickhome": "#815d58"
   },
   {
-    "title": "Judeline - BRUJER\u00cdA! | A COLORS SHOW",
+    "title": "Judeline - BRUJERÍA! | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=R3EcGpXv3Jw",
     "thumbnail": "https://i.ytimg.com/vi/R3EcGpXv3Jw/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDQS5ttPGrdstn5cfATSheaXgccnA",
     "color": "#755540",
@@ -723,18 +980,11 @@
       117,
       85,
       64
-    ]
-  },
-  {
-    "title": "Sasha Keable | A COLORS CLOSE-UP",
-    "url": "https://www.youtube.com/watch?v=epKjNz5bpCs",
-    "thumbnail": "https://i.ytimg.com/vi/epKjNz5bpCs/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDN_O47q0YuAX2BW1oApucKt1o1kg",
-    "color": "#797a75",
-    "rgb": [
-      121,
-      122,
-      117
-    ]
+    ],
+    "hex45": "#a08060",
+    "hex1": "#846444",
+    "hexpick": "#8d6950",
+    "hexpickhome": "#846346"
   },
   {
     "title": "Sasha Keable - Why | A COLORS SHOW",
@@ -745,29 +995,11 @@
       55,
       70,
       103
-    ]
-  },
-  {
-    "title": "Tanner Adell | A COLORS CLOSE-UP",
-    "url": "https://www.youtube.com/watch?v=9ODCQYa9o3c",
-    "thumbnail": "https://i.ytimg.com/vi/9ODCQYa9o3c/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLA9X96a2n14Mc8LBM8xskEB-kj-mg",
-    "color": "#acb1ab",
-    "rgb": [
-      172,
-      177,
-      171
-    ]
-  },
-  {
-    "title": "Tanner Adell - Religion | A COLORS SHOW",
-    "url": "https://www.youtube.com/watch?v=P0DepksPfU8",
-    "thumbnail": "https://i.ytimg.com/vi/P0DepksPfU8/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBUzt6UhRJ_OB4oKM3Nk22-HOUt3A",
-    "color": "#90767f",
-    "rgb": [
-      144,
-      118,
-      127
-    ]
+    ],
+    "hex45": "#202040",
+    "hex1": "#4f8faf",
+    "hexpick": "#232d47",
+    "hexpickhome": "#6180ae"
   },
   {
     "title": "October London - 3rd Shift | A COLORS SHOW",
@@ -778,7 +1010,11 @@
       141,
       106,
       76
-    ]
+    ],
+    "hex45": "#a08080",
+    "hex1": "#a3785b",
+    "hexpick": "#8f6f5a",
+    "hexpickhome": "#9e7c63"
   },
   {
     "title": "Ezhel - KEDI | A COLORS SHOW",
@@ -789,7 +1025,11 @@
       90,
       153,
       126
-    ]
+    ],
+    "hex45": "#80c0a0",
+    "hex1": "#4bb35a",
+    "hexpick": "#80c0a0",
+    "hexpickhome": "#afd4b2"
   },
   {
     "title": "Kranium - UnFck You | A COLORS SHOW",
@@ -800,7 +1040,9 @@
       73,
       37,
       21
-    ]
+    ],
+    "hexpick": "#492515",
+    "hexpickhome": "#492515"
   },
   {
     "title": "Khalid - Owe To You | A COLORS SHOW",
@@ -811,7 +1053,11 @@
       181,
       114,
       121
-    ]
+    ],
+    "hex45": "#c08080",
+    "hex1": "#9d6561",
+    "hexpick": "#c08080",
+    "hexpickhome": "#c18e88"
   },
   {
     "title": "Laila! - Flyer Than U | A COLORS SHOW",
@@ -822,7 +1068,11 @@
       50,
       22,
       10
-    ]
+    ],
+    "hex45": "#402020",
+    "hex1": "#744c34",
+    "hexpick": "#4c2a23",
+    "hexpickhome": "#714727"
   },
   {
     "title": "Nai Barghouti - Li Fairuz | A COLORS SHOW",
@@ -833,7 +1083,11 @@
       85,
       88,
       79
-    ]
+    ],
+    "hex45": "#808080",
+    "hex1": "#69c23c",
+    "hexpick": "#686f61",
+    "hexpickhome": "#e9efde"
   },
   {
     "title": "Renao - Hands On My Body | A COLORS SHOW",
@@ -844,7 +1098,11 @@
       197,
       211,
       214
-    ]
+    ],
+    "hex45": "#a0a0a0",
+    "hex1": "#4685b8",
+    "hexpick": "#b0bdc0",
+    "hexpickhome": "#e2edf3"
   },
   {
     "title": "Bryant Barnes - I'd Rather Pretend | A COLORS SHOW",
@@ -855,7 +1113,11 @@
       86,
       27,
       19
-    ]
+    ],
+    "hex45": "#402020",
+    "hex1": "#c55139",
+    "hexpick": "#411315",
+    "hexpickhome": "#4c1c18"
   },
   {
     "title": "Billie Eilish - WILDFLOWER | A COLORS SHOW",
@@ -866,18 +1128,11 @@
       6,
       2,
       39
-    ]
-  },
-  {
-    "title": "Billie Eilish | A COLORS CLOSE-UP",
-    "url": "https://www.youtube.com/watch?v=eG3rULr-rcw",
-    "thumbnail": "https://i.ytimg.com/vi/eG3rULr-rcw/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAfK-EfINUE6l5Eeg-rSOBD6WheAQ",
-    "color": "#ccd1cd",
-    "rgb": [
-      204,
-      209,
-      205
-    ]
+    ],
+    "hex45": "#000020",
+    "hex1": "#3f3fbf",
+    "hexpick": "#000020",
+    "hexpickhome": "#101942"
   },
   {
     "title": "Jolagreen23 - 360TrickShot | A COLORS SHOW",
@@ -888,7 +1143,11 @@
       77,
       101,
       65
-    ]
+    ],
+    "hex45": "#808060",
+    "hex1": "#3c8424",
+    "hexpick": "#667451",
+    "hexpickhome": "#387627"
   },
   {
     "title": "Alemeda - I already dug your grave | A COLORS SHOW",
@@ -899,7 +1158,11 @@
       109,
       38,
       52
-    ]
+    ],
+    "hex45": "#602020",
+    "hex1": "#94445c",
+    "hexpick": "#6e2a3a",
+    "hexpickhome": "#9b4a5d"
   },
   {
     "title": "Amanda Reifer - Woman Now | A COLORS SHOW",
@@ -910,7 +1173,11 @@
       91,
       92,
       120
-    ]
+    ],
+    "hex45": "#606080",
+    "hex1": "#7f6e90",
+    "hexpick": "#595970",
+    "hexpickhome": "#c5becc"
   },
   {
     "title": "Bawo - Hope You're Listening | A COLORS SHOW",
@@ -921,7 +1188,11 @@
       86,
       85,
       101
-    ]
+    ],
+    "hex45": "#808080",
+    "hex1": "#8d717f",
+    "hexpick": "#6f6c7b",
+    "hexpickhome": "#baaeb4"
   },
   {
     "title": "Ponte Perro - Mi santo | A COLORS SHOW",
@@ -932,7 +1203,11 @@
       50,
       67,
       49
-    ]
+    ],
+    "hex45": "#406040",
+    "hex1": "#72906e",
+    "hexpick": "#406040",
+    "hexpickhome": "#71806b"
   },
   {
     "title": "YOA - Le Collectionneur | A COLORS SHOW",
@@ -943,7 +1218,11 @@
       200,
       182,
       168
-    ]
+    ],
+    "hex45": "#a08080",
+    "hex1": "#b98b45",
+    "hexpick": "#797165",
+    "hexpickhome": "#ddd0c0"
   },
   {
     "title": "Eefje de Visser - Ik Weet Dat Hij Het Wil | A COLORS SHOW",
@@ -954,10 +1233,14 @@
       88,
       29,
       35
-    ]
+    ],
+    "hex45": "#602020",
+    "hex1": "#8e7270",
+    "hexpick": "#551a24",
+    "hexpickhome": "#815a5b"
   },
   {
-    "title": "Montell Fish - Don\u2019t You Love Me? | A COLORS SHOW",
+    "title": "Montell Fish - Don’t You Love Me? | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=M8wcdlFdZB4",
     "thumbnail": "https://i.ytimg.com/vi/M8wcdlFdZB4/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBcPbJimQc1CsqE4igomaMl3oeUsQ",
     "color": "#b39e89",
@@ -965,7 +1248,11 @@
       179,
       158,
       137
-    ]
+    ],
+    "hex45": "#a0a080",
+    "hex1": "#b0854e",
+    "hexpick": "#8d7d65",
+    "hexpickhome": "#d2ba9f"
   },
   {
     "title": "Wallace Cleaver - Le Bus | A COLORS SHOW",
@@ -976,7 +1263,11 @@
       57,
       70,
       78
-    ]
+    ],
+    "hex45": "#608080",
+    "hex1": "#74848a",
+    "hexpick": "#708486",
+    "hexpickhome": "#97a2a9"
   },
   {
     "title": "BLK ODYSSY - PHASE | A COLORS SHOW",
@@ -987,7 +1278,11 @@
       147,
       100,
       110
-    ]
+    ],
+    "hex45": "#c0a0a0",
+    "hex1": "#c03e76",
+    "hexpick": "#a67b88",
+    "hexpickhome": "#edbcc7"
   },
   {
     "title": "Godwin - Home | A COLORS SHOW",
@@ -998,10 +1293,14 @@
       150,
       105,
       82
-    ]
+    ],
+    "hex45": "#a08060",
+    "hex1": "#ac8c74",
+    "hexpick": "#9f7968",
+    "hexpickhome": "#bb9681"
   },
   {
-    "title": "Chance Pe\u00f1a - Black Bird | A COLORS SHOW",
+    "title": "Chance Peña - Black Bird | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=K6JpsgyITAY",
     "thumbnail": "https://i.ytimg.com/vi/K6JpsgyITAY/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCIRRU64NuXzhQ9TtfRft7bHddYBQ",
     "color": "#09132e",
@@ -1009,7 +1308,11 @@
       9,
       19,
       46
-    ]
+    ],
+    "hex45": "#002020",
+    "hex1": "#34546c",
+    "hexpick": "#122740",
+    "hexpickhome": "#2f5371"
   },
   {
     "title": "Alizzz - Mirando al techo | A COLORS SHOW",
@@ -1020,7 +1323,11 @@
       107,
       83,
       59
-    ]
+    ],
+    "hex45": "#a08060",
+    "hex1": "#ae7f50",
+    "hexpick": "#917d5c",
+    "hexpickhome": "#cbb195"
   },
   {
     "title": "Brunette - U De Mi Or | A COLORS SHOW",
@@ -1031,10 +1338,13 @@
       193,
       143,
       49
-    ]
+    ],
+    "hex45": "#a08040",
+    "hexpick": "#b3923c",
+    "hexpickhome": "#cba94b"
   },
   {
-    "title": "Yerai Cort\u00e9s - Romance | A COLORS SHOW",
+    "title": "Yerai Cortés - Romance | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=-GJ8JCfCwQs",
     "thumbnail": "https://i.ytimg.com/vi/-GJ8JCfCwQs/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDASyq2syV2tmkzY73ZBFJnZDa_yA",
     "color": "#654c38",
@@ -1042,10 +1352,14 @@
       101,
       76,
       56
-    ]
+    ],
+    "hex45": "#a08060",
+    "hex1": "#b49474",
+    "hexpick": "#745f49",
+    "hexpickhome": "#b79476"
   },
   {
-    "title": "Rapsody - DND (It\u2019s Not Personal) | A COLORS SHOW",
+    "title": "Rapsody - DND (It’s Not Personal) | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=9vJVgVjm9Bg",
     "thumbnail": "https://i.ytimg.com/vi/9vJVgVjm9Bg/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBqk6jPPfFGtc1NdVNXJfLp3A_NCQ",
     "color": "#0a3047",
@@ -1053,7 +1367,11 @@
       10,
       48,
       71
-    ]
+    ],
+    "hex45": "#002040",
+    "hex1": "#36a3c8",
+    "hexpick": "#05384f",
+    "hexpickhome": "#0f2131"
   },
   {
     "title": "Hailey Knox - Double Tragedy | A COLORS SHOW",
@@ -1064,7 +1382,11 @@
       134,
       103,
       121
-    ]
+    ],
+    "hex45": "#604060",
+    "hex1": "#ae5097",
+    "hexpick": "#6d5165",
+    "hexpickhome": "#e7c7de"
   },
   {
     "title": "Shenseea - Dolla | A COLORS SHOW",
@@ -1075,7 +1397,11 @@
       127,
       23,
       34
-    ]
+    ],
+    "hex45": "#802020",
+    "hex1": "#9c343c",
+    "hexpick": "#751822",
+    "hexpickhome": "#a33b3d"
   },
   {
     "title": "TIF - Nothing Personal | A COLORS SHOW",
@@ -1086,7 +1412,11 @@
       155,
       33,
       32
-    ]
+    ],
+    "hex45": "#600000",
+    "hex1": "#a4444c",
+    "hexpick": "#7b1016",
+    "hexpickhome": "#ae4d48"
   },
   {
     "title": "J Noa - Arrogante | A COLORS SHOW",
@@ -1097,7 +1427,11 @@
       108,
       27,
       33
-    ]
+    ],
+    "hex45": "#802020",
+    "hex1": "#7c342c",
+    "hexpick": "#741e23",
+    "hexpickhome": "#87392c"
   },
   {
     "title": "Asha Imuno - DO u WANNA BE HIGH? | A COLORS SHOW",
@@ -1108,7 +1442,11 @@
       156,
       115,
       131
-    ]
+    ],
+    "hex45": "#e0c0c0",
+    "hex1": "#b9457f",
+    "hexpick": "#d3a8bc",
+    "hexpickhome": "#f4d6dd"
   },
   {
     "title": "Sol ChYld - PSA (The Introduction) | A COLORS SHOW",
@@ -1119,7 +1457,11 @@
       233,
       117,
       140
-    ]
+    ],
+    "hex45": "#c04060",
+    "hex1": "#c43c64",
+    "hexpick": "#a6294e",
+    "hexpickhome": "#d65772"
   },
   {
     "title": "UCHE YARA - ZUU (zoo) | A COLORS SHOW",
@@ -1130,7 +1472,11 @@
       176,
       40,
       34
-    ]
+    ],
+    "hex45": "#802020",
+    "hex1": "#b44c34",
+    "hexpick": "#851621",
+    "hexpickhome": "#bf5332"
   },
   {
     "title": "Pip Millett - Better | A COLORS SHOW",
@@ -1141,7 +1487,10 @@
       108,
       26,
       74
-    ]
+    ],
+    "hex45": "#602040",
+    "hexpick": "#61173b",
+    "hexpickhome": "#b03e74"
   },
   {
     "title": "Joe James - Tony Stark | A COLORS SHOW",
@@ -1152,7 +1501,11 @@
       56,
       53,
       84
-    ]
+    ],
+    "hex45": "#404060",
+    "hex1": "#676797",
+    "hexpick": "#312f55",
+    "hexpickhome": "#8f8eb0"
   },
   {
     "title": "Tamada - Dao | A COLORS SHOW",
@@ -1163,7 +1516,11 @@
       45,
       5,
       31
-    ]
+    ],
+    "hex45": "#602040",
+    "hex1": "#a25c9a",
+    "hexpick": "#440d33",
+    "hexpickhome": "#a66d96"
   },
   {
     "title": "Ayoni - Bitter in Love | A COLORS SHOW",
@@ -1174,7 +1531,11 @@
       91,
       57,
       45
-    ]
+    ],
+    "hex45": "#604040",
+    "hex1": "#8a7474",
+    "hexpick": "#58372e",
+    "hexpickhome": "#887668"
   },
   {
     "title": "Jordan Mackampa - MARY | A COLORS SHOW",
@@ -1185,10 +1546,14 @@
       98,
       82,
       109
-    ]
+    ],
+    "hex45": "#404060",
+    "hex1": "#826b93",
+    "hexpick": "#49436d",
+    "hexpickhome": "#9584a0"
   },
   {
-    "title": "La Cendejas - Colibr\u00ed | A COLORS SHOW",
+    "title": "La Cendejas - Colibrí | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=zEmUnWUJN1I&pp=0gcJCTwKAYcqIYzv",
     "thumbnail": "https://i.ytimg.com/vi/zEmUnWUJN1I/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAsp1hfqhXVFgq4X9xuYHsLA_h2mA",
     "color": "#543a2d",
@@ -1196,40 +1561,10 @@
       84,
       58,
       45
-    ]
-  },
-  {
-    "title": "zeyne | A COLORS INTERVIEW",
-    "url": "https://www.youtube.com/watch?v=KoIaooNx_VM&pp=0gcJCTwKAYcqIYzv",
-    "thumbnail": "https://i.ytimg.com/vi/KoIaooNx_VM/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBRw4goLwjz114sfYyvItOLkHoigw",
-    "color": "#2b2833",
-    "rgb": [
-      43,
-      40,
-      51
-    ]
-  },
-  {
-    "title": "FKJ | A COLORS INTERVIEW",
-    "url": "https://www.youtube.com/watch?v=Z8MSb745syo",
-    "thumbnail": "https://i.ytimg.com/vi/Z8MSb745syo/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBFTwfieFHn3XjU4p7yjcufx5oZKw",
-    "color": "#2e9987",
-    "rgb": [
-      46,
-      153,
-      135
-    ]
-  },
-  {
-    "title": "Alewya | A COLORS INTERVIEW",
-    "url": "https://www.youtube.com/watch?v=a_KHMHfSRYc",
-    "thumbnail": "https://i.ytimg.com/vi/a_KHMHfSRYc/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDncCeIIK3_OYSu1nijeCbX4V_5Gw",
-    "color": "#e3e3db",
-    "rgb": [
-      227,
-      227,
-      219
-    ]
+    ],
+    "hex45": "#806040",
+    "hexpick": "#795842",
+    "hexpickhome": "#71503d"
   },
   {
     "title": "zeyne - Ma Bansak | A COLORS SHOW",
@@ -1240,7 +1575,11 @@
       121,
       121,
       155
-    ]
+    ],
+    "hex45": "#404060",
+    "hex1": "#6e6e90",
+    "hexpick": "#433e54",
+    "hexpickhome": "#82829d"
   },
   {
     "title": "Eli Preiss - Alles (und nichts) | A COLORS SHOW",
@@ -1251,7 +1590,11 @@
       67,
       9,
       50
-    ]
+    ],
+    "hex45": "#400040",
+    "hex1": "#986689",
+    "hexpick": "#4a0c37",
+    "hexpickhome": "#824b6d"
   },
   {
     "title": "oceanfromtheblue - 25 | A COLORS SHOW",
@@ -1262,7 +1605,11 @@
       180,
       18,
       59
-    ]
+    ],
+    "hex45": "#800020",
+    "hex1": "#bc1c3c",
+    "hexpick": "#79011b",
+    "hexpickhome": "#c62d3a"
   },
   {
     "title": "OG Keemo & Levin Liam - Bee Gees | A COLORS ENCORE",
@@ -1273,7 +1620,11 @@
       54,
       78,
       106
-    ]
+    ],
+    "hex45": "#204040",
+    "hex1": "#698895",
+    "hexpick": "#344557",
+    "hexpickhome": "#49687a"
   },
   {
     "title": "Naomi Sharon - Nothing Sweeter | A COLORS SHOW",
@@ -1284,7 +1635,10 @@
       113,
       119,
       133
-    ]
+    ],
+    "hex45": "#808080",
+    "hexpick": "#73768a",
+    "hexpickhome": "#696c7d"
   },
   {
     "title": "Mazen - Strawberry Privilege | A COLORS SHOW",
@@ -1295,10 +1649,14 @@
       115,
       93,
       56
-    ]
+    ],
+    "hex45": "#a08060",
+    "hex1": "#ccbc7c",
+    "hexpick": "#7f6e4a",
+    "hexpickhome": "#d6c286"
   },
   {
-    "title": "JEY BROWNIE - Dans l'\u00e2me | A COLORS SHOW",
+    "title": "JEY BROWNIE - Dans l'âme | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=qyCdWfTHYBg",
     "thumbnail": "https://i.ytimg.com/vi/qyCdWfTHYBg/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBQqZtH-9d-ch-CkV3JY4RDFqj9Rw",
     "color": "#926e4e",
@@ -1306,7 +1664,11 @@
       146,
       110,
       78
-    ]
+    ],
+    "hex45": "#604020",
+    "hex1": "#ad8851",
+    "hexpick": "#87673a",
+    "hexpickhome": "#b79476"
   },
   {
     "title": "Lavils - LIE BACK HARDER | A COLORS SHOW",
@@ -1317,7 +1679,11 @@
       129,
       33,
       35
-    ]
+    ],
+    "hex45": "#800020",
+    "hex1": "#cc3c4b",
+    "hexpick": "#730916",
+    "hexpickhome": "#dc4849"
   },
   {
     "title": "Karun - Only You | A COLORS SHOW",
@@ -1328,7 +1694,11 @@
       157,
       123,
       77
-    ]
+    ],
+    "hex45": "#c0a080",
+    "hex1": "#c09b3e",
+    "hexpick": "#b58b61",
+    "hexpickhome": "#ebd1a9"
   },
   {
     "title": "ElGrandeToto - WELD LAADOUL | A COLORS SHOW",
@@ -1339,7 +1709,11 @@
       112,
       49,
       34
-    ]
+    ],
+    "hex45": "#a04040",
+    "hex1": "#945444",
+    "hexpick": "#974239",
+    "hexpickhome": "#9d5948"
   },
   {
     "title": "Xenia Manasseh - Wild Ride | A COLORS SHOW",
@@ -1350,7 +1724,11 @@
       194,
       149,
       107
-    ]
+    ],
+    "hex45": "#c0a080",
+    "hex1": "#d4ac84",
+    "hexpick": "#b6916d",
+    "hexpickhome": "#d6ae83"
   },
   {
     "title": "Lisa Oduor-Noah - For Keeps | A COLORS SHOW",
@@ -1361,7 +1739,11 @@
       161,
       95,
       60
-    ]
+    ],
+    "hex45": "#c08040",
+    "hex1": "#bc7454",
+    "hexpick": "#cc8347",
+    "hexpickhome": "#c17c4e"
   },
   {
     "title": "J Warner - Superstar | A COLORS SHOW",
@@ -1372,7 +1754,11 @@
       118,
       54,
       45
-    ]
+    ],
+    "hex45": "#c06060",
+    "hex1": "#843434",
+    "hexpick": "#b94c4b",
+    "hexpickhome": "#8f3d31"
   },
   {
     "title": "UNA MIA - Lose You | A COLORS SHOW",
@@ -1383,7 +1769,11 @@
       70,
       117,
       65
-    ]
+    ],
+    "hex45": "#204020",
+    "hex1": "#64b648",
+    "hexpick": "#365d1e",
+    "hexpickhome": "#6c965f"
   },
   {
     "title": "Lou Phelps - Tu T'en Souviens | A COLORS SHOW",
@@ -1394,7 +1784,11 @@
       71,
       98,
       45
-    ]
+    ],
+    "hex45": "#60a040",
+    "hex1": "#7bac52",
+    "hexpick": "#60a040",
+    "hexpickhome": "#809e62"
   },
   {
     "title": "Priya Ragu - Black Goose / Let Me Breathe | A COLORS SHOW",
@@ -1405,7 +1799,11 @@
       77,
       90,
       64
-    ]
+    ],
+    "hex45": "#608040",
+    "hex1": "#6dad51",
+    "hexpick": "#52873c",
+    "hexpickhome": "#759059"
   },
   {
     "title": "Kerchak - Roule un autre | A COLORS SHOW",
@@ -1416,7 +1814,11 @@
       2,
       85,
       152
-    ]
+    ],
+    "hex45": "#0060a0",
+    "hex1": "#5c8ccc",
+    "hexpick": "#0060a0",
+    "hexpickhome": "#5a8dcf"
   },
   {
     "title": "Amaria - Day by Day | A COLORS SHOW",
@@ -1427,7 +1829,11 @@
       53,
       93,
       118
-    ]
+    ],
+    "hex45": "#206080",
+    "hex1": "#4494a4",
+    "hexpick": "#276472",
+    "hexpickhome": "#3e8ca9"
   },
   {
     "title": "Chester Watson - chasing clouds / summer blues | A COLORS SHOW",
@@ -1438,7 +1844,11 @@
       179,
       175,
       88
-    ]
+    ],
+    "hex45": "#c0c060",
+    "hex1": "#e5e519",
+    "hexpick": "#c0c060",
+    "hexpickhome": "#f6eea0"
   },
   {
     "title": "Yasin - Salaam & twogunkid | A COLORS SHOW",
@@ -1449,10 +1859,14 @@
       204,
       197,
       106
-    ]
+    ],
+    "hex45": "#e0e060",
+    "hex1": "#dcdc6c",
+    "hexpick": "#d0da58",
+    "hexpickhome": "#dfd26d"
   },
   {
-    "title": "Sha\u00e9 Universe - Summertime | A COLORS SHOW",
+    "title": "Shaé Universe - Summertime | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=8SLOfi8imt4",
     "thumbnail": "https://i.ytimg.com/vi/8SLOfi8imt4/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC69F1iTQ2iRDWcbaHNQlyltuDh8A",
     "color": "#2d4780",
@@ -1460,7 +1874,11 @@
       45,
       71,
       128
-    ]
+    ],
+    "hex45": "#406080",
+    "hex1": "#3c64ac",
+    "hexpick": "#315486",
+    "hexpickhome": "#3660b1"
   },
   {
     "title": "Al-Doms - Til My Heart Stops (feat. Alessandra Salinas) | A COLORS SHOW",
@@ -1471,10 +1889,13 @@
       175,
       185,
       2
-    ]
+    ],
+    "hex45": "#c0e060",
+    "hexpick": "#a9be4e",
+    "hexpickhome": "#7f9338"
   },
   {
-    "title": "B\u00e9esau - retrouver l'aube | A COLORS SHOW",
+    "title": "Béesau - retrouver l'aube | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=5f-wGZ1UI5s",
     "thumbnail": "https://i.ytimg.com/vi/5f-wGZ1UI5s/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC1uJXbwTyOd9-ymHcK1XopIsvvag",
     "color": "#c1bb7d",
@@ -1482,7 +1903,11 @@
       193,
       187,
       125
-    ]
+    ],
+    "hex45": "#c0c080",
+    "hex1": "#d4d48c",
+    "hexpick": "#c0c080",
+    "hexpickhome": "#d3d396"
   },
   {
     "title": "Yuna - Glory | A COLORS SHOW",
@@ -1493,7 +1918,11 @@
       167,
       166,
       102
-    ]
+    ],
+    "hex45": "#a0a060",
+    "hex1": "#afaf4f",
+    "hexpick": "#a9aa72",
+    "hexpickhome": "#b0b17a"
   },
   {
     "title": "Babyboy AV - Jeje | A COLORS SHOW",
@@ -1504,7 +1933,11 @@
       55,
       102,
       86
-    ]
+    ],
+    "hex45": "#408060",
+    "hex1": "#74947c",
+    "hexpick": "#37895c",
+    "hexpickhome": "#809a8d"
   },
   {
     "title": "Tamera - Diversion | A COLORS SHOW",
@@ -1515,7 +1948,11 @@
       62,
       5,
       37
-    ]
+    ],
+    "hex45": "#400020",
+    "hex1": "#8c2c64",
+    "hexpick": "#4a0f2a",
+    "hexpickhome": "#933a65"
   },
   {
     "title": "Grace Weber - Intimate | A COLORS SHOW",
@@ -1526,7 +1963,11 @@
       12,
       104,
       145
-    ]
+    ],
+    "hex45": "#0080a0",
+    "hex1": "#0c8ca4",
+    "hexpick": "#0080a0",
+    "hexpickhome": "#017ea9"
   },
   {
     "title": "J Hus - Massacre | A COLORS SHOW",
@@ -1537,7 +1978,11 @@
       109,
       177,
       212
-    ]
+    ],
+    "hex45": "#80c0e0",
+    "hex1": "#249dda",
+    "hexpick": "#7dbfe7",
+    "hexpickhome": "#8bcaec"
   },
   {
     "title": "Tayc - PRADA'S BIRTHDAY | A COLORS SHOW",
@@ -1548,7 +1993,11 @@
       239,
       221,
       109
-    ]
+    ],
+    "hex45": "#a0a040",
+    "hex1": "#e4dc5c",
+    "hexpick": "#a0a040",
+    "hexpickhome": "#e5d454"
   },
   {
     "title": "Libianca - Jah | A COLORS SHOW",
@@ -1559,7 +2008,11 @@
       32,
       95,
       64
-    ]
+    ],
+    "hex45": "#408040",
+    "hex1": "#449454",
+    "hexpick": "#408040",
+    "hexpickhome": "#448b54"
   },
   {
     "title": "Sylo - Mile End | A COLORS SHOW",
@@ -1570,18 +2023,11 @@
       75,
       122,
       148
-    ]
-  },
-  {
-    "title": "Seinabo Sey - THE ONE AFTER ME (Trailer)",
-    "url": "https://www.youtube.com/watch?v=thjz6LcEofE",
-    "thumbnail": "https://i.ytimg.com/vi/thjz6LcEofE/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLD7PimxwVcpMg3Ilx7Au7kptZNO-Q",
-    "color": "#b4b597",
-    "rgb": [
-      180,
-      181,
-      151
-    ]
+    ],
+    "hex45": "#6080a0",
+    "hex1": "#84acc4",
+    "hexpick": "#6080a0",
+    "hexpickhome": "#8bb5cc"
   },
   {
     "title": "Kwaku Asante - Strawberry Skies | A COLORS SHOW",
@@ -1592,7 +2038,11 @@
       1,
       145,
       179
-    ]
+    ],
+    "hex45": "#40c0e0",
+    "hex1": "#5cd4f4",
+    "hexpick": "#3fc8d8",
+    "hexpickhome": "#5ed3f6"
   },
   {
     "title": "IDK - Elmina | A COLORS SHOW",
@@ -1603,7 +2053,11 @@
       1,
       146,
       143
-    ]
+    ],
+    "hex45": "#20c0c0",
+    "hex1": "#6cecd4",
+    "hexpick": "#20c0c0",
+    "hexpickhome": "#72e1db"
   },
   {
     "title": "rum.gold - AM/FM + Blessed | A COLORS SHOW",
@@ -1614,7 +2068,11 @@
       167,
       156,
       41
-    ]
+    ],
+    "hex45": "#c0c060",
+    "hex1": "#e4e46b",
+    "hexpick": "#c0c060",
+    "hexpickhome": "#e8dc64"
   },
   {
     "title": "Robin - 0 | A COLORS SHOW",
@@ -1625,7 +2083,11 @@
       1,
       114,
       78
-    ]
+    ],
+    "hex45": "#208060",
+    "hex1": "#5cac74",
+    "hexpick": "#2d8b52",
+    "hexpickhome": "#599f73"
   },
   {
     "title": "Enji - Uzegdel | A COLORS SHOW",
@@ -1636,10 +2098,14 @@
       77,
       132,
       109
-    ]
+    ],
+    "hex45": "#60a080",
+    "hex1": "#54b34b",
+    "hexpick": "#60a080",
+    "hexpickhome": "#9fc1a8"
   },
   {
-    "title": "Ratu$ - Ange & D\u00e9mon | A COLORS SHOW",
+    "title": "Ratu$ - Ange & Démon | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=4f33bUuzb_k&pp=0gcJCTwKAYcqIYzv",
     "thumbnail": "https://i.ytimg.com/vi/4f33bUuzb_k/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCeehVIo53VsxTNPo7c1roPNJmv6A",
     "color": "#1a2277",
@@ -1647,7 +2113,10 @@
       26,
       34,
       119
-    ]
+    ],
+    "hex45": "#202060",
+    "hexpick": "#202060",
+    "hexpickhome": "#464da0"
   },
   {
     "title": "Seinabo Sey - EVERYTHING | A COLORS SHOW",
@@ -1658,7 +2127,11 @@
       31,
       16,
       73
-    ]
+    ],
+    "hex45": "#402060",
+    "hex1": "#442c74",
+    "hexpick": "#2e1255",
+    "hexpickhome": "#4c3783"
   },
   {
     "title": "Khamari - These Four Walls | A COLORS SHOW",
@@ -1669,10 +2142,14 @@
       75,
       26,
       11
-    ]
+    ],
+    "hex45": "#602020",
+    "hex1": "#ac644c",
+    "hexpick": "#5d2217",
+    "hexpickhome": "#b26b4d"
   },
   {
-    "title": "ShiGGa Shay \u662f\u4e2a\u8c01 - Rainy Days \u4e0b\u96e8\u5929 | A COLORS SHOW",
+    "title": "ShiGGa Shay 是个谁 - Rainy Days 下雨天 | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=hQ0ydV1h_QA",
     "thumbnail": "https://i.ytimg.com/vi/hQ0ydV1h_QA/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDkLZQJIvSg_-frEwkhMYxtg9cRRg",
     "color": "#735f46",
@@ -1680,7 +2157,11 @@
       115,
       95,
       70
-    ]
+    ],
+    "hex45": "#c0a080",
+    "hex1": "#c49c7c",
+    "hexpick": "#c0a080",
+    "hexpickhome": "#cea587"
   },
   {
     "title": "Tora-i - Palace | A COLORS SHOW",
@@ -1691,7 +2172,11 @@
       151,
       12,
       45
-    ]
+    ],
+    "hex45": "#800020",
+    "hex1": "#a41c3c",
+    "hexpick": "#940a28",
+    "hexpickhome": "#bb3049"
   },
   {
     "title": "Slow J - Grandeza | A COLORS SHOW",
@@ -1702,7 +2187,11 @@
       157,
       32,
       30
-    ]
+    ],
+    "hex45": "#600020",
+    "hex1": "#ac2c3b",
+    "hexpick": "#570218",
+    "hexpickhome": "#bd3d39"
   },
   {
     "title": "pablopablo - fuego | A COLORS SHOW",
@@ -1713,7 +2202,11 @@
       240,
       39,
       75
-    ]
+    ],
+    "hex45": "#800020",
+    "hex1": "#ac344c",
+    "hexpick": "#790d1c",
+    "hexpickhome": "#bc4859"
   },
   {
     "title": "NNAVY - Come and Get It | A COLORS SHOW",
@@ -1724,7 +2217,11 @@
       33,
       38,
       102
-    ]
+    ],
+    "hex45": "#404080",
+    "hex1": "#3c3c84",
+    "hexpick": "#2b2d6a",
+    "hexpickhome": "#444a97"
   },
   {
     "title": "Shobee - Power | A COLORS SHOW",
@@ -1735,7 +2232,10 @@
       132,
       148,
       164
-    ]
+    ],
+    "hex45": "#6080a0",
+    "hexpick": "#6080a0",
+    "hexpickhome": "#8a9bab"
   },
   {
     "title": "Ragz Originale - troublin | A COLORS SHOW",
@@ -1746,7 +2246,11 @@
       2,
       87,
       154
-    ]
+    ],
+    "hex45": "#0060c0",
+    "hex1": "#4b8cdc",
+    "hexpick": "#084b95",
+    "hexpickhome": "#4d90e3"
   },
   {
     "title": "tlinh - sleeping beauty | A COLORS SHOW",
@@ -1757,7 +2261,11 @@
       172,
       3,
       72
-    ]
+    ],
+    "hex45": "#a02060",
+    "hex1": "#c40c94",
+    "hexpick": "#8e195d",
+    "hexpickhome": "#d72499"
   },
   {
     "title": "Wren Evans - Trao | A COLORS SHOW",
@@ -1768,10 +2276,14 @@
       117,
       194,
       176
-    ]
+    ],
+    "hex45": "#40c0a0",
+    "hex1": "#42bc8e",
+    "hexpick": "#40c0a0",
+    "hexpickhome": "#a2dacb"
   },
   {
-    "title": "PLK - D\u00e9cembre | A COLORS SHOW",
+    "title": "PLK - Décembre | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=Hag5XZUuepE",
     "thumbnail": "https://i.ytimg.com/vi/Hag5XZUuepE/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCNY6hLw5Yf68btfm1Afzaxhrifeg",
     "color": "#e03615",
@@ -1779,7 +2291,11 @@
       224,
       54,
       21
-    ]
+    ],
+    "hex45": "#802000",
+    "hex1": "#b42c2c",
+    "hexpick": "#802000",
+    "hexpickhome": "#bf3d2b"
   },
   {
     "title": "NATIV -  Foyi Freestyle | A COLORS SHOW",
@@ -1790,10 +2306,14 @@
       3,
       66,
       109
-    ]
+    ],
+    "hex45": "#0080a0",
+    "hex1": "#3474a4",
+    "hexpick": "#0b7aa9",
+    "hexpickhome": "#357bb2"
   },
   {
-    "title": "Low G - Thi\u00ean Th\u1ea7n \u00c1c Qu\u1ef7 | A COLORS SHOW",
+    "title": "Low G - Thiên Thần Ác Quỷ | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=VNJsyFMUR3Y&pp=0gcJCTwKAYcqIYzv",
     "thumbnail": "https://i.ytimg.com/vi/VNJsyFMUR3Y/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLADAptnkD5kdiTymlUkYfXHHRvEvA",
     "color": "#c77a36",
@@ -1801,7 +2321,10 @@
       199,
       122,
       54
-    ]
+    ],
+    "hex45": "#c04000",
+    "hexpick": "#a82f0b",
+    "hexpickhome": "#b6451e"
   },
   {
     "title": "Gabriels - Offering | A COLORS SHOW",
@@ -1812,7 +2335,11 @@
       216,
       155,
       64
-    ]
+    ],
+    "hex45": "#202020",
+    "hex1": "#f4cc64",
+    "hexpick": "#b87f32",
+    "hexpickhome": "#fbcb62"
   },
   {
     "title": "Elmiene - Endless No Mores | A COLORS SHOW",
@@ -1823,10 +2350,14 @@
       40,
       100,
       150
-    ]
+    ],
+    "hex45": "#60a0e0",
+    "hex1": "#6c9cc4",
+    "hexpick": "#3377ac",
+    "hexpickhome": "#669ac6"
   },
   {
-    "title": "LYNN - J'aime pas le go\u00fbt | A COLORS SHOW",
+    "title": "LYNN - J'aime pas le goût | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=fQkIIl1dikg",
     "thumbnail": "https://i.ytimg.com/vi/fQkIIl1dikg/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLB94Ae84Q1dgNppw8ukvcKO_az_Ug",
     "color": "#cc8102",
@@ -1834,10 +2365,14 @@
       204,
       129,
       2
-    ]
+    ],
+    "hex45": "#a08020",
+    "hex1": "#cca44c",
+    "hexpick": "#9a7125",
+    "hexpickhome": "#d8af53"
   },
   {
-    "title": "M\u1ef9 Anh - M\u1ed7i Khi Anh Nh\u00ecn Em | A COLORS SHOW",
+    "title": "Mỹ Anh - Mỗi Khi Anh Nhìn Em | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=7FGYeYyKhn4",
     "thumbnail": "https://i.ytimg.com/vi/7FGYeYyKhn4/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC5VJVqpILd52b05oMPqpA8Hw0NAQ",
     "color": "#deb342",
@@ -1845,7 +2380,11 @@
       222,
       179,
       66
-    ]
+    ],
+    "hex45": "#c0a060",
+    "hex1": "#ecc312",
+    "hexpick": "#97864e",
+    "hexpickhome": "#f8da7c"
   },
   {
     "title": "SDM - Hier Encore | A COLORS SHOW",
@@ -1856,10 +2395,14 @@
       236,
       205,
       174
-    ]
+    ],
+    "hex45": "#100c0a0",
+    "hex1": "#ecac74",
+    "hexpick": "#e3b488",
+    "hexpickhome": "#efb277"
   },
   {
-    "title": "Dr\u00e9 Six - Guns & Roses | A COLORS SHOW",
+    "title": "Dré Six - Guns & Roses | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=V1Q44LqcfkQ",
     "thumbnail": "https://i.ytimg.com/vi/V1Q44LqcfkQ/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLA4WymIZLmjVgIbZdgifHPD5AqFmA",
     "color": "#b95231",
@@ -1867,7 +2410,11 @@
       185,
       82,
       49
-    ]
+    ],
+    "hex45": "#602020",
+    "hex1": "#764434",
+    "hexpick": "#671e0d",
+    "hexpickhome": "#743318"
   },
   {
     "title": "Loyle Carner - HGU | A COLORS SHOW",
@@ -1878,7 +2425,11 @@
       216,
       155,
       48
-    ]
+    ],
+    "hex45": "#e0a020",
+    "hex1": "#f4b43c",
+    "hexpick": "#e0a020",
+    "hexpickhome": "#fdb53c"
   },
   {
     "title": "Fally Ipupa - Par Terre | A COLORS SHOW",
@@ -1889,7 +2440,11 @@
       2,
       169,
       224
-    ]
+    ],
+    "hex45": "#0080c0",
+    "hex1": "#0c94c4",
+    "hexpick": "#0d8fda",
+    "hexpickhome": "#018bcd"
   },
   {
     "title": "Kady - TAMINA | A COLORS SHOW",
@@ -1900,7 +2455,11 @@
       141,
       146,
       186
-    ]
+    ],
+    "hex45": "#c0c0100",
+    "hex1": "#0838f6",
+    "hexpick": "#b3c5fb",
+    "hexpickhome": "#a8bcfd"
   },
   {
     "title": "B.B. Jacques - RAINBOW  | A COLORS SHOW",
@@ -1911,7 +2470,11 @@
       47,
       128,
       175
-    ]
+    ],
+    "hex45": "#40a0c0",
+    "hex1": "#74c4ec",
+    "hexpick": "#3f88ad",
+    "hexpickhome": "#6dbeed"
   },
   {
     "title": "Asiahn - When It Comes To You | A COLORS SHOW",
@@ -1922,10 +2485,14 @@
       162,
       67,
       63
-    ]
+    ],
+    "hex45": "#c06060",
+    "hex1": "#dc7c7c",
+    "hexpick": "#c06060",
+    "hexpickhome": "#e99086"
   },
   {
-    "title": "Saint\u00e9 - Compare | A COLORS SHOW",
+    "title": "Sainté - Compare | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=GzMegedJ0hw",
     "thumbnail": "https://i.ytimg.com/vi/GzMegedJ0hw/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC33XdfjvihnJc_SBTStfqQUbUiow",
     "color": "#294cab",
@@ -1933,7 +2500,11 @@
       41,
       76,
       171
-    ]
+    ],
+    "hex45": "#4080e0",
+    "hex1": "#5484dc",
+    "hexpick": "#2f4c90",
+    "hexpickhome": "#4b81e0"
   },
   {
     "title": "Leto & Guy2bezbar - Sosa | A COLORS SHOW",
@@ -1944,10 +2515,14 @@
       158,
       127,
       203
-    ]
+    ],
+    "hex45": "#8040a0",
+    "hex1": "#6e29d5",
+    "hexpick": "#81469c",
+    "hexpickhome": "#bda4ee"
   },
   {
-    "title": "Pol Batlle & Rita Pay\u00e9s - VIDA | A COLORS SHOW",
+    "title": "Pol Batlle & Rita Payés - VIDA | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=mcUtHSIqEik",
     "thumbnail": "https://i.ytimg.com/vi/mcUtHSIqEik/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAyyG_LIigmAe1v7THUs-Y6IGM11A",
     "color": "#025eab",
@@ -1955,7 +2530,11 @@
       2,
       94,
       171
-    ]
+    ],
+    "hex45": "#0080c0",
+    "hex1": "#0c84bc",
+    "hexpick": "#0a7bb7",
+    "hexpickhome": "#0086c8"
   },
   {
     "title": "DIXSON - SWEETER | A COLORS SHOW",
@@ -1966,7 +2545,11 @@
       141,
       37,
       27
-    ]
+    ],
+    "hex45": "#a02020",
+    "hex1": "#9c342c",
+    "hexpick": "#9a281e",
+    "hexpickhome": "#b1472b"
   },
   {
     "title": "FKJ - Us | A COLORS SHOW",
@@ -1977,7 +2560,11 @@
       171,
       161,
       92
-    ]
+    ],
+    "hex45": "#c0c060",
+    "hex1": "#f8e706",
+    "hexpick": "#c4bf6b",
+    "hexpickhome": "#fcf18a"
   },
   {
     "title": "TENI - TROUBLE | A COLORS SHOW",
@@ -1988,7 +2575,11 @@
       185,
       57,
       108
-    ]
+    ],
+    "hex45": "#a02060",
+    "hex1": "#c44c84",
+    "hexpick": "#ab2164",
+    "hexpickhome": "#d66593"
   },
   {
     "title": "Nemahsis - criminal | A COLORS SHOW",
@@ -1999,7 +2590,11 @@
       1,
       147,
       136
-    ]
+    ],
+    "hex45": "#20c0a0",
+    "hex1": "#44b494",
+    "hexpick": "#20c0a0",
+    "hexpickhome": "#39a69b"
   },
   {
     "title": "Sebastian Mikael - Scene 1 | A COLORS SHOW",
@@ -2010,7 +2605,11 @@
       14,
       67,
       107
-    ]
+    ],
+    "hex45": "#204060",
+    "hex1": "#94b4cc",
+    "hexpick": "#1e4a73",
+    "hexpickhome": "#91b3c8"
   },
   {
     "title": "Doechii - Stressed | A COLORS SHOW",
@@ -2021,21 +2620,13 @@
       223,
       205,
       59
-    ]
+    ],
+    "hex45": "#e0e060",
+    "hexpick": "#d8d551",
+    "hexpickhome": "#f5e14e"
   },
   {
-    "title": "Hans Philip - Juno 18 | A COLORS ENCORE",
-    "url": "https://www.youtube.com/watch?v=rIBNH61sOMc",
-    "thumbnail": "https://i.ytimg.com/vi/rIBNH61sOMc/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCUlUGB_ToLfsUezcqH9j7addi-0A",
-    "color": "#4c4857",
-    "rgb": [
-      76,
-      72,
-      87
-    ]
-  },
-  {
-    "title": "AYL\u00d8 - Hey! (prod. KDaGreat & Tera K\u00f2r\u00e1) | A COLORS SHOW",
+    "title": "AYLØ - Hey! (prod. KDaGreat & Tera Kòrá) | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=rx2GhYZSvKA",
     "thumbnail": "https://i.ytimg.com/vi/rx2GhYZSvKA/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAF5I11lJkltZDn1QAVxyTATvCLWw",
     "color": "#021a72",
@@ -2043,7 +2634,11 @@
       2,
       26,
       114
-    ]
+    ],
+    "hex45": "#0040a0",
+    "hex1": "#1c4484",
+    "hexpick": "#0040a0",
+    "hexpickhome": "#16468b"
   },
   {
     "title": "Annahstasia - Power | A COLORS SHOW",
@@ -2054,7 +2649,11 @@
       22,
       109,
       207
-    ]
+    ],
+    "hex45": "#0080100",
+    "hex1": "#0c74f4",
+    "hexpick": "#0850b4",
+    "hexpickhome": "#0b71f9"
   },
   {
     "title": "Jordan Hawkins - Super Power | A COLORS SHOW",
@@ -2065,18 +2664,11 @@
       107,
       202,
       162
-    ]
-  },
-  {
-    "title": "Lagos in Motion - COLORS x EDITORIAL | LAGOS, NIGERIA",
-    "url": "https://www.youtube.com/watch?v=sWxudEOEsxQ",
-    "thumbnail": "https://i.ytimg.com/vi/sWxudEOEsxQ/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLA4JTxVU2AApdrNzcIqW0uH8G6C6Q",
-    "color": "#452c1c",
-    "rgb": [
-      69,
-      44,
-      28
-    ]
+    ],
+    "hex45": "#a0e0c0",
+    "hex1": "#7fc499",
+    "hexpick": "#7fcb9a",
+    "hexpickhome": "#7cbc9b"
   },
   {
     "title": "Bryann - Juju Pt. 2 | A COLORS SHOW",
@@ -2087,10 +2679,14 @@
       207,
       132,
       2
-    ]
+    ],
+    "hex45": "#e0c040",
+    "hex1": "#f4cc3c",
+    "hexpick": "#efc236",
+    "hexpickhome": "#ffc532"
   },
   {
-    "title": "DETO BLACK - N\u00fc Bag | A COLORS SHOW",
+    "title": "DETO BLACK - Nü Bag | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=4qvmkWaZb3Q",
     "thumbnail": "https://i.ytimg.com/vi/4qvmkWaZb3Q/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLA10_KjW-HFj7FUxV2HBg2wRzsEYQ",
     "color": "#0c0866",
@@ -2098,7 +2694,11 @@
       12,
       8,
       102
-    ]
+    ],
+    "hex45": "#200080",
+    "hex1": "#463a84",
+    "hexpick": "#200080",
+    "hexpickhome": "#100165"
   },
   {
     "title": "Ambar Lucid - Timeless | A COLORS SHOW",
@@ -2109,7 +2709,11 @@
       181,
       102,
       149
-    ]
+    ],
+    "hex45": "#c060a0",
+    "hex1": "#9c4484",
+    "hexpick": "#b5679b",
+    "hexpickhome": "#a15586"
   },
   {
     "title": "FKA twigs - Killer | A COLORS SHOW",
@@ -2120,7 +2724,10 @@
       2,
       151,
       209
-    ]
+    ],
+    "hex45": "#20c0100",
+    "hexpick": "#0a66a1",
+    "hexpickhome": "#00a6fe"
   },
   {
     "title": "Joeboy - Spiritual Gbedu | A COLORS SHOW",
@@ -2131,18 +2738,11 @@
       98,
       17,
       21
-    ]
-  },
-  {
-    "title": "The Color of Love - COLORS x EDITORIAL | LAGOS, NIGERIA",
-    "url": "https://www.youtube.com/watch?v=1caarz4lzV8",
-    "thumbnail": "https://i.ytimg.com/vi/1caarz4lzV8/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDrfoTjvo782thSFufANhCqshWKYA",
-    "color": "#030f4a",
-    "rgb": [
-      3,
-      15,
-      74
-    ]
+    ],
+    "hex45": "#c02020",
+    "hex1": "#c42424",
+    "hexpick": "#c02020",
+    "hexpickhome": "#da3e2a"
   },
   {
     "title": "Rachel Chinouriri - Thank You For Nothing | A COLORS SHOW",
@@ -2153,7 +2753,11 @@
       186,
       17,
       116
-    ]
+    ],
+    "hex45": "#a00060",
+    "hex1": "#cc2494",
+    "hexpick": "#9c005e",
+    "hexpickhome": "#dd3997"
   },
   {
     "title": "Jeshi - Coffee / National Lottery | A COLORS SHOW",
@@ -2164,7 +2768,11 @@
       210,
       123,
       70
-    ]
+    ],
+    "hex45": "#c08040",
+    "hex1": "#f4742c",
+    "hexpick": "#c6773f",
+    "hexpickhome": "#fe842f"
   },
   {
     "title": "Victony - Many Man | A COLORS SHOW",
@@ -2175,7 +2783,11 @@
       45,
       38,
       82
-    ]
+    ],
+    "hex45": "#402060",
+    "hex1": "#44347c",
+    "hexpick": "#3f2f6b",
+    "hexpickhome": "#443d7f"
   },
   {
     "title": "REASON - Barely Miss  | A COLORS SHOW",
@@ -2186,7 +2798,11 @@
       155,
       118,
       92
-    ]
+    ],
+    "hex45": "#a08060",
+    "hex1": "#b47c5c",
+    "hexpick": "#a57459",
+    "hexpickhome": "#b7815e"
   },
   {
     "title": "Brandy - Rather Be | A COLORS SHOW",
@@ -2197,7 +2813,11 @@
       59,
       30,
       76
-    ]
+    ],
+    "hex45": "#402040",
+    "hex1": "#9d43bb",
+    "hexpick": "#5c2a67",
+    "hexpickhome": "#5b2f69"
   },
   {
     "title": "Manal - 3ARI | A COLORS SHOW",
@@ -2208,7 +2828,11 @@
       158,
       24,
       27
-    ]
+    ],
+    "hex45": "#a02020",
+    "hex1": "#9c2c2c",
+    "hexpick": "#ad2320",
+    "hexpickhome": "#a9392b"
   },
   {
     "title": "Mez - Devil Is A Judge | A COLORS SHOW",
@@ -2219,7 +2843,11 @@
       203,
       145,
       1
-    ]
+    ],
+    "hex45": "#e0c020",
+    "hex1": "#eccc34",
+    "hexpick": "#e5b61e",
+    "hexpickhome": "#eecb34"
   },
   {
     "title": "WESTSIDE BOOGIE - STUCK | A COLORS SHOW",
@@ -2230,7 +2858,11 @@
       156,
       106,
       69
-    ]
+    ],
+    "hex45": "#c0a060",
+    "hex1": "#b38d4b",
+    "hexpick": "#cca172",
+    "hexpickhome": "#ab8268"
   },
   {
     "title": "Saya Gray - PAP TEST | A COLORS SHOW",
@@ -2241,18 +2873,10 @@
       193,
       185,
       166
-    ]
-  },
-  {
-    "title": "Saya Gray - HOMEGROWN | COLORS x BURBERRY",
-    "url": "https://www.youtube.com/watch?v=bPNqkYlwu6k&pp=0gcJCTwKAYcqIYzv",
-    "thumbnail": "https://i.ytimg.com/vi/bPNqkYlwu6k/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBeyGhGt7B6d8X66TUfUOBosWy5-g",
-    "color": "#c0cfe6",
-    "rgb": [
-      192,
-      207,
-      230
-    ]
+    ],
+    "hex45": "#a0a080",
+    "hexpick": "#a28e70",
+    "hexpickhome": "#dad2bd"
   },
   {
     "title": "Nana - Live From The District | A COLORS SHOW",
@@ -2263,7 +2887,11 @@
       226,
       160,
       3
-    ]
+    ],
+    "hex45": "#100c040",
+    "hex1": "#e4a424",
+    "hexpick": "#f5b531",
+    "hexpickhome": "#ecab22"
   },
   {
     "title": "Haviah Mighty - Imagine That | A COLORS SHOW",
@@ -2274,7 +2902,11 @@
       155,
       115,
       105
-    ]
+    ],
+    "hex45": "#a08080",
+    "hex1": "#976f67",
+    "hexpick": "#b89187",
+    "hexpickhome": "#b79188"
   },
   {
     "title": "D Smoke - Glide | A COLORS SHOW",
@@ -2285,7 +2917,11 @@
       2,
       80,
       126
-    ]
+    ],
+    "hex45": "#00a0e0",
+    "hex1": "#4c9ccc",
+    "hexpick": "#10aade",
+    "hexpickhome": "#52a2d6"
   },
   {
     "title": "Marina Satti - YIATI POULI M | A COLORS ENCORE",
@@ -2296,10 +2932,14 @@
       0,
       0,
       0
-    ]
+    ],
+    "hex45": "#200000",
+    "hex1": "#7c3222",
+    "hexpick": "#200000",
+    "hexpickhome": "#88391b"
   },
   {
-    "title": "Foushe\u00e9 - double standard | A COLORS SHOW",
+    "title": "Fousheé - double standard | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=2kI9UEbrBKc",
     "thumbnail": "https://i.ytimg.com/vi/2kI9UEbrBKc/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLA796s9or1ke09IfgPebUxKooLk2A",
     "color": "#634e39",
@@ -2307,18 +2947,11 @@
       99,
       78,
       57
-    ]
-  },
-  {
-    "title": "Foushe\u00e9 - HOMEGROWN | COLORS x BURBERRY",
-    "url": "https://www.youtube.com/watch?v=2rQJu-13Gx0",
-    "thumbnail": "https://i.ytimg.com/vi/2rQJu-13Gx0/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCHIsVmSv9LIfENRyAUi3TbuEmKMQ",
-    "color": "#a09e9f",
-    "rgb": [
-      160,
-      158,
-      159
-    ]
+    ],
+    "hex45": "#806040",
+    "hex1": "#ad9a51",
+    "hexpick": "#806040",
+    "hexpickhome": "#c1a281"
   },
   {
     "title": "Guapdad 4000 - Black Iverson | A COLORS SHOW",
@@ -2329,7 +2962,11 @@
       171,
       133,
       114
-    ]
+    ],
+    "hex45": "#a08080",
+    "hex1": "#9a7a64",
+    "hexpick": "#b29282",
+    "hexpickhome": "#b59682"
   },
   {
     "title": "Orion Sun - dirty dancer | A COLORS SHOW",
@@ -2340,7 +2977,11 @@
       210,
       146,
       163
-    ]
+    ],
+    "hex45": "#c080a0",
+    "hex1": "#cc8494",
+    "hexpick": "#be7c92",
+    "hexpickhome": "#d28d94"
   },
   {
     "title": "Gunna - private island | A COLORS SHOW",
@@ -2351,7 +2992,11 @@
       121,
       87,
       60
-    ]
+    ],
+    "hex45": "#a08060",
+    "hex1": "#957f69",
+    "hexpick": "#917054",
+    "hexpickhome": "#7c5e44"
   },
   {
     "title": "Dreamer Isioma - Sunset Drive | A COLORS SHOW",
@@ -2362,10 +3007,14 @@
       122,
       99,
       81
-    ]
+    ],
+    "hex45": "#806040",
+    "hex1": "#b2904c",
+    "hexpick": "#826a53",
+    "hexpickhome": "#bd9e7f"
   },
   {
-    "title": "Celo Dut - N\u00e3o Vou Ceder | A COLORS SHOW",
+    "title": "Celo Dut - Não Vou Ceder | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=i7FVKv2T6vk",
     "thumbnail": "https://i.ytimg.com/vi/i7FVKv2T6vk/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAXj3m7Kzw29SQObtsxpyo9AKv52Q",
     "color": "#cca337",
@@ -2373,7 +3022,11 @@
       204,
       163,
       55
-    ]
+    ],
+    "hex45": "#e0c040",
+    "hex1": "#f4d45c",
+    "hexpick": "#ecce50",
+    "hexpickhome": "#fdd861"
   },
   {
     "title": "Lady Donli - Thunderstorm In Surulere | A COLORS SHOW",
@@ -2384,7 +3037,11 @@
       182,
       157,
       238
-    ]
+    ],
+    "hex45": "#a080e0",
+    "hex1": "#5b22dc",
+    "hexpick": "#a080e0",
+    "hexpickhome": "#a68ef1"
   },
   {
     "title": "Budah - QUANDO EU TE OLHEI | A COLORS SHOW",
@@ -2395,7 +3052,10 @@
       147,
       79,
       14
-    ]
+    ],
+    "hex45": "#e08040",
+    "hexpick": "#d68738",
+    "hexpickhome": "#cf8642"
   },
   {
     "title": "SIPHO. - OCCASION | A COLORS SHOW",
@@ -2406,7 +3066,11 @@
       157,
       32,
       30
-    ]
+    ],
+    "hex45": "#e04040",
+    "hex1": "#cc3c3c",
+    "hexpick": "#e53c3a",
+    "hexpickhome": "#cb3f3e"
   },
   {
     "title": "Benjamin Epps - CE QUE LE PIPS DEMANDE | A COLORS SHOW",
@@ -2417,7 +3081,11 @@
       104,
       76,
       62
-    ]
+    ],
+    "hex45": "#a08060",
+    "hex1": "#987566",
+    "hexpick": "#966c55",
+    "hexpickhome": "#8a6048"
   },
   {
     "title": "Knucks - Alpha House/Bando | A COLORS SHOW",
@@ -2428,7 +3096,10 @@
       0,
       177,
       78
-    ]
+    ],
+    "hex45": "#40e080",
+    "hexpick": "#40e080",
+    "hexpickhome": "#3bb262"
   },
   {
     "title": "Amber Mark - Most Men | A COLORS SHOW",
@@ -2439,10 +3110,14 @@
       236,
       199,
       147
-    ]
+    ],
+    "hex45": "#100e0c0",
+    "hex1": "#d8a726",
+    "hexpick": "#f5deb4",
+    "hexpickhome": "#ecd08f"
   },
   {
-    "title": "\u00c0VU\u00c0 - Comum | A COLORS SHOW",
+    "title": "ÀVUÀ - Comum | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=xKSl4EvdqRY",
     "thumbnail": "https://i.ytimg.com/vi/xKSl4EvdqRY/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAP6hmBjoU-4ztofdRFCrGcdS6SKA",
     "color": "#b02c54",
@@ -2450,7 +3125,11 @@
       176,
       44,
       84
-    ]
+    ],
+    "hex45": "#c02060",
+    "hex1": "#c43c64",
+    "hexpick": "#af0e52",
+    "hexpickhome": "#d24c6b"
   },
   {
     "title": "Latanya Alberto - Trouble | A COLORS ENCORE",
@@ -2461,7 +3140,11 @@
       62,
       48,
       65
-    ]
+    ],
+    "hex45": "#402040",
+    "hex1": "#976785",
+    "hexpick": "#5d4360",
+    "hexpickhome": "#bc97aa"
   },
   {
     "title": "Ana Olic - Correnteza  | A COLORS SHOW",
@@ -2472,7 +3155,11 @@
       159,
       58,
       33
-    ]
+    ],
+    "hex45": "#c06040",
+    "hex1": "#bc6444",
+    "hexpick": "#c06040",
+    "hexpickhome": "#cb754f"
   },
   {
     "title": "Fana Hues - Breakfast | A COLORS SHOW",
@@ -2483,7 +3170,11 @@
       1,
       144,
       214
-    ]
+    ],
+    "hex45": "#20c0100",
+    "hex1": "#5cacec",
+    "hexpick": "#21c1f9",
+    "hexpickhome": "#53a7f0"
   },
   {
     "title": "Mc Dricka - Gadinho de Faz Tempo | A COLORS SHOW",
@@ -2494,21 +3185,13 @@
       233,
       72,
       52
-    ]
+    ],
+    "hex45": "#e04020",
+    "hexpick": "#e04020",
+    "hexpickhome": "#c23f2b"
   },
   {
-    "title": "COLORS x EDITORIAL | BRAZIL",
-    "url": "https://www.youtube.com/watch?v=LHbA_UGa1w4",
-    "thumbnail": "https://i.ytimg.com/vi/LHbA_UGa1w4/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLA8myesvjP9bIX7p0EZkP03OA8rnA",
-    "color": "#000000",
-    "rgb": [
-      0,
-      0,
-      0
-    ]
-  },
-  {
-    "title": "Emicida - S\u00e3o Pixinguinha | A COLORS SHOW",
+    "title": "Emicida - São Pixinguinha | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=CcCtKg6IYDY",
     "thumbnail": "https://i.ytimg.com/vi/CcCtKg6IYDY/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLD6ZG1mRTmMKXjf7npkPRqICqP9Kw",
     "color": "#924817",
@@ -2516,7 +3199,11 @@
       146,
       72,
       23
-    ]
+    ],
+    "hex45": "#c08020",
+    "hex1": "#ac6c34",
+    "hexpick": "#c67427",
+    "hexpickhome": "#b06d31"
   },
   {
     "title": "Sopico - Nuage | A COLORS ENCORE",
@@ -2527,7 +3214,11 @@
       18,
       22,
       57
-    ]
+    ],
+    "hex45": "#002040",
+    "hex1": "#194484",
+    "hexpick": "#062042",
+    "hexpickhome": "#003d8a"
   },
   {
     "title": "Sopico - dead | A COLORS SHOW",
@@ -2538,10 +3229,14 @@
       0,
       198,
       237
-    ]
+    ],
+    "hex45": "#60e0100",
+    "hex1": "#06d5f8",
+    "hexpick": "#67d3f5",
+    "hexpickhome": "#84e5ff"
   },
   {
-    "title": "Israel Fern\u00e1ndez - Fiesta (Buler\u00eda) | A COLORS SHOW",
+    "title": "Israel Fernández - Fiesta (Bulería) | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=4l4fAqc7u-Y",
     "thumbnail": "https://i.ytimg.com/vi/4l4fAqc7u-Y/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBWvVxUnb9aNUQ1qvdmVTPEy8bZKg",
     "color": "#a48ecf",
@@ -2549,7 +3244,11 @@
       164,
       142,
       207
-    ]
+    ],
+    "hex45": "#c0a0100",
+    "hex1": "#6e3ac4",
+    "hexpick": "#9c77da",
+    "hexpickhome": "#c0a6e6"
   },
   {
     "title": "Liv.e - Bout It | A COLORS SHOW",
@@ -2560,7 +3259,11 @@
       96,
       44,
       145
-    ]
+    ],
+    "hex45": "#8040c0",
+    "hex1": "#8444bc",
+    "hexpick": "#8040c0",
+    "hexpickhome": "#8a51c0"
   },
   {
     "title": "Ian Isiah - See You | A COLORS SHOW",
@@ -2571,7 +3274,11 @@
       8,
       109,
       177
-    ]
+    ],
+    "hex45": "#40a0e0",
+    "hex1": "#34acec",
+    "hexpick": "#40a0e0",
+    "hexpickhome": "#26a5f1"
   },
   {
     "title": "Natalie Greffel - O sol te faria bem | A COLORS SHOW",
@@ -2582,7 +3289,11 @@
       228,
       142,
       95
-    ]
+    ],
+    "hex45": "#100a060",
+    "hex1": "#e48454",
+    "hexpick": "#e38056",
+    "hexpickhome": "#ec8854"
   },
   {
     "title": "Erika de Casier - Make My Day  | A COLORS SHOW",
@@ -2593,7 +3304,11 @@
       140,
       72,
       83
-    ]
+    ],
+    "hex45": "#a06060",
+    "hex1": "#a44c54",
+    "hexpick": "#9e5560",
+    "hexpickhome": "#ab5250"
   },
   {
     "title": "Javiera Mena - Debilidad | A COLORS SHOW",
@@ -2604,10 +3319,14 @@
       117,
       134,
       180
-    ]
+    ],
+    "hex45": "#8080c0",
+    "hex1": "#8c9ccc",
+    "hexpick": "#7c8cb8",
+    "hexpickhome": "#8c99c5"
   },
   {
-    "title": "Gisela Jo\u00e3o - Louca | A COLORS SHOW",
+    "title": "Gisela João - Louca | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=2i9yeFs_AGI",
     "thumbnail": "https://i.ytimg.com/vi/2i9yeFs_AGI/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBQZZuZWQhlBkrjMoFHInkjosLIYw",
     "color": "#c47f94",
@@ -2615,7 +3334,11 @@
       196,
       127,
       148
-    ]
+    ],
+    "hex45": "#c080a0",
+    "hex1": "#b14d69",
+    "hexpick": "#c080a0",
+    "hexpickhome": "#daa0af"
   },
   {
     "title": "Jazzy Bazz - P-Town Blues | A COLORS SHOW",
@@ -2626,7 +3349,11 @@
       180,
       86,
       104
-    ]
+    ],
+    "hex45": "#e06080",
+    "hex1": "#c44c6c",
+    "hexpick": "#cc5b6d",
+    "hexpickhome": "#d35669"
   },
   {
     "title": "May The Muse - Take Me | A COLORS ENCORE",
@@ -2637,7 +3364,11 @@
       154,
       169,
       162
-    ]
+    ],
+    "hex45": "#a0a0a0",
+    "hex1": "#798777",
+    "hexpick": "#99a69c",
+    "hexpickhome": "#a7ada7"
   },
   {
     "title": "Carolina Deslandes - Eco | A COLORS SHOW",
@@ -2648,7 +3379,11 @@
       154,
       152,
       95
-    ]
+    ],
+    "hex45": "#c0c080",
+    "hex1": "#ccd48c",
+    "hexpick": "#c0c080",
+    "hexpickhome": "#d0cc8d"
   },
   {
     "title": "Kwam.E - Verrat mir deinen Namen | A COLORS SHOW",
@@ -2659,7 +3394,11 @@
       219,
       90,
       69
-    ]
+    ],
+    "hex45": "#c04040",
+    "hex1": "#d45c5c",
+    "hexpick": "#c04040",
+    "hexpickhome": "#dc6359"
   },
   {
     "title": "Ansu & Cato - Okay | A COLORS SHOW",
@@ -2670,7 +3409,10 @@
       1,
       137,
       127
-    ]
+    ],
+    "hex45": "#40c0a0",
+    "hexpick": "#40c0a0",
+    "hexpickhome": "#37a18c"
   },
   {
     "title": "WAYNE SNOW - Figurine | A COLORS SHOW",
@@ -2681,7 +3423,11 @@
       209,
       95,
       22
-    ]
+    ],
+    "hex45": "#1008020",
+    "hex1": "#f47c2c",
+    "hexpick": "#f07723",
+    "hexpickhome": "#ff8327"
   },
   {
     "title": "Tora - In Deeper | A COLORS SHOW",
@@ -2692,7 +3438,11 @@
       1,
       102,
       114
-    ]
+    ],
+    "hex45": "#008080",
+    "hex1": "#148c84",
+    "hexpick": "#008080",
+    "hexpickhome": "#037481"
   },
   {
     "title": "Carla Prata - Owner | A COLORS ENCORE",
@@ -2703,7 +3453,11 @@
       41,
       42,
       46
-    ]
+    ],
+    "hex45": "#a0a0a0",
+    "hex1": "#8e7f70",
+    "hexpick": "#aba8aa",
+    "hexpickhome": "#8c7774"
   },
   {
     "title": "Sumpa - Illusion | A COLORS SHOW",
@@ -2714,7 +3468,11 @@
       179,
       119,
       82
-    ]
+    ],
+    "hex45": "#a06040",
+    "hex1": "#b47c5c",
+    "hexpick": "#a06040",
+    "hexpickhome": "#b67c5b"
   },
   {
     "title": "Isaiah Rashad - HB2U | A COLORS SHOW",
@@ -2725,7 +3483,10 @@
       221,
       204,
       88
-    ]
+    ],
+    "hex45": "#10010040",
+    "hexpick": "#ddcb42",
+    "hexpickhome": "#fee442"
   },
   {
     "title": "La Dame Blanche - Veneno | A COLORS SHOW",
@@ -2736,7 +3497,11 @@
       218,
       151,
       124
-    ]
+    ],
+    "hex45": "#e0a080",
+    "hex1": "#dc846c",
+    "hexpick": "#cd8066",
+    "hexpickhome": "#e38d6c"
   },
   {
     "title": "FLOHIO - Stuck In A Dance | A COLORS ENCORE",
@@ -2747,7 +3512,11 @@
       59,
       88,
       104
-    ]
+    ],
+    "hex45": "#406060",
+    "hex1": "#33546c",
+    "hexpick": "#335060",
+    "hexpickhome": "#2e5168"
   },
   {
     "title": "Unknown T - Goodums | A COLORS SHOW",
@@ -2758,7 +3527,11 @@
       221,
       129,
       108
-    ]
+    ],
+    "hex45": "#e0a0a0",
+    "hex1": "#dc8484",
+    "hexpick": "#dd7c7c",
+    "hexpickhome": "#e78d84"
   },
   {
     "title": "RIN - Sado | A COLORS SHOW",
@@ -2769,7 +3542,11 @@
       147,
       130,
       174
-    ]
+    ],
+    "hex45": "#a0a0c0",
+    "hex1": "#7a51ad",
+    "hexpick": "#a795c5",
+    "hexpickhome": "#bba7ce"
   },
   {
     "title": "BERWYN - TO BE LOVED | A COLORS SHOW",
@@ -2780,7 +3557,11 @@
       173,
       139,
       112
-    ]
+    ],
+    "hex45": "#c0a080",
+    "hex1": "#cca48c",
+    "hexpick": "#be9c82",
+    "hexpickhome": "#cea68c"
   },
   {
     "title": "Jamilah Barry - Cut Me Open | A COLORS SHOW",
@@ -2791,7 +3572,11 @@
       44,
       126,
       140
-    ]
+    ],
+    "hex45": "#60c0c0",
+    "hex1": "#3c9ca4",
+    "hexpick": "#60c0c0",
+    "hexpickhome": "#3695a3"
   },
   {
     "title": "Pongo - Bruxos | A COLORS SHOW",
@@ -2802,7 +3587,11 @@
       56,
       58,
       107
-    ]
+    ],
+    "hex45": "#8080c0",
+    "hex1": "#7c84c4",
+    "hexpick": "#8080c0",
+    "hexpickhome": "#7a87cb"
   },
   {
     "title": "Crystal Murray - Boss | A COLORS SHOW",
@@ -2813,7 +3602,11 @@
       98,
       80,
       66
-    ]
+    ],
+    "hex45": "#a08080",
+    "hex1": "#8f806f",
+    "hexpick": "#917b69",
+    "hexpickhome": "#7c6553"
   },
   {
     "title": "Ojerime - Often Enough | A COLORS SHOW",
@@ -2824,7 +3617,11 @@
       243,
       203,
       134
-    ]
+    ],
+    "hex45": "#e0c080",
+    "hex1": "#de9a20",
+    "hexpick": "#e0c080",
+    "hexpickhome": "#eec37d"
   },
   {
     "title": "Zuukou Mayzie - Haku | A COLORS SHOW",
@@ -2835,10 +3632,14 @@
       108,
       98,
       122
-    ]
+    ],
+    "hex45": "#a0a0c0",
+    "hex1": "#806f8f",
+    "hexpick": "#837994",
+    "hexpickhome": "#887b95"
   },
   {
-    "title": "Tedax Max - J\u2019te Jure | A COLORS SHOW",
+    "title": "Tedax Max - J’te Jure | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=GfXkgWAS5gE",
     "thumbnail": "https://i.ytimg.com/vi/GfXkgWAS5gE/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBsr9MV5wxU1HrkZQOQb1wNulXgqA",
     "color": "#937342",
@@ -2846,7 +3647,11 @@
       147,
       115,
       66
-    ]
+    ],
+    "hex45": "#806040",
+    "hex1": "#ac8e52",
+    "hexpick": "#9b7f4f",
+    "hexpickhome": "#ad8d56"
   },
   {
     "title": "Smino - Rice & Gravy | A COLORS SHOW",
@@ -2857,7 +3662,11 @@
       146,
       110,
       76
-    ]
+    ],
+    "hex45": "#a08060",
+    "hex1": "#b1924d",
+    "hexpick": "#997c59",
+    "hexpickhome": "#c1a281"
   },
   {
     "title": "Shaybo - No Pressure  | A COLORS SHOW",
@@ -2868,7 +3677,11 @@
       108,
       120,
       168
-    ]
+    ],
+    "hex45": "#6080a0",
+    "hex1": "#5767a7",
+    "hexpick": "#6f7ca5",
+    "hexpickhome": "#7583b2"
   },
   {
     "title": "Sofiane - Windsor | A COLORS SHOW",
@@ -2879,7 +3692,11 @@
       213,
       195,
       111
-    ]
+    ],
+    "hex45": "#c0c060",
+    "hex1": "#e4d474",
+    "hexpick": "#e0d274",
+    "hexpickhome": "#ead373"
   },
   {
     "title": "Reggie - AIN'T GON STOP ME | A COLORS SHOW",
@@ -2890,7 +3707,11 @@
       119,
       87,
       66
-    ]
+    ],
+    "hex45": "#806040",
+    "hex1": "#978267",
+    "hexpick": "#8a684d",
+    "hexpickhome": "#89664d"
   },
   {
     "title": "HIRA - Y | A COLORS SHOW",
@@ -2901,7 +3722,11 @@
       218,
       156,
       135
-    ]
+    ],
+    "hex45": "#e0a080",
+    "hex1": "#d55c29",
+    "hexpick": "#e5a18e",
+    "hexpickhome": "#f3bea8"
   },
   {
     "title": "serpentwithfeet - Amir | A COLORS SHOW",
@@ -2912,7 +3737,11 @@
       195,
       183,
       157
-    ]
+    ],
+    "hex45": "#e0e0c0",
+    "hex1": "#ae9750",
+    "hexpick": "#e0e0c0",
+    "hexpickhome": "#dad2bd"
   },
   {
     "title": "Dreya Mac - Time | A COLORS SHOW",
@@ -2923,7 +3752,11 @@
       107,
       124,
       168
-    ]
+    ],
+    "hex45": "#8080a0",
+    "hex1": "#5c6ea2",
+    "hexpick": "#687b9e",
+    "hexpickhome": "#7588b2"
   },
   {
     "title": "Gaidaa - Let Me | A COLORS ENCORE",
@@ -2934,7 +3767,10 @@
       113,
       15,
       14
-    ]
+    ],
+    "hex45": "#600000",
+    "hexpick": "#6b0111",
+    "hexpickhome": "#810e15"
   },
   {
     "title": "Generic Animal - Lifevest | A COLORS SHOW",
@@ -2945,7 +3781,11 @@
       169,
       190,
       185
-    ]
+    ],
+    "hex45": "#c0e0c0",
+    "hex1": "#718d8d",
+    "hexpick": "#c3d3c8",
+    "hexpickhome": "#a8bcb9"
   },
   {
     "title": "SCH - Loup Noir | A COLORS SHOW",
@@ -2956,7 +3796,10 @@
       114,
       157,
       148
-    ]
+    ],
+    "hex45": "#a0e0e0",
+    "hexpick": "#8cc4be",
+    "hexpickhome": "#9cc7c4"
   },
   {
     "title": "Joesef - Everything Belongs To You | A COLORS ENCORE",
@@ -2967,7 +3810,11 @@
       121,
       70,
       103
-    ]
+    ],
+    "hex45": "#804060",
+    "hex1": "#dc7ca4",
+    "hexpick": "#883955",
+    "hexpickhome": "#e389a4"
   },
   {
     "title": "Ichon - Domino | A COLORS ENCORE",
@@ -2978,7 +3825,11 @@
       80,
       140,
       147
-    ]
+    ],
+    "hex45": "#6080a0",
+    "hex1": "#5b86a3",
+    "hexpick": "#618a9e",
+    "hexpickhome": "#4a7c97"
   },
   {
     "title": "Eddy de Pretto - Parfaitement | A COLORS SHOW",
@@ -2989,7 +3840,11 @@
       2,
       51,
       55
-    ]
+    ],
+    "hex45": "#004040",
+    "hex1": "#22dcc5",
+    "hexpick": "#0a3a34",
+    "hexpickhome": "#064444"
   },
   {
     "title": "NENNY - WAVE | A COLORS ENCORE",
@@ -3000,7 +3855,11 @@
       174,
       62,
       25
-    ]
+    ],
+    "hex45": "#a02020",
+    "hex1": "#9c1414",
+    "hexpick": "#a02214",
+    "hexpickhome": "#a52116"
   },
   {
     "title": "Nathy Peluso - Puro Veneno | A COLORS ENCORE",
@@ -3011,10 +3870,14 @@
       27,
       132,
       99
-    ]
+    ],
+    "hex45": "#60e0a0",
+    "hex1": "#54cc94",
+    "hexpick": "#3c9e78",
+    "hexpickhome": "#4fbb97"
   },
   {
-    "title": "Pot\u00e9 - Open Up | A COLORS SHOW",
+    "title": "Poté - Open Up | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=dVYt-kiZkQg",
     "thumbnail": "https://i.ytimg.com/vi/dVYt-kiZkQg/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCjD2gCajK2SP6Qj2tG7C9NX7KnaA",
     "color": "#973e40",
@@ -3022,7 +3885,11 @@
       151,
       62,
       64
-    ]
+    ],
+    "hex45": "#a04040",
+    "hex1": "#9c3c44",
+    "hexpick": "#a04040",
+    "hexpickhome": "#a64340"
   },
   {
     "title": "KIMBEROSE & Sofiane Pamart - By The Sun | A COLORS SHOW",
@@ -3033,7 +3900,11 @@
       213,
       204,
       163
-    ]
+    ],
+    "hex45": "#c0c0a0",
+    "hex1": "#af9e4f",
+    "hexpick": "#b5c39c",
+    "hexpickhome": "#c8bc91"
   },
   {
     "title": "ENNY - Nu Normal | A COLORS ENCORE",
@@ -3044,7 +3915,11 @@
       165,
       207,
       221
-    ]
+    ],
+    "hex45": "#80a0c0",
+    "hex1": "#4b7fb3",
+    "hexpick": "#80a0c0",
+    "hexpickhome": "#a9bede"
   },
   {
     "title": "FaceSoul - Through The Dark | A COLORS SHOW",
@@ -3055,7 +3930,11 @@
       59,
       83,
       127
-    ]
+    ],
+    "hex45": "#204060",
+    "hex1": "#345474",
+    "hexpick": "#204060",
+    "hexpickhome": "#335378"
   },
   {
     "title": "Jords - Rice & P's | A COLORS SHOW",
@@ -3066,7 +3945,11 @@
       229,
       193,
       193
-    ]
+    ],
+    "hex45": "#c0a0a0",
+    "hex1": "#ae5050",
+    "hexpick": "#cca4ab",
+    "hexpickhome": "#cd9f9e"
   },
   {
     "title": "Carla Prata - Certified Freak | A COLORS SHOW",
@@ -3077,7 +3960,11 @@
       206,
       195,
       189
-    ]
+    ],
+    "hex45": "#c0c0a0",
+    "hex1": "#ad9a51",
+    "hexpick": "#c6beab",
+    "hexpickhome": "#c8bca7"
   },
   {
     "title": "KIRBY - Superpower | A COLORS SESSION",
@@ -3088,7 +3975,11 @@
       117,
       168,
       109
-    ]
+    ],
+    "hex45": "#80c080",
+    "hex1": "#5eb34b",
+    "hexpick": "#80c080",
+    "hexpickhome": "#70a164"
   },
   {
     "title": "Captaine Roshi - Pigalle | A COLORS SHOW",
@@ -3099,7 +3990,11 @@
       209,
       154,
       90
-    ]
+    ],
+    "hex45": "#e0a060",
+    "hex1": "#d49c5c",
+    "hexpick": "#e5ae68",
+    "hexpickhome": "#d89f5a"
   },
   {
     "title": "Nayana IZ - Partner In Crime | A COLORS SHOW",
@@ -3110,7 +4005,11 @@
       167,
       159,
       96
-    ]
+    ],
+    "hex45": "#c0c080",
+    "hex1": "#97a757",
+    "hexpick": "#c0c080",
+    "hexpickhome": "#aea766"
   },
   {
     "title": "Yellow Days - Love Is Everywhere | A COLORS SHOW",
@@ -3121,10 +4020,14 @@
       79,
       137,
       175
-    ]
+    ],
+    "hex45": "#60a0c0",
+    "hex1": "#5c9ccc",
+    "hexpick": "#4c87aa",
+    "hexpickhome": "#5799cc"
   },
   {
-    "title": "Mar\u00eda Jos\u00e9 Llergo - La Luz | A COLORS SHOW",
+    "title": "María José Llergo - La Luz | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=m6UdHn00u3c",
     "thumbnail": "https://i.ytimg.com/vi/m6UdHn00u3c/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLB3S4jxsr5jkrxd27hFqZM8fQbAgw",
     "color": "#8eb19d",
@@ -3132,7 +4035,11 @@
       142,
       177,
       157
-    ]
+    ],
+    "hex45": "#a0c0a0",
+    "hex1": "#51ad51",
+    "hexpick": "#a0c0a0",
+    "hexpickhome": "#a9c5af"
   },
   {
     "title": "Yseult - NEW OPERA by COLORS",
@@ -3143,7 +4050,11 @@
       0,
       0,
       0
-    ]
+    ],
+    "hex45": "#606060",
+    "hex1": "#7f7f7f",
+    "hexpick": "#606060",
+    "hexpickhome": "#000101"
   },
   {
     "title": "Joesef - Comedown | A COLORS SHOW",
@@ -3154,7 +4065,11 @@
       214,
       150,
       184
-    ]
+    ],
+    "hex45": "#c080a0",
+    "hex1": "#c47c9c",
+    "hexpick": "#c080a0",
+    "hexpickhome": "#c17a97"
   },
   {
     "title": "Prettyboy D-O - Jungle Justice | A COLORS SHOW",
@@ -3165,7 +4080,11 @@
       99,
       182,
       162
-    ]
+    ],
+    "hex45": "#a0e0c0",
+    "hex1": "#4db17f",
+    "hexpick": "#95c2b3",
+    "hexpickhome": "#99c9b9"
   },
   {
     "title": "Black Thought - State Prisoner | A COLORS SHOW",
@@ -3176,7 +4095,11 @@
       131,
       173,
       195
-    ]
+    ],
+    "hex45": "#a0c0e0",
+    "hex1": "#4d86b1",
+    "hexpick": "#a0c0e0",
+    "hexpickhome": "#9ab8d1"
   },
   {
     "title": "Samm Henshaw - Still Broke | A COLORS ENCORE",
@@ -3187,7 +4110,11 @@
       234,
       224,
       153
-    ]
+    ],
+    "hex45": "#e0c080",
+    "hex1": "#d4cc84",
+    "hexpick": "#ddda8f",
+    "hexpickhome": "#d8c77c"
   },
   {
     "title": "Samm Henshaw - Thoughts & Prayers | A COLORS SHOW",
@@ -3198,7 +4125,11 @@
       196,
       176,
       115
-    ]
+    ],
+    "hex45": "#e0e0a0",
+    "hex1": "#cbbc33",
+    "hexpick": "#e0e0a0",
+    "hexpickhome": "#e9d68e"
   },
   {
     "title": "Badi - Kitendi | A COLORS ENCORE",
@@ -3209,7 +4140,11 @@
       76,
       43,
       12
-    ]
+    ],
+    "hex45": "#100e020",
+    "hex1": "#f4c413",
+    "hexpick": "#fae733",
+    "hexpickhome": "#fec707"
   },
   {
     "title": "Badi - Mauvaise Ambiance | A COLORS SHOW",
@@ -3220,10 +4155,14 @@
       180,
       127,
       93
-    ]
+    ],
+    "hex45": "#e0c080",
+    "hex1": "#ea7f14",
+    "hexpick": "#edba89",
+    "hexpickhome": "#f8bd87"
   },
   {
-    "title": "Luidji - Syst\u00e8me | A COLORS ENCORE",
+    "title": "Luidji - Système | A COLORS ENCORE",
     "url": "https://www.youtube.com/watch?v=jQ27QYOQZU4",
     "thumbnail": "https://i.ytimg.com/vi/jQ27QYOQZU4/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDVog5FMDpaOeKVoAQ8cmmk3f9TYA",
     "color": "#29120c",
@@ -3231,7 +4170,11 @@
       41,
       18,
       12
-    ]
+    ],
+    "hex45": "#202000",
+    "hex1": "#b27f4c",
+    "hexpick": "#311310",
+    "hexpickhome": "#1f1110"
   },
   {
     "title": "Luidji - Le Rouge | A COLORS SHOW",
@@ -3242,7 +4185,11 @@
       100,
       31,
       34
-    ]
+    ],
+    "hex45": "#602040",
+    "hex1": "#bb4352",
+    "hexpick": "#592126",
+    "hexpickhome": "#6a2c30"
   },
   {
     "title": "Headie One - Mainstream | A COLORS ENCORE",
@@ -3253,10 +4200,13 @@
       14,
       63,
       122
-    ]
+    ],
+    "hex45": "#204080",
+    "hexpick": "#102653",
+    "hexpickhome": "#0e3871"
   },
   {
-    "title": "Goya Gumbani - Blas\u00e9 | A COLORS SHOW",
+    "title": "Goya Gumbani - Blasé | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=5b0WS5110tc",
     "thumbnail": "https://i.ytimg.com/vi/5b0WS5110tc/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDq8u4ENyahd3pn21K0q0XN7Hw8hw",
     "color": "#d76944",
@@ -3264,7 +4214,11 @@
       215,
       105,
       68
-    ]
+    ],
+    "hex45": "#a04040",
+    "hex1": "#b43c3c",
+    "hexpick": "#9d312d",
+    "hexpickhome": "#be4a39"
   },
   {
     "title": "Bonnie Banane - Limites | A COLORS ENCORE",
@@ -3275,7 +4229,11 @@
       0,
       0,
       0
-    ]
+    ],
+    "hex45": "#000000",
+    "hex1": "#7f7f7f",
+    "hexpick": "#03020a",
+    "hexpickhome": "#000101"
   },
   {
     "title": "Nathy Peluso - SANA SANA | A COLORS SHOW",
@@ -3286,7 +4244,11 @@
       240,
       62,
       222
-    ]
+    ],
+    "hex45": "#c000e0",
+    "hex1": "#cc1ce4",
+    "hexpick": "#c000e0",
+    "hexpickhome": "#d437ea"
   },
   {
     "title": "WOODKID - Horizons Into Battlegrounds | A COLORS ENCORE",
@@ -3297,7 +4259,11 @@
       253,
       157,
       55
-    ]
+    ],
+    "hex45": "#c08020",
+    "hex1": "#b47c24",
+    "hexpick": "#c08020",
+    "hexpickhome": "#b87e1c"
   },
   {
     "title": "Sen Senra - Euforia | A COLORS ENCORE",
@@ -3308,7 +4274,11 @@
       55,
       14,
       14
-    ]
+    ],
+    "hex45": "#400000",
+    "hex1": "#ac743c",
+    "hexpick": "#36090c",
+    "hexpickhome": "#b17736"
   },
   {
     "title": "Sen Senra - PERFECTO | A COLORS SHOW",
@@ -3319,7 +4289,11 @@
       1,
       203,
       177
-    ]
+    ],
+    "hex45": "#00c0a0",
+    "hex1": "#14dcac",
+    "hexpick": "#00c0a0",
+    "hexpickhome": "#03c2ad"
   },
   {
     "title": "Alicia Keys feat. SiR - Three Hour Drive | A COLORS SHOW",
@@ -3330,7 +4304,11 @@
       107,
       102,
       168
-    ]
+    ],
+    "hex45": "#6040a0",
+    "hex1": "#5d51ad",
+    "hexpick": "#6255a5",
+    "hexpickhome": "#8781bf"
   },
   {
     "title": "Lea Porcelain - Pool Song | A COLORS SHOW",
@@ -3341,7 +4319,11 @@
       108,
       94,
       127
-    ]
+    ],
+    "hex45": "#604060",
+    "hex1": "#8e708e",
+    "hexpick": "#61446a",
+    "hexpickhome": "#856b91"
   },
   {
     "title": "Febueder - Morning Yawn | A COLORS ENCORE",
@@ -3352,10 +4334,14 @@
       44,
       77,
       68
-    ]
+    ],
+    "hex45": "#204040",
+    "hex1": "#738b78",
+    "hexpick": "#2b4b40",
+    "hexpickhome": "#3b5749"
   },
   {
-    "title": "Febueder - R\u00e9seau | A COLORS SHOW",
+    "title": "Febueder - Réseau | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=gtOhNCTAahE",
     "thumbnail": "https://i.ytimg.com/vi/gtOhNCTAahE/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAx1A6WTS7do6wzuOj-BOLzq2WfNQ",
     "color": "#51747a",
@@ -3363,10 +4349,14 @@
       81,
       116,
       122
-    ]
+    ],
+    "hex45": "#406060",
+    "hex1": "#699595",
+    "hexpick": "#436364",
+    "hexpickhome": "#638089"
   },
   {
-    "title": "YE\u0418DRY - Barrio | A COLORS ENCORE",
+    "title": "YEИDRY - Barrio | A COLORS ENCORE",
     "url": "https://www.youtube.com/watch?v=PW3GmscXQ0M",
     "thumbnail": "https://i.ytimg.com/vi/PW3GmscXQ0M/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCYzNKyCSnoZYpIvfIqsgryndOQvQ",
     "color": "#8c8e8b",
@@ -3374,10 +4364,14 @@
       140,
       142,
       139
-    ]
+    ],
+    "hex45": "#808080",
+    "hex1": "#7a847b",
+    "hexpick": "#969f97",
+    "hexpickhome": "#8c938f"
   },
   {
-    "title": "YE\u0418DRY - Nena | A COLORS SHOW",
+    "title": "YEИDRY - Nena | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=edM1oxTjNjQ",
     "thumbnail": "https://i.ytimg.com/vi/edM1oxTjNjQ/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBa9LxTjLiTWACDv7wv6im6x_PEKA",
     "color": "#c1948e",
@@ -3385,7 +4379,11 @@
       193,
       148,
       142
-    ]
+    ],
+    "hex45": "#a06060",
+    "hex1": "#b0754e",
+    "hexpick": "#966461",
+    "hexpickhome": "#a9766e"
   },
   {
     "title": "WOODKID - Pale Yellow | A COLORS SHOW",
@@ -3396,7 +4394,10 @@
       210,
       192,
       116
-    ]
+    ],
+    "hex45": "#100e0c0",
+    "hexpick": "#d3be7b",
+    "hexpickhome": "#ebd688"
   },
   {
     "title": "FRENETIK - INFRAROUGE | A COLORS SHOW",
@@ -3407,7 +4408,10 @@
       148,
       185,
       152
-    ]
+    ],
+    "hex45": "#60a080",
+    "hexpick": "#60a080",
+    "hexpickhome": "#91bca0"
   },
   {
     "title": "Arlo Parks - Hurt | A COLORS SHOW",
@@ -3418,7 +4422,11 @@
       230,
       130,
       34
-    ]
+    ],
+    "hex45": "#c06000",
+    "hex1": "#dc7404",
+    "hexpick": "#bd5c11",
+    "hexpickhome": "#e37803"
   },
   {
     "title": "Joy Denalane & C.S. Armstrong - Be Here In The Morning | A COLORS SHOW",
@@ -3429,7 +4437,10 @@
       194,
       69,
       65
-    ]
+    ],
+    "hex45": "#a04040",
+    "hexpick": "#ad3f36",
+    "hexpickhome": "#a93d31"
   },
   {
     "title": "Jarreau Vandal - My Way / Bad Shit (Medley) | A COLORS SHOW",
@@ -3440,7 +4451,11 @@
       148,
       134,
       133
-    ]
+    ],
+    "hex45": "#808080",
+    "hex1": "#868678",
+    "hexpick": "#7c706e",
+    "hexpickhome": "#7e7675"
   },
   {
     "title": "Ego Ella May - Girls Don't Always Sing About Boys | A COLORS ENCORE",
@@ -3451,7 +4466,11 @@
       196,
       98,
       99
-    ]
+    ],
+    "hex45": "#a04040",
+    "hex1": "#9c4454",
+    "hexpick": "#9e434c",
+    "hexpickhome": "#a64c50"
   },
   {
     "title": "Ego Ella May - In The Morning | A COLORS SHOW",
@@ -3462,7 +4481,11 @@
       155,
       130,
       100
-    ]
+    ],
+    "hex45": "#806060",
+    "hex1": "#977b67",
+    "hexpick": "#7e674e",
+    "hexpickhome": "#8d745c"
   },
   {
     "title": "Elijah Waters - Centerfold | A COLORS ENCORE",
@@ -3473,7 +4496,11 @@
       80,
       71,
       90
-    ]
+    ],
+    "hex45": "#404040",
+    "hex1": "#877787",
+    "hexpick": "#4c414f",
+    "hexpickhome": "#403d52"
   },
   {
     "title": "Elijah Waters - Lose Control | A COLORS SHOW",
@@ -3484,7 +4511,11 @@
       162,
       110,
       114
-    ]
+    ],
+    "hex45": "#a06060",
+    "hex1": "#a25c5c",
+    "hexpick": "#975f68",
+    "hexpickhome": "#a16f72"
   },
   {
     "title": "Sudan Archives - Black Vivaldi Sonata | A COLORS ENCORE",
@@ -3495,7 +4526,10 @@
       11,
       29,
       39
-    ]
+    ],
+    "hex45": "#202020",
+    "hexpick": "#16202b",
+    "hexpickhome": "#192543"
   },
   {
     "title": "Lous and the Yakuza - SOLO | A COLORS ENCORE",
@@ -3506,7 +4540,11 @@
       182,
       172,
       82
-    ]
+    ],
+    "hex45": "#c0c060",
+    "hex1": "#bcac54",
+    "hexpick": "#a4994e",
+    "hexpickhome": "#bfab54"
   },
   {
     "title": "Lous and the Yakuza - Bon Acteur | A COLORS SHOW",
@@ -3517,10 +4555,14 @@
       153,
       100,
       130
-    ]
+    ],
+    "hex45": "#a06080",
+    "hex1": "#c484a4",
+    "hexpick": "#a05777",
+    "hexpickhome": "#b47596"
   },
   {
-    "title": "Fary - Faci\u00e8s | A COLORS SHOW",
+    "title": "Fary - Faciès | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=nr0RPVvKWDI",
     "thumbnail": "https://i.ytimg.com/vi/nr0RPVvKWDI/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLA4wP6M1psUEB-59tOxWL0kjeSUNg",
     "color": "#4975b2",
@@ -3528,7 +4570,11 @@
       73,
       117,
       178
-    ]
+    ],
+    "hex45": "#4060c0",
+    "hex1": "#5c94dc",
+    "hexpick": "#3c65c2",
+    "hexpickhome": "#558fe1"
   },
   {
     "title": "Girl Ultra - DameLove | A COLORS ENCORE",
@@ -3539,7 +4585,11 @@
       75,
       1,
       2
-    ]
+    ],
+    "hex45": "#000000",
+    "hex1": "#743130",
+    "hexpick": "#631319",
+    "hexpickhome": "#5c0a00"
   },
   {
     "title": "Cosima - Insecure | A COLORS ENCORE",
@@ -3550,7 +4600,11 @@
       40,
       55,
       86
-    ]
+    ],
+    "hex45": "#204040",
+    "hex1": "#4f80af",
+    "hexpick": "#28344c",
+    "hexpickhome": "#293853"
   },
   {
     "title": "SiR - Wires In The Way | A COLORS ENCORE",
@@ -3561,7 +4615,11 @@
       55,
       29,
       6
-    ]
+    ],
+    "hex45": "#604020",
+    "hex1": "#ca7034",
+    "hexpick": "#8a4c30",
+    "hexpickhome": "#76401a"
   },
   {
     "title": "Rema - Fame | A COLORS ENCORE",
@@ -3572,7 +4630,11 @@
       61,
       50,
       28
-    ]
+    ],
+    "hex45": "#402020",
+    "hex1": "#ad9a51",
+    "hexpick": "#7d7740",
+    "hexpickhome": "#9b8f5b"
   },
   {
     "title": "WIKI - Cash Out | A COLORS SHOW",
@@ -3583,7 +4645,11 @@
       60,
       147,
       102
-    ]
+    ],
+    "hex45": "#40c060",
+    "hex1": "#2c844c",
+    "hexpick": "#40c060",
+    "hexpickhome": "#217949"
   },
   {
     "title": "Moses Sumney - Cut Me | A COLORS SHOW",
@@ -3594,7 +4660,11 @@
       161,
       57,
       44
-    ]
+    ],
+    "hex45": "#a02020",
+    "hex1": "#9c2c24",
+    "hexpick": "#8a1d22",
+    "hexpickhome": "#a83225"
   },
   {
     "title": "WurlD - Ghost Town | A COLORS SHOW",
@@ -3605,10 +4675,14 @@
       57,
       91,
       165
-    ]
+    ],
+    "hex45": "#4060a0",
+    "hex1": "#3c64ac",
+    "hexpick": "#3554a7",
+    "hexpickhome": "#3962b1"
   },
   {
-    "title": "Gabriel Garz\u00f3n-Montano - Someone, Ag\u00fcita, Bloom (Medley) | A COLORS SHOW",
+    "title": "Gabriel Garzón-Montano - Someone, Agüita, Bloom (Medley) | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=rGxSeLQPhzE",
     "thumbnail": "https://i.ytimg.com/vi/rGxSeLQPhzE/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLA8AbNUXlpdtJE-6Ta0sVlDukWQCw",
     "color": "#866c79",
@@ -3616,7 +4690,11 @@
       134,
       108,
       121
-    ]
+    ],
+    "hex45": "#804060",
+    "hex1": "#916d73",
+    "hexpick": "#6f3f46",
+    "hexpickhome": "#7f4e55"
   },
   {
     "title": "Lucy Lu - Insomniac | A COLORS SHOW",
@@ -3627,7 +4705,11 @@
       96,
       103,
       149
-    ]
+    ],
+    "hex45": "#404080",
+    "hex1": "#5e65a0",
+    "hexpick": "#4e5185",
+    "hexpickhome": "#636da2"
   },
   {
     "title": "PJ Morton - Ready | A COLORS SHOW",
@@ -3638,7 +4720,10 @@
       206,
       180,
       163
-    ]
+    ],
+    "hex45": "#806060",
+    "hexpick": "#8c6958",
+    "hexpickhome": "#ae8c74"
   },
   {
     "title": "Quantic - You Used To Love Me (Feat. Denitia) | A COLORS SHOW",
@@ -3649,7 +4734,11 @@
       170,
       186,
       159
-    ]
+    ],
+    "hex45": "#a0c080",
+    "hex1": "#749569",
+    "hexpick": "#85a773",
+    "hexpickhome": "#8fa385"
   },
   {
     "title": "Christine and the Queens - People, I've been sad | A COLORS SHOW",
@@ -3660,7 +4749,11 @@
       135,
       115,
       168
-    ]
+    ],
+    "hex45": "#604080",
+    "hex1": "#7d6698",
+    "hexpick": "#583886",
+    "hexpickhome": "#5e4886"
   },
   {
     "title": "Cantrell - Understand | A COLORS SHOW",
@@ -3671,7 +4764,11 @@
       182,
       131,
       104
-    ]
+    ],
+    "hex45": "#a06040",
+    "hex1": "#844c3c",
+    "hexpick": "#a06040",
+    "hexpickhome": "#894f3a"
   },
   {
     "title": "BEAM - 2x2 | A COLORS SHOW",
@@ -3682,7 +4779,11 @@
       34,
       116,
       234
-    ]
+    ],
+    "hex45": "#4080e0",
+    "hex1": "#2c64cc",
+    "hexpick": "#4080e0",
+    "hexpickhome": "#2b63cf"
   },
   {
     "title": "Mk.gee - Dime: Quarterback | A COLORS SHOW",
@@ -3693,7 +4794,11 @@
       179,
       158,
       155
-    ]
+    ],
+    "hex45": "#806060",
+    "hex1": "#957869",
+    "hexpick": "#846c68",
+    "hexpickhome": "#b5a29c"
   },
   {
     "title": "Patoranking - Feelings | A COLORS SHOW",
@@ -3704,7 +4809,11 @@
       156,
       143,
       13
-    ]
+    ],
+    "hex45": "#806000",
+    "hex1": "#dccc2c",
+    "hexpick": "#a3900e",
+    "hexpickhome": "#dfc528"
   },
   {
     "title": "Sudan Archives - Iceland Moss | A COLORS SHOW",
@@ -3715,7 +4824,11 @@
       93,
       100,
       66
-    ]
+    ],
+    "hex45": "#404020",
+    "hex1": "#97b747",
+    "hexpick": "#36481d",
+    "hexpickhome": "#475824"
   },
   {
     "title": "Maxo Kream - Drizzy Draco | A COLORS SHOW",
@@ -3726,7 +4839,11 @@
       182,
       66,
       53
-    ]
+    ],
+    "hex45": "#e02020",
+    "hex1": "#e41c14",
+    "hexpick": "#e71714",
+    "hexpickhome": "#f52c12"
   },
   {
     "title": "Black Pumas - Oct 33 | A COLORS SHOW",
@@ -3737,7 +4854,11 @@
       109,
       125,
       125
-    ]
+    ],
+    "hex45": "#608080",
+    "hex1": "#6e907f",
+    "hexpick": "#718882",
+    "hexpickhome": "#7d948f"
   },
   {
     "title": "Caleborate - Clicquot Shower | A COLORS SHOW",
@@ -3748,10 +4869,14 @@
       207,
       179,
       167
-    ]
+    ],
+    "hex45": "#c0a080",
+    "hex1": "#9d7661",
+    "hexpick": "#b69080",
+    "hexpickhome": "#846d5f"
   },
   {
-    "title": "Girl Ultra - Discreci\u00f3n | A COLORS SHOW",
+    "title": "Girl Ultra - Discreción | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=VKqfvelbb6w",
     "thumbnail": "https://i.ytimg.com/vi/VKqfvelbb6w/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLB26AFVgtWPW4k7BfWWai2fpg0mXg",
     "color": "#b92e45",
@@ -3759,7 +4884,11 @@
       185,
       46,
       69
-    ]
+    ],
+    "hex45": "#a02040",
+    "hex1": "#b42c44",
+    "hexpick": "#90172e",
+    "hexpickhome": "#be3644"
   },
   {
     "title": "Lucky Daye - Buying Time | A COLORS SHOW",
@@ -3770,7 +4899,11 @@
       122,
       88,
       165
-    ]
+    ],
+    "hex45": "#8040c0",
+    "hex1": "#743cbc",
+    "hexpick": "#8040c0",
+    "hexpickhome": "#7847c3"
   },
   {
     "title": "Liniker - Presente | A COLORS SHOW",
@@ -3781,7 +4914,11 @@
       117,
       38,
       43
-    ]
+    ],
+    "hex45": "#a02040",
+    "hex1": "#842434",
+    "hexpick": "#9e2030",
+    "hexpickhome": "#85242b"
   },
   {
     "title": "bbymutha - Heavy Metal | A COLORS SHOW",
@@ -3792,7 +4929,11 @@
       1,
       167,
       163
-    ]
+    ],
+    "hex45": "#00c0a0",
+    "hex1": "#1cb4ac",
+    "hexpick": "#10c2b1",
+    "hexpickhome": "#11a6ad"
   },
   {
     "title": "TOBi - Beige | A COLORS SHOW",
@@ -3803,10 +4944,14 @@
       186,
       175,
       169
-    ]
+    ],
+    "hex45": "#606060",
+    "hex1": "#8e7f70",
+    "hexpick": "#b9b0a7",
+    "hexpickhome": "#8e8179"
   },
   {
-    "title": "Ang\u00e8le - Perdus | A COLORS SHOW",
+    "title": "Angèle - Perdus | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=HgH_LsBHTPw",
     "thumbnail": "https://i.ytimg.com/vi/HgH_LsBHTPw/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLB14uLGYA3IzB2rWN0xxPQVU9BzZQ",
     "color": "#40191c",
@@ -3814,7 +4959,11 @@
       64,
       25,
       28
-    ]
+    ],
+    "hex45": "#402020",
+    "hex1": "#cd3158",
+    "hexpick": "#4e1b24",
+    "hexpickhome": "#561a22"
   },
   {
     "title": "Common - Good Morning Love | A COLORS SHOW",
@@ -3825,7 +4974,11 @@
       221,
       136,
       30
-    ]
+    ],
+    "hex45": "#e08020",
+    "hex1": "#e49c0b",
+    "hexpick": "#d48c22",
+    "hexpickhome": "#f09d09"
   },
   {
     "title": "Baby Rose - All To Myself | A COLORS SHOW",
@@ -3836,7 +4989,11 @@
       85,
       106,
       97
-    ]
+    ],
+    "hex45": "#608060",
+    "hex1": "#738b7e",
+    "hexpick": "#627e6e",
+    "hexpickhome": "#556c64"
   },
   {
     "title": "Mahalia - Hide Out | A COLORS SHOW",
@@ -3847,7 +5004,10 @@
       79,
       124,
       155
-    ]
+    ],
+    "hex45": "#80a0e0",
+    "hexpick": "#79acd5",
+    "hexpickhome": "#5f92b1"
   },
   {
     "title": "Alpha Wann - Pistolet Rose 2 | A COLORS SHOW",
@@ -3858,7 +5018,11 @@
       80,
       97,
       115
-    ]
+    ],
+    "hex45": "#80a0a0",
+    "hex1": "#698695",
+    "hexpick": "#768d9d",
+    "hexpickhome": "#5c7286"
   },
   {
     "title": "Freddie Gibbs - Fake Names | A COLORS SHOW",
@@ -3869,7 +5033,11 @@
       187,
       139,
       29
-    ]
+    ],
+    "hex45": "#c0a020",
+    "hex1": "#dcb40c",
+    "hexpick": "#d5b01f",
+    "hexpickhome": "#e1ab06"
   },
   {
     "title": "JuJu Rogers - Real Shit | A COLORS SHOW",
@@ -3880,7 +5048,11 @@
       188,
       166,
       153
-    ]
+    ],
+    "hex45": "#c0a0a0",
+    "hex1": "#b06f4e",
+    "hexpick": "#cebbad",
+    "hexpickhome": "#d6bcad"
   },
   {
     "title": "Fatima - Dang | A COLORS SHOW",
@@ -3891,7 +5063,11 @@
       136,
       11,
       15
-    ]
+    ],
+    "hex45": "#800020",
+    "hex1": "#940c24",
+    "hexpick": "#770618",
+    "hexpickhome": "#9a1c24"
   },
   {
     "title": "Nolan The Ninja - Oranges | A COLORS SHOW",
@@ -3902,7 +5078,11 @@
       142,
       60,
       38
-    ]
+    ],
+    "hex45": "#c04020",
+    "hex1": "#bc4c1c",
+    "hexpick": "#c04020",
+    "hexpickhome": "#c45419"
   },
   {
     "title": "Celeste - Strange | A COLORS SHOW",
@@ -3913,7 +5093,10 @@
       91,
       77,
       94
-    ]
+    ],
+    "hex45": "#606060",
+    "hexpick": "#66596b",
+    "hexpickhome": "#604c60"
   },
   {
     "title": "Blood Orange - Dark & Handsome | A COLORS SHOW",
@@ -3924,7 +5107,11 @@
       70,
       68,
       115
-    ]
+    ],
+    "hex45": "#6060a0",
+    "hex1": "#78728c",
+    "hexpick": "#605a9b",
+    "hexpickhome": "#3a355d"
   },
   {
     "title": "Zeca Veloso - Todo Homem | A COLORS SHOW",
@@ -3935,7 +5122,11 @@
       160,
       151,
       112
-    ]
+    ],
+    "hex45": "#c0c080",
+    "hex1": "#a3995b",
+    "hexpick": "#bdb78e",
+    "hexpickhome": "#c0b585"
   },
   {
     "title": "Oxmo Puccino - Le droit de chanter | A COLORS SHOW",
@@ -3946,7 +5137,11 @@
       56,
       35,
       42
-    ]
+    ],
+    "hex45": "#604040",
+    "hex1": "#b8467f",
+    "hexpick": "#543f48",
+    "hexpickhome": "#371a24"
   },
   {
     "title": "Mayra Andrade - Tan Kalakatan | A COLORS SHOW",
@@ -3957,7 +5152,11 @@
       59,
       77,
       65
-    ]
+    ],
+    "hex45": "#608060",
+    "hex1": "#748a7a",
+    "hexpick": "#5f7163",
+    "hexpickhome": "#5b7165"
   },
   {
     "title": "ICECOLDBISHOP - IRATE (freestyle) | A COLORS SHOW",
@@ -3968,7 +5167,11 @@
       63,
       82,
       112
-    ]
+    ],
+    "hex45": "#6080a0",
+    "hex1": "#6b8093",
+    "hexpick": "#657c98",
+    "hexpickhome": "#445a7b"
   },
   {
     "title": "Lord Apex - Vintage Garms | A COLORS SHOW",
@@ -3979,7 +5182,10 @@
       44,
       81,
       126
-    ]
+    ],
+    "hex45": "#2060a0",
+    "hexpick": "#2060a0",
+    "hexpickhome": "#06488b"
   },
   {
     "title": "Sally - JFLA | A COLORS SHOW",
@@ -3990,10 +5196,14 @@
       203,
       180,
       186
-    ]
+    ],
+    "hex45": "#c0a0a0",
+    "hex1": "#976767",
+    "hexpick": "#b09b9c",
+    "hexpickhome": "#bda6a8"
   },
   {
-    "title": "Skinny Pelembe - I\u2019ll Be on Your Mind | A COLORS SHOW",
+    "title": "Skinny Pelembe - I’ll Be on Your Mind | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=3brd5o8yySY&pp=0gcJCTwKAYcqIYzv",
     "thumbnail": "https://i.ytimg.com/vi/3brd5o8yySY/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLA70SRHrKM-FP0JrE0Q3kTqg-_Yfw",
     "color": "#73928a",
@@ -4001,10 +5211,13 @@
       115,
       146,
       138
-    ]
+    ],
+    "hex45": "#80a0a0",
+    "hexpick": "#6f9588",
+    "hexpickhome": "#69958f"
   },
   {
-    "title": "XENIA FRAN\u00c7A - Miragem | A COLORS SHOW",
+    "title": "XENIA FRANÇA - Miragem | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=O0oOl9w7WzI",
     "thumbnail": "https://i.ytimg.com/vi/O0oOl9w7WzI/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCLleNlr0DxIAnoC2eKnWMO9C1L2Q",
     "color": "#b79397",
@@ -4012,7 +5225,11 @@
       183,
       147,
       151
-    ]
+    ],
+    "hex45": "#c0a0a0",
+    "hex1": "#9a6471",
+    "hexpick": "#c7a5ab",
+    "hexpickhome": "#cba6ad"
   },
   {
     "title": "Greentea Peng - Downers | A COLORS SHOW",
@@ -4023,7 +5240,10 @@
       119,
       158,
       114
-    ]
+    ],
+    "hex45": "#60a060",
+    "hexpick": "#60a060",
+    "hexpickhome": "#518856"
   },
   {
     "title": "ScHoolboy Q - Numb Numb Juice | A COLORS SHOW",
@@ -4034,7 +5254,11 @@
       231,
       212,
       146
-    ]
+    ],
+    "hex45": "#e0e080",
+    "hex1": "#e4bc1b",
+    "hexpick": "#f4e18a",
+    "hexpickhome": "#ebb514"
   },
   {
     "title": "YellowStraps - Rose | A COLORS SHOW",
@@ -4045,7 +5269,11 @@
       91,
       142,
       137
-    ]
+    ],
+    "hex45": "#60a0a0",
+    "hex1": "#2ca494",
+    "hexpick": "#6fb5a6",
+    "hexpickhome": "#209897"
   },
   {
     "title": "Skepta - No Sleep | A COLORS SHOW",
@@ -4056,10 +5284,14 @@
       36,
       82,
       132
-    ]
+    ],
+    "hex45": "#40a0c0",
+    "hex1": "#245cac",
+    "hexpick": "#45bdc1",
+    "hexpickhome": "#1d59b5"
   },
   {
-    "title": "Pierre Kwenders - Amours d'\u00c9t\u00e9 (prod. Branko) | A COLORS SHOW",
+    "title": "Pierre Kwenders - Amours d'Été (prod. Branko) | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=k1O_wzK4RBI",
     "thumbnail": "https://i.ytimg.com/vi/k1O_wzK4RBI/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBrb6xyEPWRZbpQK9ZqGysPDJgCpw",
     "color": "#48342d",
@@ -4067,7 +5299,11 @@
       72,
       52,
       45
-    ]
+    ],
+    "hex45": "#604040",
+    "hex1": "#93786b",
+    "hexpick": "#6e5346",
+    "hexpickhome": "#6c483a"
   },
   {
     "title": "Loyle Carner - Ice Water | A COLORS SHOW",
@@ -4078,7 +5314,11 @@
       185,
       154,
       126
-    ]
+    ],
+    "hex45": "#c0c0a0",
+    "hex1": "#cc9c84",
+    "hexpick": "#d0b79a",
+    "hexpickhome": "#cc9d81"
   },
   {
     "title": "Leikeli47 - Bad Gyal Flex | A COLORS SHOW",
@@ -4089,7 +5329,11 @@
       107,
       95,
       135
-    ]
+    ],
+    "hex45": "#8080a0",
+    "hex1": "#70619d",
+    "hexpick": "#796d96",
+    "hexpickhome": "#79689b"
   },
   {
     "title": "Madison McFerrin - TRY | A COLORS SHOW",
@@ -4100,7 +5344,11 @@
       88,
       71,
       185
-    ]
+    ],
+    "hex45": "#6040c0",
+    "hex1": "#341c8c",
+    "hexpick": "#40289f",
+    "hexpickhome": "#382792"
   },
   {
     "title": "Marco McKinnis - Give It Up | A COLORS SHOW",
@@ -4111,7 +5359,11 @@
       47,
       26,
       31
-    ]
+    ],
+    "hex45": "#806060",
+    "hex1": "#8c7282",
+    "hexpick": "#755665",
+    "hexpickhome": "#613c4b"
   },
   {
     "title": "Tierra Whack - Unemployed | A COLORS SHOW",
@@ -4122,7 +5374,11 @@
       221,
       100,
       21
-    ]
+    ],
+    "hex45": "#e06020",
+    "hex1": "#f46c04",
+    "hexpick": "#d96625",
+    "hexpickhome": "#fe7301"
   },
   {
     "title": "Sjava - Umama | A COLORS SHOW",
@@ -4133,7 +5389,11 @@
       200,
       110,
       110
-    ]
+    ],
+    "hex45": "#c06060",
+    "hex1": "#c44c5c",
+    "hexpick": "#c06060",
+    "hexpickhome": "#cb545d"
   },
   {
     "title": "CHINAH - Give Me Life | A COLORS SHOW",
@@ -4144,7 +5404,11 @@
       150,
       115,
       157
-    ]
+    ],
+    "hex45": "#806080",
+    "hex1": "#935aa4",
+    "hexpick": "#785681",
+    "hexpickhome": "#a17aa5"
   },
   {
     "title": "Benny Sings - Not Enough | A COLORS SHOW",
@@ -4155,7 +5419,11 @@
       201,
       168,
       151
-    ]
+    ],
+    "hex45": "#c0a080",
+    "hex1": "#987866",
+    "hexpick": "#ba9b87",
+    "hexpickhome": "#997f6c"
   },
   {
     "title": "Little Simz - Venom | A COLORS SHOW",
@@ -4166,7 +5434,11 @@
       52,
       58,
       32
-    ]
+    ],
+    "hex45": "#202020",
+    "hex1": "#8b8b73",
+    "hexpick": "#3d3f2b",
+    "hexpickhome": "#4d4e38"
   },
   {
     "title": "Kwamie Liv - Look at What I've Done | A COLORS SHOW",
@@ -4177,10 +5449,14 @@
       170,
       147,
       155
-    ]
+    ],
+    "hex45": "#a080a0",
+    "hex1": "#946a8a",
+    "hexpick": "#a8889a",
+    "hexpickhome": "#977083"
   },
   {
-    "title": "Crush - \ub10c (none) | A COLORS SHOW",
+    "title": "Crush - 넌 (none) | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=5BlktZWdE8M",
     "thumbnail": "https://i.ytimg.com/vi/5BlktZWdE8M/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAEuJpk-j_YcbVGs9ROvF856tQkRw",
     "color": "#25242a",
@@ -4188,7 +5464,11 @@
       37,
       36,
       42
-    ]
+    ],
+    "hex45": "#404040",
+    "hex1": "#7f7a84",
+    "hexpick": "#57545f",
+    "hexpickhome": "#49464f"
   },
   {
     "title": "Blu Samu - Clumsy Queen | A COLORS SHOW",
@@ -4199,10 +5479,14 @@
       78,
       20,
       19
-    ]
+    ],
+    "hex45": "#602020",
+    "hex1": "#74323b",
+    "hexpick": "#571620",
+    "hexpickhome": "#733030"
   },
   {
-    "title": "Sunni Col\u00f3n - Mornin Dew | A COLORS SHOW",
+    "title": "Sunni Colón - Mornin Dew | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=udskSJf0t5A",
     "thumbnail": "https://i.ytimg.com/vi/udskSJf0t5A/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLA2ObsmN6R_fVH8uv24UE0vVYFmMg",
     "color": "#ca9302",
@@ -4210,7 +5494,11 @@
       202,
       147,
       2
-    ]
+    ],
+    "hex45": "#c0a000",
+    "hex1": "#cca404",
+    "hexpick": "#d0af08",
+    "hexpickhome": "#d49d00"
   },
   {
     "title": "hard life - ojpl | A COLORS SHOW",
@@ -4221,7 +5509,11 @@
       174,
       116,
       128
-    ]
+    ],
+    "hex45": "#e0a0c0",
+    "hex1": "#cc748c",
+    "hexpick": "#e0a0c0",
+    "hexpickhome": "#d27c8e"
   },
   {
     "title": "Lil Halima - Hold Me | A COLORS SHOW",
@@ -4232,7 +5524,11 @@
       47,
       75,
       114
-    ]
+    ],
+    "hex45": "#204060",
+    "hex1": "#34547c",
+    "hexpick": "#304779",
+    "hexpickhome": "#365180"
   },
   {
     "title": "RIMON - Dust (prod. Samuel Kareem) | A COLORS SHOW",
@@ -4243,7 +5539,11 @@
       134,
       64,
       5
-    ]
+    ],
+    "hex45": "#804000",
+    "hex1": "#c45404",
+    "hexpick": "#b74f02",
+    "hexpickhome": "#ce5602"
   },
   {
     "title": "Muddy Monk - Baby | A COLORS SHOW",
@@ -4254,7 +5554,11 @@
       213,
       195,
       185
-    ]
+    ],
+    "hex45": "#c0c0c0",
+    "hex1": "#958669",
+    "hexpick": "#c5c1b7",
+    "hexpickhome": "#c8bead"
   },
   {
     "title": "Phony Ppl - Either Way | A COLORS SHOW",
@@ -4265,7 +5569,11 @@
       0,
       127,
       156
-    ]
+    ],
+    "hex45": "#6080a0",
+    "hex1": "#5494a4",
+    "hexpick": "#568ea3",
+    "hexpickhome": "#4f8da9"
   },
   {
     "title": "Chilly Gonzales - Nimbus | A COLORS SHOW",
@@ -4276,7 +5584,11 @@
       71,
       117,
       133
-    ]
+    ],
+    "hex45": "#202020",
+    "hex1": "#678d97",
+    "hexpick": "#7b95a1",
+    "hexpickhome": "#7b9bad"
   },
   {
     "title": "Joji - ATTENTION | A COLORS SHOW",
@@ -4287,7 +5599,10 @@
       51,
       52,
       54
-    ]
+    ],
+    "hex45": "#404040",
+    "hexpick": "#555358",
+    "hexpickhome": "#4d4a51"
   },
   {
     "title": "Seinabo Sey - Truth | A COLORS SHOW",
@@ -4298,7 +5613,11 @@
       57,
       36,
       35
-    ]
+    ],
+    "hex45": "#202020",
+    "hex1": "#907f6e",
+    "hexpick": "#352928",
+    "hexpickhome": "#433233"
   },
   {
     "title": "DPR LIVE -Text Me l A COLORS SHOW",
@@ -4309,7 +5628,11 @@
       1,
       87,
       104
-    ]
+    ],
+    "hex45": "#208080",
+    "hex1": "#34949c",
+    "hexpick": "#208080",
+    "hexpickhome": "#2a8ba1"
   },
   {
     "title": "Gavin Turek - WHITNEY | A COLORS SHOW",
@@ -4320,7 +5643,11 @@
       179,
       106,
       152
-    ]
+    ],
+    "hex45": "#602060",
+    "hex1": "#9f5f9d",
+    "hexpick": "#5b1452",
+    "hexpickhome": "#a7689a"
   },
   {
     "title": "C.S. Armstrong - City In Ruins  | A COLORS SHOW",
@@ -4331,7 +5658,10 @@
       70,
       67,
       94
-    ]
+    ],
+    "hex45": "#606080",
+    "hexpick": "#554c79",
+    "hexpickhome": "#4d4479"
   },
   {
     "title": "Parcels - Lightenup | A COLORS SHOW",
@@ -4342,7 +5672,11 @@
       100,
       138,
       177
-    ]
+    ],
+    "hex45": "#4060a0",
+    "hex1": "#4c6ca4",
+    "hexpick": "#4060a0",
+    "hexpickhome": "#496ca6"
   },
   {
     "title": "Phum Viphurit - Lover Boy | A COLORS SHOW",
@@ -4353,7 +5687,10 @@
       77,
       118,
       122
-    ]
+    ],
+    "hex45": "#80a0a0",
+    "hexpick": "#7da4ac",
+    "hexpickhome": "#7da5ac"
   },
   {
     "title": "Ray Fuego - Toke and Smoke | A COLORS SHOW",
@@ -4364,10 +5701,14 @@
       133,
       103,
       65
-    ]
+    ],
+    "hex45": "#604020",
+    "hex1": "#a3865b",
+    "hexpick": "#77623b",
+    "hexpickhome": "#937a4a"
   },
   {
-    "title": "Ang\u00e8le - Ta Reine  | A COLORS SHOW",
+    "title": "Angèle - Ta Reine  | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=XQKYEs4llzg",
     "thumbnail": "https://i.ytimg.com/vi/XQKYEs4llzg/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAaCyn4xs15OVt154GzGDgr9Y2ovQ",
     "color": "#c5a29e",
@@ -4375,7 +5716,11 @@
       197,
       162,
       158
-    ]
+    ],
+    "hex45": "#c0a0a0",
+    "hex1": "#a45a5a",
+    "hexpick": "#b69897",
+    "hexpickhome": "#ca9f9a"
   },
   {
     "title": "KYLE - ShipTrip | A COLORS SHOW",
@@ -4386,7 +5731,11 @@
       160,
       207,
       187
-    ]
+    ],
+    "hex45": "#c0e0c0",
+    "hex1": "#619d70",
+    "hexpick": "#c0e0c0",
+    "hexpickhome": "#aac9b2"
   },
   {
     "title": "Josman - V&V | A COLORS SHOW",
@@ -4397,7 +5746,11 @@
       82,
       54,
       113
-    ]
+    ],
+    "hex45": "#604080",
+    "hex1": "#75619d",
+    "hexpick": "#57427b",
+    "hexpickhome": "#66558b"
   },
   {
     "title": "Lava La Rue - Widdit | A COLORS SHOW",
@@ -4408,7 +5761,11 @@
       226,
       108,
       46
-    ]
+    ],
+    "hex45": "#a04000",
+    "hex1": "#d4642c",
+    "hexpick": "#be541a",
+    "hexpickhome": "#e57932"
   },
   {
     "title": "S. Pri Noir - Chico | A COLORS SHOW",
@@ -4419,7 +5776,11 @@
       210,
       65,
       62
-    ]
+    ],
+    "hex45": "#c04040",
+    "hex1": "#b4444b",
+    "hexpick": "#a9323e",
+    "hexpickhome": "#c04f4b"
   },
   {
     "title": "Nitro - Passepartout & Lucifero | A COLORS SHOW",
@@ -4430,7 +5791,11 @@
       188,
       135,
       39
-    ]
+    ],
+    "hex45": "#c0a040",
+    "hex1": "#b4943c",
+    "hexpick": "#b79440",
+    "hexpickhome": "#b8903b"
   },
   {
     "title": "Tom Misch - It Runs Through Me | A COLORS SHOW",
@@ -4441,7 +5806,11 @@
       229,
       169,
       37
-    ]
+    ],
+    "hex45": "#c0a020",
+    "hex1": "#ecbc4c",
+    "hexpick": "#d5ab38",
+    "hexpickhome": "#efbc47"
   },
   {
     "title": "Tobi Lou - Orange | A COLORS SHOW",
@@ -4452,7 +5821,11 @@
       192,
       69,
       27
-    ]
+    ],
+    "hex45": "#c04020",
+    "hex1": "#bc3c1c",
+    "hexpick": "#c04020",
+    "hexpickhome": "#cb4817"
   },
   {
     "title": "Kali Uchis - Killer | A COLORS SHOW",
@@ -4463,7 +5836,11 @@
       116,
       32,
       32
-    ]
+    ],
+    "hex45": "#400000",
+    "hex1": "#7c242c",
+    "hexpick": "#5e111b",
+    "hexpickhome": "#731d25"
   },
   {
     "title": "Lefa - Seul | A COLORS SHOW",
@@ -4474,7 +5851,11 @@
       108,
       49,
       51
-    ]
+    ],
+    "hex45": "#604040",
+    "hex1": "#8c7472",
+    "hexpick": "#664143",
+    "hexpickhome": "#674843"
   },
   {
     "title": "Not3s - Got | A COLORS SHOW",
@@ -4485,7 +5866,11 @@
       38,
       40,
       61
-    ]
+    ],
+    "hex45": "#404060",
+    "hex1": "#777787",
+    "hexpick": "#474c62",
+    "hexpickhome": "#3e4359"
   },
   {
     "title": "XamVolo - Sudden | A COLORS SHOW",
@@ -4496,7 +5881,10 @@
       86,
       106,
       117
-    ]
+    ],
+    "hex45": "#a0a0a0",
+    "hexpick": "#85989f",
+    "hexpickhome": "#627685"
   },
   {
     "title": "Moka Boka - Sourire | A COLORS SHOW",
@@ -4507,7 +5895,10 @@
       91,
       16,
       20
-    ]
+    ],
+    "hex45": "#600020",
+    "hexpick": "#620a19",
+    "hexpickhome": "#822024"
   },
   {
     "title": "Jaz Karis - Petty Lover | A COLORS SHOW",
@@ -4518,7 +5909,10 @@
       235,
       124,
       97
-    ]
+    ],
+    "hex45": "#e06060",
+    "hexpick": "#e06060",
+    "hexpickhome": "#d86455"
   },
   {
     "title": "Tertia May - Monsters In Your Bedroom | A COLORS SHOW",
@@ -4529,7 +5923,11 @@
       138,
       183,
       160
-    ]
+    ],
+    "hex45": "#80c080",
+    "hex1": "#649a6d",
+    "hexpick": "#7fb68c",
+    "hexpickhome": "#7da889"
   },
   {
     "title": "DUCKWRTH - THROWYOASSOUT | A COLORS SHOW",
@@ -4540,7 +5938,11 @@
       185,
       135,
       3
-    ]
+    ],
+    "hex45": "#c0a020",
+    "hex1": "#bc940c",
+    "hexpick": "#d4a114",
+    "hexpickhome": "#c99801"
   },
   {
     "title": "Oscar Jerome - Do You Really | A COLORS SHOW",
@@ -4551,7 +5953,11 @@
       127,
       195,
       174
-    ]
+    ],
+    "hex45": "#80c0a0",
+    "hex1": "#84ccac",
+    "hexpick": "#70c5a1",
+    "hexpickhome": "#88c9b9"
   },
   {
     "title": "Jamie Isaac - Doing Better | A COLORS SHOW",
@@ -4562,7 +5968,11 @@
       191,
       117,
       44
-    ]
+    ],
+    "hex45": "#e08020",
+    "hex1": "#bc641c",
+    "hexpick": "#e08020",
+    "hexpickhome": "#c66417"
   },
   {
     "title": "CHATON - Monde Entier | A COLORS SHOW",
@@ -4573,7 +5983,11 @@
       196,
       196,
       196
-    ]
+    ],
+    "hex45": "#c0c0c0",
+    "hex1": "#7f7f7f",
+    "hexpick": "#c0c0c0",
+    "hexpickhome": "#bab9bb"
   },
   {
     "title": "Dezmond - Want It All | A COLORS SHOW",
@@ -4584,7 +5998,11 @@
       129,
       162,
       177
-    ]
+    ],
+    "hex45": "#80c0c0",
+    "hex1": "#5b92a3",
+    "hexpick": "#8bbdc6",
+    "hexpickhome": "#8dbbca"
   },
   {
     "title": "Winston Surfshirt - For Real | A COLORS SHOW",
@@ -4595,7 +6013,11 @@
       226,
       179,
       71
-    ]
+    ],
+    "hex45": "#e0c040",
+    "hex1": "#d4ac2c",
+    "hexpick": "#d9ab2a",
+    "hexpickhome": "#d6ae2c"
   },
   {
     "title": "VanJess - Addicted | A COLORS SHOW",
@@ -4606,10 +6028,14 @@
       53,
       96,
       118
-    ]
+    ],
+    "hex45": "#204060",
+    "hex1": "#345c6c",
+    "hexpick": "#264e5e",
+    "hexpickhome": "#2d5b72"
   },
   {
-    "title": "Ichon - S\u00e9rie B | A COLORS SHOW",
+    "title": "Ichon - Série B | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=D7De-2hxIk0&pp=0gcJCTwKAYcqIYzv",
     "thumbnail": "https://i.ytimg.com/vi/D7De-2hxIk0/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCinqncRHDDqmupr0tmyglwqihCYg",
     "color": "#6f6d7a",
@@ -4617,7 +6043,10 @@
       111,
       109,
       122
-    ]
+    ],
+    "hex45": "#a0a0a0",
+    "hexpick": "#9b99a6",
+    "hexpickhome": "#6d6b77"
   },
   {
     "title": "Dave B - David | A COLORS SHOW",
@@ -4628,7 +6057,11 @@
       132,
       89,
       96
-    ]
+    ],
+    "hex45": "#804060",
+    "hex1": "#936b75",
+    "hexpick": "#995b6b",
+    "hexpickhome": "#7a434a"
   },
   {
     "title": "Mabel - Ivy | A COLORS SHOW",
@@ -4639,7 +6072,11 @@
       177,
       152,
       173
-    ]
+    ],
+    "hex45": "#c0a0c0",
+    "hex1": "#9d619d",
+    "hexpick": "#c0a0c0",
+    "hexpickhome": "#d2b3ca"
   },
   {
     "title": "Ravyn Lenae - Sticky | A COLORS SHOW",
@@ -4650,7 +6087,11 @@
       149,
       52,
       46
-    ]
+    ],
+    "hex45": "#602020",
+    "hex1": "#841c24",
+    "hexpick": "#93222a",
+    "hexpickhome": "#902523"
   },
   {
     "title": "slowthai - Ladies | A COLORS SHOW",
@@ -4661,7 +6102,11 @@
       137,
       101,
       67
-    ]
+    ],
+    "hex45": "#c0a080",
+    "hex1": "#a08d5e",
+    "hexpick": "#b89773",
+    "hexpickhome": "#a98761"
   },
   {
     "title": "Giggs - The Essence | A COLORS SHOW",
@@ -4672,7 +6117,11 @@
       108,
       149,
       155
-    ]
+    ],
+    "hex45": "#60a0a0",
+    "hex1": "#628d9c",
+    "hexpick": "#60a0a0",
+    "hexpickhome": "#6e9ba1"
   },
   {
     "title": "Denzel Himself - Melty ft. KEYAH/BLU | A COLORS SHOW",
@@ -4683,7 +6132,10 @@
       29,
       40,
       166
-    ]
+    ],
+    "hex45": "#2020a0",
+    "hexpick": "#2020a0",
+    "hexpickhome": "#202ba9"
   },
   {
     "title": "Anna Leone - Wandered Away | A COLORS SHOW",
@@ -4694,7 +6146,11 @@
       216,
       191,
       135
-    ]
+    ],
+    "hex45": "#e0c080",
+    "hex1": "#dcc47c",
+    "hexpick": "#d4c27c",
+    "hexpickhome": "#e2c986"
   },
   {
     "title": "James Bambu - Succulent | A COLORS SHOW",
@@ -4705,7 +6161,11 @@
       164,
       193,
       163
-    ]
+    ],
+    "hex45": "#a0c0a0",
+    "hex1": "#5eb549",
+    "hexpick": "#a0c0a0",
+    "hexpickhome": "#c2dcbf"
   },
   {
     "title": "Mavi Phoenix - Yellow | A COLORS SHOW",
@@ -4716,7 +6176,10 @@
       92,
       182,
       173
-    ]
+    ],
+    "hex45": "#80e0c0",
+    "hexpick": "#6ed2b6",
+    "hexpickhome": "#7bd7cb"
   },
   {
     "title": "Jorja Smith - Blue Lights | A COLORS SHOW",
@@ -4727,10 +6190,14 @@
       42,
       76,
       103
-    ]
+    ],
+    "hex45": "#204060",
+    "hex1": "#344c6c",
+    "hexpick": "#244763",
+    "hexpickhome": "#1b3e5c"
   },
   {
-    "title": "Sin\u00e9ad Harnett - Body | A COLORS SHOW",
+    "title": "Sinéad Harnett - Body | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=Cihr9OWsEuk",
     "thumbnail": "https://i.ytimg.com/vi/Cihr9OWsEuk/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCSD6t1zjTTWLyVFMngg8Dk8R9yuw",
     "color": "#8f8fa7",
@@ -4738,7 +6205,11 @@
       143,
       143,
       167
-    ]
+    ],
+    "hex45": "#a0a0c0",
+    "hex1": "#64649a",
+    "hexpick": "#99a0ba",
+    "hexpickhome": "#a1a6c3"
   },
   {
     "title": "Trettmann - New York | A COLORS SHOW",
@@ -4749,7 +6220,11 @@
       143,
       143,
       143
-    ]
+    ],
+    "hex45": "#c0c0c0",
+    "hex1": "#7f7f7f",
+    "hexpick": "#c0c0c0",
+    "hexpickhome": "#fffefe"
   },
   {
     "title": "Tiana Major9 - Levee (Let It Break) | A COLORS SHOW",
@@ -4760,7 +6235,11 @@
       241,
       198,
       34
-    ]
+    ],
+    "hex45": "#e0e040",
+    "hex1": "#dcb41c",
+    "hexpick": "#ead548",
+    "hexpickhome": "#e0b018"
   },
   {
     "title": "Billie Eilish - idontwannabeyouanymore | UN SHOW DE COLORS",
@@ -4771,7 +6250,11 @@
       150,
       193,
       184
-    ]
+    ],
+    "hex45": "#a0c0c0",
+    "hex1": "#609e8f",
+    "hexpick": "#97c6b8",
+    "hexpickhome": "#95bdb4"
   },
   {
     "title": "Her - Five Minutes | A COLORS SHOW",
@@ -4782,7 +6265,11 @@
       195,
       143,
       145
-    ]
+    ],
+    "hex45": "#c0a0a0",
+    "hex1": "#a85656",
+    "hexpick": "#ca999d",
+    "hexpickhome": "#d0a09e"
   },
   {
     "title": "Jerome Thomas  - 1989 (prod. Warren Xclnce) | A COLORS SHOW",
@@ -4793,7 +6280,11 @@
       104,
       47,
       30
-    ]
+    ],
+    "hex45": "#602020",
+    "hex1": "#7c3424",
+    "hexpick": "#7d2a1c",
+    "hexpickhome": "#85381f"
   },
   {
     "title": "Serious Klein - 91 Flex | A COLORS SHOW",
@@ -4804,7 +6295,11 @@
       49,
       98,
       105
-    ]
+    ],
+    "hex45": "#206060",
+    "hex1": "#669898",
+    "hexpick": "#206060",
+    "hexpickhome": "#418088"
   },
   {
     "title": "NoMBe - Freak Like Me | A COLORS SHOW",
@@ -4815,7 +6310,11 @@
       213,
       153,
       165
-    ]
+    ],
+    "hex45": "#c080a0",
+    "hex1": "#cc8c9c",
+    "hexpick": "#cd8799",
+    "hexpickhome": "#db9fa9"
   },
   {
     "title": "Cleo Sol - Why Don't You | A COLORS SHOW",
@@ -4826,7 +6325,11 @@
       240,
       212,
       188
-    ]
+    ],
+    "hex45": "#e0e0c0",
+    "hex1": "#cb8a33",
+    "hexpick": "#ecd5b6",
+    "hexpickhome": "#f0d2b4"
   },
   {
     "title": "Crack Ignaz - Oder ned | A COLORS SHOW",
@@ -4837,7 +6340,11 @@
       124,
       78,
       143
-    ]
+    ],
+    "hex45": "#8040a0",
+    "hex1": "#84449c",
+    "hexpick": "#7a3f97",
+    "hexpickhome": "#8c51a1"
   },
   {
     "title": "Token - Doozey/Little Boy | A COLORS SHOW",
@@ -4848,7 +6355,11 @@
       60,
       11,
       199
-    ]
+    ],
+    "hex45": "#4000e0",
+    "hex1": "#3404c4",
+    "hexpick": "#4c04e8",
+    "hexpickhome": "#3b07cb"
   },
   {
     "title": "Joyce Wrice - Good Morning | A COLORS SHOW",
@@ -4859,7 +6370,11 @@
       87,
       116,
       132
-    ]
+    ],
+    "hex45": "#6080a0",
+    "hex1": "#679397",
+    "hexpick": "#698c98",
+    "hexpickhome": "#5b7a8e"
   },
   {
     "title": "Joy Crookes - Mother May I Sleep With Danger? | A COLORS SHOW",
@@ -4870,10 +6385,14 @@
       178,
       120,
       74
-    ]
+    ],
+    "hex45": "#c08060",
+    "hex1": "#bc7c4c",
+    "hexpick": "#c98f5d",
+    "hexpickhome": "#bd7f4d"
   },
   {
-    "title": "Amin\u00e9 - Yellow | A COLORS SHOW",
+    "title": "Aminé - Yellow | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=j_-2dUvlEdY",
     "thumbnail": "https://i.ytimg.com/vi/j_-2dUvlEdY/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCUcTTYaiNv8NvjPi3fgNoapslyCg",
     "color": "#f9d827",
@@ -4881,7 +6400,11 @@
       249,
       216,
       39
-    ]
+    ],
+    "hex45": "#e0c020",
+    "hex1": "#ecd42b",
+    "hexpick": "#e0c020",
+    "hexpickhome": "#f4cf24"
   },
   {
     "title": "BRKN - Bordeaux | A COLORS SHOW",
@@ -4892,7 +6415,11 @@
       84,
       35,
       39
-    ]
+    ],
+    "hex45": "#402020",
+    "hex1": "#c9355f",
+    "hexpick": "#6b343f",
+    "hexpickhome": "#501b21"
   },
   {
     "title": "Joel Culpepper - Woman | A COLORS SHOW",
@@ -4903,7 +6430,11 @@
       96,
       47,
       50
-    ]
+    ],
+    "hex45": "#602020",
+    "hex1": "#6c3444",
+    "hexpick": "#682c35",
+    "hexpickhome": "#5a2225"
   },
   {
     "title": "Sampa The Great - Rhymes To The East | A COLORS SHOW",
@@ -4914,7 +6445,11 @@
       224,
       142,
       95
-    ]
+    ],
+    "hex45": "#c04020",
+    "hex1": "#bc4c2c",
+    "hexpick": "#c04020",
+    "hexpickhome": "#ca562b"
   },
   {
     "title": "Sway Clarke - Either Way | A COLORS SHOW",
@@ -4925,10 +6460,14 @@
       60,
       155,
       173
-    ]
+    ],
+    "hex45": "#40c0c0",
+    "hex1": "#2cacb4",
+    "hexpick": "#2ea8b6",
+    "hexpickhome": "#29a6bf"
   },
   {
-    "title": "Eliza - Wasn\u00b4t Looking | A COLORS SHOW",
+    "title": "Eliza - Wasn´t Looking | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=0nplzEY0IXA",
     "thumbnail": "https://i.ytimg.com/vi/0nplzEY0IXA/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLA0Rt6YJ6piDtjVyDr1OXwPcVshVA",
     "color": "#97528b",
@@ -4936,7 +6475,11 @@
       151,
       82,
       139
-    ]
+    ],
+    "hex45": "#a040a0",
+    "hex1": "#a44c9c",
+    "hexpick": "#9f3d90",
+    "hexpickhome": "#af589d"
   },
   {
     "title": "Noah Slee - Lips | A COLORS SHOW",
@@ -4947,7 +6490,10 @@
       131,
       93,
       72
-    ]
+    ],
+    "hex45": "#a06040",
+    "hexpick": "#a06040",
+    "hexpickhome": "#9a5c41"
   },
   {
     "title": "Kareem Kalokoh - Whip Game | A COLORS SHOW",
@@ -4958,7 +6504,11 @@
       220,
       173,
       91
-    ]
+    ],
+    "hex45": "#e0a020",
+    "hex1": "#e4a434",
+    "hexpick": "#e0a020",
+    "hexpickhome": "#eba32d"
   },
   {
     "title": "Col3trane - Penelope | A COLORS SHOW",
@@ -4969,7 +6519,11 @@
       145,
       141,
       130
-    ]
+    ],
+    "hex45": "#808080",
+    "hex1": "#8a7a74",
+    "hexpick": "#8c847a",
+    "hexpickhome": "#6f675b"
   },
   {
     "title": "Saba - There You Go | A COLORS SHOW",
@@ -4980,7 +6534,11 @@
       205,
       175,
       63
-    ]
+    ],
+    "hex45": "#c0a020",
+    "hex1": "#bc9c34",
+    "hexpick": "#c09c28",
+    "hexpickhome": "#c29831"
   },
   {
     "title": "Mac Demarco - Still Beating | A COLORS SHOW",
@@ -4991,7 +6549,10 @@
       107,
       136,
       134
-    ]
+    ],
+    "hex45": "#80a0a0",
+    "hexpick": "#80a0a0",
+    "hexpickhome": "#6a9091"
   },
   {
     "title": "Hamza - 1994 | A COLORS SHOW",
@@ -5002,7 +6563,11 @@
       169,
       75,
       65
-    ]
+    ],
+    "hex45": "#a02020",
+    "hex1": "#ac2c33",
+    "hexpick": "#9f2023",
+    "hexpickhome": "#ba3b30"
   },
   {
     "title": "Hak Baker - Tom | A COLORS SHOW",
@@ -5013,7 +6578,10 @@
       125,
       170,
       167
-    ]
+    ],
+    "hex45": "#4060a0",
+    "hexpick": "#6793ab",
+    "hexpickhome": "#74979d"
   },
   {
     "title": "Haute - Shut Me Down | A COLORS SHOW",
@@ -5024,7 +6592,11 @@
       156,
       53,
       54
-    ]
+    ],
+    "hex45": "#a04040",
+    "hex1": "#94343c",
+    "hexpick": "#a3444c",
+    "hexpickhome": "#a13f3d"
   },
   {
     "title": "Marvin Game - Zeitzonen | A COLORS SHOW",
@@ -5035,10 +6607,14 @@
       243,
       177,
       3
-    ]
+    ],
+    "hex45": "#e0a000",
+    "hex1": "#ecbc04",
+    "hexpick": "#daa700",
+    "hexpickhome": "#f0b200"
   },
   {
-    "title": "JGrrey - Don\u00b4t Fade | A COLORS SHOW",
+    "title": "JGrrey - Don´t Fade | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=Ltsa-IDMWk8",
     "thumbnail": "https://i.ytimg.com/vi/Ltsa-IDMWk8/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCkZMKsTi_6Ug3x5z2mRMHI4tgDyw",
     "color": "#81a3c8",
@@ -5046,7 +6622,11 @@
       129,
       163,
       200
-    ]
+    ],
+    "hex45": "#406080",
+    "hex1": "#5b78a3",
+    "hexpick": "#50718d",
+    "hexpickhome": "#5d7b9d"
   },
   {
     "title": "Klyne - Water Flow | A COLORS SHOW",
@@ -5057,10 +6637,14 @@
       213,
       152,
       89
-    ]
+    ],
+    "hex45": "#c0a060",
+    "hex1": "#cc9454",
+    "hexpick": "#cc9f63",
+    "hexpickhome": "#d79753"
   },
   {
-    "title": "Kidd Keo - \u00c9tranger | UN SHOW COLORS",
+    "title": "Kidd Keo - Étranger | UN SHOW COLORS",
     "url": "https://www.youtube.com/watch?v=-SLLe5qmg-Q",
     "thumbnail": "https://i.ytimg.com/vi/-SLLe5qmg-Q/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCdjIYcuGEbb9rN4gkbPOP3SouJLg",
     "color": "#96579d",
@@ -5068,7 +6652,11 @@
       150,
       87,
       157
-    ]
+    ],
+    "hex45": "#a060a0",
+    "hex1": "#955ba3",
+    "hexpick": "#94539f",
+    "hexpickhome": "#9a5ca3"
   },
   {
     "title": "Estikay - Mac & Cheese | A COLORS SHOW",
@@ -5079,7 +6667,11 @@
       76,
       94,
       134
-    ]
+    ],
+    "hex45": "#6080a0",
+    "hex1": "#446494",
+    "hexpick": "#58779e",
+    "hexpickhome": "#466492"
   },
   {
     "title": "Moise - Wildflower | A COLORS SHOW",
@@ -5090,7 +6682,10 @@
       199,
       178,
       151
-    ]
+    ],
+    "hex45": "#c0c0a0",
+    "hexpick": "#d9bca9",
+    "hexpickhome": "#cfbb9e"
   },
   {
     "title": "Mahalia - Sober | A COLORS SHOW",
@@ -5101,7 +6696,11 @@
       65,
       122,
       167
-    ]
+    ],
+    "hex45": "#60a0c0",
+    "hex1": "#4c8cac",
+    "hexpick": "#4f8aac",
+    "hexpickhome": "#4b85ae"
   },
   {
     "title": "Melodownz - $on Of A Queen | A COLORS SHOW",
@@ -5112,7 +6711,11 @@
       77,
       115,
       138
-    ]
+    ],
+    "hex45": "#406080",
+    "hex1": "#659199",
+    "hexpick": "#4b7482",
+    "hexpickhome": "#5e8299"
   },
   {
     "title": "Jae Stephens - 24K | A COLORS SHOW",
@@ -5123,7 +6726,11 @@
       187,
       132,
       50
-    ]
+    ],
+    "hex45": "#c0a040",
+    "hex1": "#c4ac54",
+    "hexpick": "#ba9639",
+    "hexpickhome": "#cbab55"
   },
   {
     "title": "Little Simz - Backseat | A COLORS SHOW",
@@ -5134,7 +6741,10 @@
       153,
       171,
       173
-    ]
+    ],
+    "hex45": "#c0c0c0",
+    "hexpick": "#a3b0b1",
+    "hexpickhome": "#8fa0a7"
   },
   {
     "title": "ByLwansta - Lindiwe | A COLORS SHOW",
@@ -5145,7 +6755,11 @@
       147,
       144,
       111
-    ]
+    ],
+    "hex45": "#808060",
+    "hex1": "#8e7f70",
+    "hexpick": "#808060",
+    "hexpickhome": "#817f62"
   },
   {
     "title": "Jessie Reyez - Figures | A COLORS SHOW",
@@ -5156,7 +6770,11 @@
       199,
       178,
       177
-    ]
+    ],
+    "hex45": "#c0a0a0",
+    "hex1": "#9d7061",
+    "hexpick": "#c0a0a0",
+    "hexpickhome": "#c0a29e"
   },
   {
     "title": "Smino - Maraca | A COLORS SHOW",
@@ -5167,7 +6785,10 @@
       192,
       85,
       101
-    ]
+    ],
+    "hex45": "#4060a0",
+    "hexpick": "#48889c",
+    "hexpickhome": "#427d90"
   },
   {
     "title": "Topaz Jones - Tropicana | A COLORS SHOW",
@@ -5178,7 +6799,11 @@
       236,
       172,
       75
-    ]
+    ],
+    "hex45": "#e0a040",
+    "hex1": "#e49434",
+    "hexpick": "#e0a040",
+    "hexpickhome": "#e49634"
   },
   {
     "title": "Billie Eilish - watch | A COLORS SHOW",
@@ -5189,7 +6814,11 @@
       221,
       199,
       79
-    ]
+    ],
+    "hex45": "#e0e060",
+    "hex1": "#dcd45c",
+    "hexpick": "#cfc839",
+    "hexpickhome": "#dfcc59"
   },
   {
     "title": "Denai Moore - Does It Get Easier? | A COLORS SHOW",
@@ -5200,7 +6829,10 @@
       164,
       198,
       182
-    ]
+    ],
+    "hex45": "#c0e0a0",
+    "hexpick": "#b4d7b3",
+    "hexpickhome": "#9dc2b5"
   },
   {
     "title": "Nick Hakim - Roller Skates | A COLORS SHOW",
@@ -5211,7 +6843,10 @@
       215,
       167,
       91
-    ]
+    ],
+    "hex45": "#e0c060",
+    "hexpick": "#d9b65a",
+    "hexpickhome": "#deb770"
   },
   {
     "title": "Yellow Days - So Terrified Of Your Own Mind | A COLORS SHOW",
@@ -5222,7 +6857,11 @@
       185,
       185,
       133
-    ]
+    ],
+    "hex45": "#c0c080",
+    "hex1": "#9bad51",
+    "hexpick": "#c0c080",
+    "hexpickhome": "#b6b475"
   },
   {
     "title": "kadiata - Goodnight | A COLORS SHOW",
@@ -5233,7 +6872,10 @@
       150,
       210,
       202
-    ]
+    ],
+    "hex45": "#80e0a0",
+    "hexpick": "#91d7f1",
+    "hexpickhome": "#8bccc6"
   },
   {
     "title": "Jvck James - Extroverted Lovers | A COLORS SHOW",
@@ -5244,7 +6886,11 @@
       111,
       165,
       203
-    ]
+    ],
+    "hex45": "#a0c0e0",
+    "hex1": "#8caccc",
+    "hexpick": "#acc6d8",
+    "hexpickhome": "#84accc"
   },
   {
     "title": "Rachel Foxx - To You | A COLORS SHOW",
@@ -5255,7 +6901,11 @@
       120,
       76,
       171
-    ]
+    ],
+    "hex45": "#8040a0",
+    "hex1": "#6c3ca4",
+    "hexpick": "#7c4baa",
+    "hexpickhome": "#7347a5"
   },
   {
     "title": "Dennis Lloyd - Restes | UN COULEUR",
@@ -5266,7 +6916,11 @@
       127,
       73,
       97
-    ]
+    ],
+    "hex45": "#804060",
+    "hex1": "#6c344c",
+    "hexpick": "#86546f",
+    "hexpickhome": "#6e3850"
   },
   {
     "title": "Sopico - Le Hasard Ou La Chance | A COLORS SHOW",
@@ -5277,7 +6931,11 @@
       233,
       197,
       145
-    ]
+    ],
+    "hex45": "#e0c080",
+    "hex1": "#c4944c",
+    "hexpick": "#dfbf80",
+    "hexpickhome": "#cb964f"
   },
   {
     "title": "Jacob Banks - Mercy | A COLORS SHOW",
@@ -5288,7 +6946,11 @@
       113,
       156,
       191
-    ]
+    ],
+    "hex45": "#80a0c0",
+    "hex1": "#6c94bc",
+    "hexpick": "#6d95b2",
+    "hexpickhome": "#729dc5"
   },
   {
     "title": "Alex Vargas - Inclosure | A COLORS SHOW",
@@ -5299,7 +6961,11 @@
       69,
       99,
       149
-    ]
+    ],
+    "hex45": "#6080a0",
+    "hex1": "#5b69a3",
+    "hexpick": "#6f88af",
+    "hexpickhome": "#5c7ba9"
   },
   {
     "title": "Jakob Ogawa - Let It Pass | A COLORS SHOW",
@@ -5310,7 +6976,10 @@
       182,
       205,
       189
-    ]
+    ],
+    "hex45": "#c0e0a0",
+    "hexpick": "#b1d2a9",
+    "hexpickhome": "#b0cfbc"
   },
   {
     "title": "Saint - A Lovely Bargain | A COLORS SHOW",
@@ -5321,7 +6990,10 @@
       214,
       114,
       112
-    ]
+    ],
+    "hex45": "#c04060",
+    "hexpick": "#b34e52",
+    "hexpickhome": "#c96a6a"
   },
   {
     "title": "Sammie Sedano - Race | A COLORS SHOW",
@@ -5332,7 +7004,10 @@
       130,
       210,
       201
-    ]
+    ],
+    "hex45": "#60c0a0",
+    "hexpick": "#71b3a8",
+    "hexpickhome": "#7cbab2"
   },
   {
     "title": "Yung Nnelg - Hoofdprijs | A COLORS SHOW",
@@ -5343,7 +7018,10 @@
       147,
       172,
       107
-    ]
+    ],
+    "hex45": "#80a060",
+    "hexpick": "#80a060",
+    "hexpickhome": "#92a474"
   },
   {
     "title": "Yung Internet - Superchimi | A COLORS SHOW",
@@ -5354,7 +7032,11 @@
       143,
       115,
       174
-    ]
+    ],
+    "hex45": "#a080a0",
+    "hex1": "#7f708e",
+    "hexpick": "#9687a8",
+    "hexpickhome": "#9584a4"
   },
   {
     "title": "Charlotte Dos Santos - Red Clay | A COLORS SHOW",
@@ -5365,7 +7047,10 @@
       200,
       181,
       139
-    ]
+    ],
+    "hex45": "#e0c060",
+    "hexpick": "#d4b654",
+    "hexpickhome": "#cdb68a"
   },
   {
     "title": "FREDWAVE - 99 | A COLORS SHOW",
@@ -5376,7 +7061,11 @@
       199,
       139,
       131
-    ]
+    ],
+    "hex45": "#e0a0a0",
+    "hex1": "#ad5153",
+    "hexpick": "#e0a0a0",
+    "hexpickhome": "#d4a4a0"
   },
   {
     "title": "On The Fence - Lotto | A COLORS SHOW",
@@ -5387,7 +7076,10 @@
       52,
       106,
       166
-    ]
+    ],
+    "hex45": "#4060a0",
+    "hexpick": "#4d70a8",
+    "hexpickhome": "#6494c5"
   },
   {
     "title": "Night Lovell - Boy Red | A COLORS SHOW",
@@ -5398,7 +7090,10 @@
       115,
       212,
       159
-    ]
+    ],
+    "hex45": "#80e0a0",
+    "hexpick": "#80e0a0",
+    "hexpickhome": "#a5ded1"
   },
   {
     "title": "Leven Kali - Joy | A COLORS SHOW",
@@ -5409,7 +7104,11 @@
       226,
       82,
       131
-    ]
+    ],
+    "hex45": "#e060a0",
+    "hex1": "#e44ca4",
+    "hexpick": "#d35298",
+    "hexpickhome": "#ef6db1"
   },
   {
     "title": "808INK - Jeep Cherokee | A COLORS SHOW",
@@ -5420,7 +7119,11 @@
       215,
       192,
       86
-    ]
+    ],
+    "hex45": "#e06060",
+    "hex1": "#ec6464",
+    "hexpick": "#e06060",
+    "hexpickhome": "#f77c6a"
   },
   {
     "title": "LYVES - Darkest Hour | A COLORS SHOW",
@@ -5431,7 +7134,10 @@
       147,
       81,
       152
-    ]
+    ],
+    "hex45": "#a040a0",
+    "hexpick": "#8f44a4",
+    "hexpickhome": "#b172b6"
   },
   {
     "title": "Felix De Luca - No. 1 | A COLORS SHOW",
@@ -5442,7 +7148,11 @@
       149,
       129,
       178
-    ]
+    ],
+    "hex45": "#a080a0",
+    "hex1": "#826698",
+    "hexpick": "#9583ab",
+    "hexpickhome": "#ab95c1"
   },
   {
     "title": "A$AP Ant - Finances | A COLORS SHOW",
@@ -5453,7 +7163,11 @@
       37,
       160,
       157
-    ]
+    ],
+    "hex45": "#60c0c0",
+    "hex1": "#5cbcac",
+    "hexpick": "#6dc8bc",
+    "hexpickhome": "#64bbb8"
   },
   {
     "title": "Poppy Ajudha - Love Falls Down | A COLORS SHOW",
@@ -5464,7 +7178,10 @@
       187,
       141,
       115
-    ]
+    ],
+    "hex45": "#c0a060",
+    "hexpick": "#ac7257",
+    "hexpickhome": "#c79a83"
   },
   {
     "title": "Devlin - Corned Beef City | A COLORS SHOW",
@@ -5475,7 +7192,10 @@
       195,
       223,
       227
-    ]
+    ],
+    "hex45": "#c0e0e0",
+    "hexpick": "#c0e0e0",
+    "hexpickhome": "#9ec8d1"
   },
   {
     "title": "Aaron Taylor - Lesson Learnt | A COLORS SHOW",
@@ -5486,7 +7206,10 @@
       83,
       115,
       136
-    ]
+    ],
+    "hex45": "#4060a0",
+    "hexpick": "#6e90a6",
+    "hexpickhome": "#91a9bb"
   },
   {
     "title": "Dillon Cooper - Dinero (Get To The Money) | A COLORS SHOW",
@@ -5497,7 +7220,10 @@
       104,
       136,
       89
-    ]
+    ],
+    "hex45": "#80c060",
+    "hexpick": "#6b945c",
+    "hexpickhome": "#9eb396"
   },
   {
     "title": "Flores - Oceans | A COLORS SHOW",
@@ -5508,7 +7234,10 @@
       230,
       135,
       113
-    ]
+    ],
+    "hex45": "#e0a0a0",
+    "hexpick": "#dc7056",
+    "hexpickhome": "#f8af9b"
   },
   {
     "title": "A2 - X2 (Dble) | A COLORS SHOW",
@@ -5519,7 +7248,11 @@
       112,
       147,
       140
-    ]
+    ],
+    "hex45": "#a0c0c0",
+    "hex1": "#679787",
+    "hexpick": "#a3bdb5",
+    "hexpickhome": "#a1bdb6"
   },
   {
     "title": "Gracy Hopkins - Acrophobia: High | A COLORS SHOW",
@@ -5530,7 +7263,10 @@
       115,
       113,
       124
-    ]
+    ],
+    "hex45": "#c0c0a0",
+    "hexpick": "#b5b7b4",
+    "hexpickhome": "#b2b1b7"
   },
   {
     "title": "Krisy - Julio & Sa Gogo Danseuse | A COLORS SHOW",
@@ -5541,7 +7277,11 @@
       233,
       200,
       185
-    ]
+    ],
+    "hex45": "#e0c0c0",
+    "hex1": "#c0633e",
+    "hexpick": "#e7c6b8",
+    "hexpickhome": "#e5c0b0"
   },
   {
     "title": "STRO - ONLINE DATING | A COLORS SHOW",
@@ -5552,7 +7292,10 @@
       44,
       102,
       228
-    ]
+    ],
+    "hex45": "#4060a0",
+    "hexpick": "#296bfc",
+    "hexpickhome": "#4070e9"
   },
   {
     "title": "DANIEL OG - 411 | A COLORS SHOW",
@@ -5563,7 +7306,10 @@
       135,
       184,
       129
-    ]
+    ],
+    "hex45": "#60c060",
+    "hexpick": "#60c060",
+    "hexpickhome": "#62995d"
   },
   {
     "title": "MTMBO - THE HILL | A COLORS SHOW",
@@ -5574,7 +7320,10 @@
       155,
       135,
       163
-    ]
+    ],
+    "hex45": "#c0a0a0",
+    "hexpick": "#ae95a8",
+    "hexpickhome": "#9a87a5"
   },
   {
     "title": "SHI - FINALLY RUSSIAN | A COLORS SHOW",
@@ -5585,7 +7334,10 @@
       142,
       161,
       238
-    ]
+    ],
+    "hex45": "#c0c0100",
+    "hexpick": "#8f91fe",
+    "hexpickhome": "#acb8f2"
   },
   {
     "title": "GOLDLINK - ROUGH SOUL (feat. April George) | A COLORS SHOW X Highsnobiety",
@@ -5596,7 +7348,11 @@
       154,
       161,
       179
-    ]
+    ],
+    "hex45": "#c0c0c0",
+    "hex1": "#6e6e90",
+    "hexpick": "#b0b6c3",
+    "hexpickhome": "#bcbecf"
   },
   {
     "title": "JMSN - BE A MAN | A COLORS SHOW",
@@ -5607,7 +7363,11 @@
       111,
       215,
       242
-    ]
+    ],
+    "hex45": "#60e0e0",
+    "hex1": "#22c0dc",
+    "hexpick": "#6dd8ec",
+    "hexpickhome": "#84dbf2"
   },
   {
     "title": "RAIZA BIZA - WASSUP | A COLORS SHOW",
@@ -5618,7 +7378,11 @@
       94,
       90,
       184
-    ]
+    ],
+    "hex45": "#8080e0",
+    "hex1": "#847cdc",
+    "hexpick": "#8080e0",
+    "hexpickhome": "#918be3"
   },
   {
     "title": "TOMMY CASH - WINALOTO (LIVE) | A COLORS SHOW",
@@ -5629,7 +7393,11 @@
       195,
       161,
       134
-    ]
+    ],
+    "hex45": "#c0a0a0",
+    "hex1": "#ac7352",
+    "hexpick": "#c9ae96",
+    "hexpickhome": "#c3a085"
   },
   {
     "title": "L.A. SALAMI - I WEAR THIS BECAUSE LIFE IS WAR | A COLORS SHOW",
@@ -5640,7 +7408,10 @@
       215,
       199,
       86
-    ]
+    ],
+    "hex45": "#e0e060",
+    "hexpick": "#e0e060",
+    "hexpickhome": "#e7d56f"
   },
   {
     "title": "SAUX & THE SEPTEMBERS - WORK | A COLORS SHOW",
@@ -5651,7 +7422,10 @@
       101,
       181,
       204
-    ]
+    ],
+    "hex45": "#40c0100",
+    "hexpick": "#63d4f1",
+    "hexpickhome": "#75cee6"
   },
   {
     "title": "FAT TONY - WATERFALLS | A COLORS SHOW x Highsnobiety",
@@ -5662,7 +7436,10 @@
       254,
       205,
       126
-    ]
+    ],
+    "hex45": "#e0e0a0",
+    "hexpick": "#dbfea9",
+    "hexpickhome": "#fed188"
   },
   {
     "title": "MULE & MAN - 10K TYPES OF TORTURE | A COLORS SHOW",
@@ -5673,7 +7450,11 @@
       217,
       65,
       60
-    ]
+    ],
+    "hex45": "#e04040",
+    "hex1": "#d43c44",
+    "hexpick": "#db424c",
+    "hexpickhome": "#e34d44"
   },
   {
     "title": "FATHER - HEARTTHROB | A COLORS SHOW x Highsnobiety",
@@ -5684,7 +7465,10 @@
       1,
       94,
       233
-    ]
+    ],
+    "hex45": "#0040a0",
+    "hexpick": "#0047f4",
+    "hexpickhome": "#0056e5"
   },
   {
     "title": "TEKNICAL DEVELOPMENT - LEARN TEACH | A COLORS SHOW",
@@ -5695,7 +7479,10 @@
       95,
       199,
       122
-    ]
+    ],
+    "hex45": "#40c060",
+    "hexpick": "#40c060",
+    "hexpickhome": "#79da9b"
   },
   {
     "title": "ADIAM - DEAD GIRL WALKING | A COLORS SHOW",
@@ -5706,7 +7493,11 @@
       217,
       196,
       141
-    ]
+    ],
+    "hex45": "#e0c0a0",
+    "hex1": "#ccbc7c",
+    "hexpick": "#d6ca97",
+    "hexpickhome": "#d7bf83"
   },
   {
     "title": "MOGLII & NOVAA - MOTHER | A COLORS SHOW",
@@ -5717,7 +7508,10 @@
       255,
       187,
       186
-    ]
+    ],
+    "hex45": "#100c0a0",
+    "hexpick": "#f8b8ad",
+    "hexpickhome": "#fec2c2"
   },
   {
     "title": "ODD COUPLE - SHAKE | A COLORS SHOW",
@@ -5728,7 +7522,10 @@
       221,
       100,
       107
-    ]
+    ],
+    "hex45": "#e06060",
+    "hexpick": "#e06060",
+    "hexpickhome": "#d96565"
   },
   {
     "title": "NOAH SLEE - RAMPANT WILD FREE (TALL BLACK GUY REMIX) | A COLORS SHOW",
@@ -5739,10 +7536,13 @@
       250,
       218,
       97
-    ]
+    ],
+    "hex45": "#100e060",
+    "hexpick": "#fbf955",
+    "hexpickhome": "#26417d"
   },
   {
-    "title": "ST\u00d6\u00d6KI SOUND - LIVE SESSION | A COLORS SHOW",
+    "title": "STÖÖKI SOUND - LIVE SESSION | A COLORS SHOW",
     "url": "https://www.youtube.com/watch?v=k9ChmM25RSo",
     "thumbnail": "https://i.ytimg.com/vi/k9ChmM25RSo/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAtfsuYoX_58Z_x0aJzRf-ru4no4Q",
     "color": "#fcf08e",
@@ -5750,7 +7550,10 @@
       252,
       240,
       142
-    ]
+    ],
+    "hex45": "#100e060",
+    "hexpick": "#fdf94e",
+    "hexpickhome": "#f8e778"
   },
   {
     "title": "JEN DALE / 219 | A COLORS SHOW",
@@ -5761,7 +7564,10 @@
       115,
       177,
       216
-    ]
+    ],
+    "hex45": "#60c0a0",
+    "hexpick": "#6db8fe",
+    "hexpickhome": "#e9d284"
   },
   {
     "title": "SERIOUS KLEIN - PARTY WITH THE SQUAD | A COLORS SHOW",
@@ -5772,7 +7578,11 @@
       125,
       189,
       225
-    ]
+    ],
+    "hex45": "#80c0e0",
+    "hex1": "#788686",
+    "hexpick": "#80c0e0",
+    "hexpickhome": "#bec1c2"
   },
   {
     "title": "STIMULUS - GOOD | A COLORS SHOW",
@@ -5783,7 +7593,11 @@
       214,
       131,
       91
-    ]
+    ],
+    "hex45": "#e0a060",
+    "hex1": "#c46c4c",
+    "hexpick": "#d68f5f",
+    "hexpickhome": "#d67f52"
   },
   {
     "title": "KIDSOUL - PLAYIN GAMES | A COLORS SHOW",
@@ -5794,7 +7608,10 @@
       218,
       127,
       83
-    ]
+    ],
+    "hex45": "#e0a060",
+    "hexpick": "#d99252",
+    "hexpickhome": "#da7e52"
   },
   {
     "title": "IVAN AVE - HELLO | A COLORS SHOW",
@@ -5805,7 +7622,10 @@
       220,
       139,
       94
-    ]
+    ],
+    "hex45": "#e0a060",
+    "hexpick": "#dd9156",
+    "hexpickhome": "#f3d6aa"
   },
   {
     "title": "KELVYN COLT - HUCCI | A COLORS SHOW",
@@ -5816,7 +7636,10 @@
       44,
       44,
       44
-    ]
+    ],
+    "hex45": "#202020",
+    "hexpick": "#171716",
+    "hexpickhome": "#730f28"
   },
   {
     "title": "JUJU ROGERS - DO IT FOR | A COLORS SHOW",
@@ -5827,7 +7650,11 @@
       0,
       0,
       0
-    ]
+    ],
+    "hex45": "#202020",
+    "hex1": "#7f5ba3",
+    "hexpick": "#16161a",
+    "hexpickhome": "#1d192f"
   },
   {
     "title": "JUJU ROGERS - INTRODUCTION | A COLORS SHOW",
@@ -5838,7 +7665,10 @@
       0,
       0,
       0
-    ]
+    ],
+    "hex45": "#000000",
+    "hexpick": "#010004",
+    "hexpickhome": "#9d2b16"
   },
   {
     "title": "EMILIO MERCURI - SIENNA | A COLORS SHOW",
@@ -5849,6 +7679,9 @@
       177,
       240,
       223
-    ]
+    ],
+    "hex45": "#c0e0100",
+    "hexpick": "#b3f9f6",
+    "hexpickhome": "#bbf1d9"
   }
 ]
