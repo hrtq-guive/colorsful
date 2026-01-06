@@ -5,7 +5,7 @@ import { useVideo } from '../contexts/VideoContext';
 import { ASSET_BASE_URL } from '../config/assets';
 import videos from '../data/videos.json';
 
-const VideoCard = ({ video, index }) => {
+const VideoCard = ({ video, index, loadedBatches }) => {
     const { openVideo, setOriginRoute } = useVideo();
     const navigate = useNavigate();
     const [isHovered, setIsHovered] = useState(false);
@@ -17,24 +17,18 @@ const VideoCard = ({ video, index }) => {
     const jpgPath = `${ASSET_BASE_URL}captures/${videoId}_45s.jpg`;
     const gifPath = `${ASSET_BASE_URL}captures/${videoId}_45s.gif`;
 
-    // Batch GIF preloading - 16 tiles at a time
+    // Sequential batch loading - only load if this tile's batch is active
     useEffect(() => {
-        // Load in batches of 16 tiles with minimal delay
-        // Batch 0 (tiles 0-15): immediate
-        // Batch 1 (tiles 16-31): 100ms delay
-        // Batch 2 (tiles 32-47): 200ms delay, etc.
         const batchSize = 16;
-        const batchIndex = Math.floor(index / batchSize);
-        const preloadDelay = batchIndex * 100; // 100ms between batches (fast!)
+        const myBatch = Math.floor(index / batchSize);
 
-        const timer = setTimeout(() => {
+        // Only load if my batch number is <= current loaded batches
+        if (myBatch <= loadedBatches && !gifPreloaded) {
             const img = new Image();
             img.src = gifPath;
             img.onload = () => setGifPreloaded(true);
-        }, preloadDelay);
-
-        return () => clearTimeout(timer);
-    }, [gifPath, index]);
+        }
+    }, [gifPath, index, loadedBatches, gifPreloaded]);
 
     const handleClick = () => {
         setOriginRoute('/grid'); // Explicitly set origin before opening
@@ -90,6 +84,9 @@ const Grid = () => {
     const { currentVideo } = useVideo();
     const grid1Ref = useRef(null);
 
+    // Sequential batch loading state
+    const [loadedBatches, setLoadedBatches] = useState(0);
+
     // Branding state
     const [isBrandingHovered, setIsBrandingHovered] = useState(false);
     const [showCredit, setShowCredit] = useState(false);
@@ -106,6 +103,21 @@ const Grid = () => {
             return video.hexpick; // Videos with hexpick have color data
         });
     }, []);
+
+    // Sequential batch loading - increment batch every 2 seconds
+    useEffect(() => {
+        const totalVideos = videosWithGifs.length;
+        const batchSize = 16;
+        const totalBatches = Math.ceil(totalVideos / batchSize);
+
+        if (loadedBatches < totalBatches) {
+            const timer = setTimeout(() => {
+                setLoadedBatches(prev => prev + 1);
+            }, 2000); // Wait 2 seconds before loading next batch
+
+            return () => clearTimeout(timer);
+        }
+    }, [loadedBatches, videosWithGifs.length]);
 
     // Convert hex to RGB
     const hexToRgb = (hex) => {
@@ -464,7 +476,7 @@ const Grid = () => {
                 }}
             >
                 {sortedVideos.map((video, index) => (
-                    <VideoCard key={video.url} video={video} index={index} />
+                    <VideoCard key={video.url} video={video} index={index} loadedBatches={loadedBatches} />
                 ))}
             </div>
 
